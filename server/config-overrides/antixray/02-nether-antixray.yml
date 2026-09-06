@@ -1,0 +1,31 @@
+# =============================================================================
+#  Anti-Xray - NETHER (engine-mode 2)
+#  LOCAL: config/world/dimensions/minecraft/the_nether/paper-world.yml
+#  (layout antigo: dentro da pasta do mundo, ex.: world_the_nether/paper-world.yml)
+#  Substitui o bloco anticheat.anti-xray existente. Requer RESTART (sem /reload).
+# =============================================================================
+anticheat:
+  anti-xray:
+    enabled: true
+    engine-mode: 2
+    hidden-blocks:
+      # 'air' deixado de fora (quedas de FPS em clientes) - ver README.
+      - ancient_debris
+      - bone_block
+      - glowstone
+      - magma_block
+      - nether_bricks
+      - nether_gold_ore
+      - nether_quartz_ore
+      - polished_blackstone_bricks
+    lava-obscures: false
+    max-block-height: 128
+    replacement-blocks:
+      - basalt
+      - blackstone
+      - gravel
+      - netherrack
+      - soul_sand
+      - soul_soil
+    update-radius: 2
+    use-permission: false

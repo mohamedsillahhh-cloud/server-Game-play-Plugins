@@ -1,0 +1,10 @@
+# =============================================================================
+#  Anti-Xray - THE END (desligado)
+#  LOCAL: config/world/dimensions/minecraft/the_end/paper-world.yml
+#  (layout antigo: dentro da pasta do mundo, ex.: world_the_end/paper-world.yml)
+#  O End quase nao tem minerios que valham esconder - CPU poupado.
+#  Requer RESTART (sem /reload).
+# =============================================================================
+anticheat:
+  anti-xray:
+    enabled: false
