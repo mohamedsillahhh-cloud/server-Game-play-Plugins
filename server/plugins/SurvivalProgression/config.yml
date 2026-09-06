@@ -6,30 +6,31 @@ settings:
   save-interval-seconds: 120
   shop-command-intercept: true
 
+# Ranks: conquistados pelos requisitos (sem preco de compra)
 ranks:
-  AVENTUREIRO: {price: 10000000, hours: 15, kills: 10, mobs: 1000, blocks: 5000}
-  VETERANO: {price: 30000000, hours: 35, kills: 30, mobs: 5000, blocks: 20000}
-  ELITE: {price: 75000000, hours: 70, kills: 75, mobs: 15000, blocks: 50000}
-  MESTRE: {price: 175000000, hours: 120, kills: 150, mobs: 40000, blocks: 120000}
-  LENDARIO: {price: 400000000, hours: 200, kills: 300, mobs: 100000, blocks: 300000}
+  AVENTUREIRO: {hours: 15, kills: 10, mobs: 1000, blocks: 5000}
+  VETERANO: {hours: 35, kills: 30, mobs: 5000, blocks: 20000}
+  ELITE: {hours: 70, kills: 75, mobs: 15000, blocks: 50000}
+  MESTRE: {hours: 120, kills: 150, mobs: 40000, blocks: 120000}
+  LENDARIO: {hours: 200, kills: 300, mobs: 100000, blocks: 300000}
 
 licenses:
-  HOME_6: {price: 10000000, rank: AVENTUREIRO}
-  HOME_7: {price: 20000000, rank: VETERANO}
-  HOME_8: {price: 35000000, rank: ELITE}
-  HOME_9: {price: 55000000, rank: MESTRE}
-  HOME_10: {price: 80000000, rank: LENDARIO}
-  SPAWNER_I: {price: 15000000, rank: AVENTUREIRO}
-  SPAWNER_II: {price: 35000000, rank: VETERANO}
-  SPAWNER_III: {price: 75000000, rank: ELITE}
-  SPAWNER_IV: {price: 150000000, rank: MESTRE}
-  EC_REMOTE: {price: 10000000, rank: AVENTUREIRO}
-  EC_36: {price: 15000000, rank: AVENTUREIRO}
-  EC_45: {price: 30000000, rank: ELITE}
-  EC_54: {price: 60000000, rank: MESTRE}
-  CRAFT: {price: 30000000, rank: VETERANO}
-  DIAMOND_ARSENAL: {price: 50000000, rank: ELITE}
-  NETHERITE_ARSENAL: {price: 150000000, rank: LENDARIO}
+  HOME_6: {price: 10000000, rank: AVENTUREIRO, display: '6 Homes', icon: IRON_DOOR}
+  HOME_7: {price: 20000000, rank: VETERANO, display: '7 Homes', icon: IRON_DOOR, requires: HOME_6}
+  HOME_8: {price: 35000000, rank: ELITE, display: '8 Homes', icon: IRON_DOOR, requires: HOME_7}
+  HOME_9: {price: 55000000, rank: MESTRE, display: '9 Homes', icon: IRON_DOOR, requires: HOME_8}
+  HOME_10: {price: 80000000, rank: LENDARIO, display: '10 Homes', icon: IRON_DOOR, requires: HOME_9}
+  SPAWNER_I: {price: 15000000, rank: AVENTUREIRO, display: 'Spawner I - Porco/Vaca', icon: SPAWNER}
+  SPAWNER_II: {price: 35000000, rank: VETERANO, display: 'Spawner II - Blaze', icon: SPAWNER, requires: SPAWNER_I}
+  SPAWNER_III: {price: 75000000, rank: ELITE, display: 'Spawner III - Wither Skeleton', icon: SPAWNER, requires: SPAWNER_II}
+  SPAWNER_IV: {price: 150000000, rank: MESTRE, display: 'Spawner IV - Iron Golem', icon: SPAWNER, requires: SPAWNER_III}
+  EC_REMOTE: {price: 10000000, rank: AVENTUREIRO, display: '/ec - acesso remoto (27 slots)', icon: ENDER_CHEST}
+  EC_36: {price: 15000000, rank: AVENTUREIRO, display: 'Ender Chest 36', icon: ENDER_CHEST, requires: EC_REMOTE}
+  EC_45: {price: 30000000, rank: ELITE, display: 'Ender Chest 45', icon: ENDER_CHEST, requires: EC_36}
+  EC_54: {price: 60000000, rank: MESTRE, display: 'Ender Chest 54', icon: ENDER_CHEST, requires: EC_45}
+  CRAFT: {price: 30000000, rank: VETERANO, display: '/craft', icon: CRAFTING_TABLE}
+  DIAMOND_ARSENAL: {price: 50000000, rank: ELITE, display: 'Arsenal Diamante', icon: DIAMOND_SWORD}
+  NETHERITE_ARSENAL: {price: 150000000, rank: LENDARIO, display: 'Arsenal Netherite', icon: NETHERITE_SWORD}
 
 spawners:
   ZOMBIE: {price: 800000, license: NONE, display: '&aZombie Spawner'}
@@ -40,6 +41,33 @@ spawners:
   WITHER_SKELETON: {price: 60000000, license: SPAWNER_III, display: '&8Wither Skeleton Spawner'}
   IRON_GOLEM: {price: 100000000, license: SPAWNER_IV, display: '&fIron Golem Spawner'}
 
-rewards:
-  diamond-package-price: 100000000
-  netherite-package-price: 350000000
+# Arsenais (9 pecas cada) - itens e encantamentos editaveis sem recompilar
+equipment:
+  DIAMOND:
+    enabled: true
+    license: DIAMOND_ARSENAL
+    price: 100000000
+    items:
+      DIAMOND_HELMET: {display: '&6Supremo &fDIAMOND HELMET', enchants: {protection: 4, unbreaking: 3, mending: 1, respiration: 3, aqua_affinity: 1}}
+      DIAMOND_CHESTPLATE: {display: '&6Supremo &fDIAMOND CHESTPLATE', enchants: {protection: 4, unbreaking: 3, mending: 1}}
+      DIAMOND_LEGGINGS: {display: '&6Supremo &fDIAMOND LEGGINGS', enchants: {protection: 4, unbreaking: 3, mending: 1, swift_sneak: 3}}
+      DIAMOND_BOOTS: {display: '&6Supremo &fDIAMOND BOOTS', enchants: {protection: 4, feather_falling: 4, depth_strider: 3, unbreaking: 3, mending: 1}}
+      DIAMOND_SWORD: {display: '&6Supremo &fDIAMOND SWORD', enchants: {sharpness: 5, looting: 3, unbreaking: 3, mending: 1, sweeping_edge: 3}}
+      DIAMOND_PICKAXE: {display: '&6Supremo &fDIAMOND PICKAXE', enchants: {efficiency: 5, fortune: 3, unbreaking: 3, mending: 1}}
+      DIAMOND_AXE: {display: '&6Supremo &fDIAMOND AXE', enchants: {efficiency: 5, sharpness: 5, unbreaking: 3, mending: 1}}
+      DIAMOND_SHOVEL: {display: '&6Supremo &fDIAMOND SHOVEL', enchants: {efficiency: 5, unbreaking: 3, mending: 1}}
+      DIAMOND_HOE: {display: '&6Supremo &fDIAMOND HOE', enchants: {efficiency: 5, fortune: 3, unbreaking: 3, mending: 1}}
+  NETHERITE:
+    enabled: true
+    license: NETHERITE_ARSENAL
+    price: 350000000
+    items:
+      NETHERITE_HELMET: {display: '&6Supremo &fNETHERITE HELMET', enchants: {protection: 4, unbreaking: 3, mending: 1, respiration: 3, aqua_affinity: 1}}
+      NETHERITE_CHESTPLATE: {display: '&6Supremo &fNETHERITE CHESTPLATE', enchants: {protection: 4, unbreaking: 3, mending: 1}}
+      NETHERITE_LEGGINGS: {display: '&6Supremo &fNETHERITE LEGGINGS', enchants: {protection: 4, unbreaking: 3, mending: 1, swift_sneak: 3}}
+      NETHERITE_BOOTS: {display: '&6Supremo &fNETHERITE BOOTS', enchants: {protection: 4, feather_falling: 4, depth_strider: 3, unbreaking: 3, mending: 1}}
+      NETHERITE_SWORD: {display: '&6Supremo &fNETHERITE SWORD', enchants: {sharpness: 5, looting: 3, unbreaking: 3, mending: 1, sweeping_edge: 3}}
+      NETHERITE_PICKAXE: {display: '&6Supremo &fNETHERITE PICKAXE', enchants: {efficiency: 5, fortune: 3, unbreaking: 3, mending: 1}}
+      NETHERITE_AXE: {display: '&6Supremo &fNETHERITE AXE', enchants: {efficiency: 5, sharpness: 5, unbreaking: 3, mending: 1}}
+      NETHERITE_SHOVEL: {display: '&6Supremo &fNETHERITE SHOVEL', enchants: {efficiency: 5, unbreaking: 3, mending: 1}}
+      NETHERITE_HOE: {display: '&6Supremo &fNETHERITE HOE', enchants: {efficiency: 5, fortune: 3, unbreaking: 3, mending: 1}}
