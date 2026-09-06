@@ -1,0 +1,50 @@
+# ============================================================
+#  SpruceBounty - config.yml
+#
+#  Reload at runtime with /bountyadmin reload (no server restart required).
+# ============================================================
+
+# Print extra diagnostic output to the console.
+debug: false
+
+# Anonymous usage statistics via bStats (https://bstats.org).
+# Set to false to opt out for this plugin only.
+metrics: true
+
+economy:
+  # Smallest and largest amount a single /bounty set can place.
+  min-amount: 10.0
+  max-amount: 100000.0
+  # Percent of each placement burned (removed from the economy) instead of
+  # added to the pot. 0 disables the tax entirely.
+  placement-tax-percent: 0.0
+
+cancel:
+  # Percent of a placer's own contribution refunded by /bounty cancel.
+  # Only applies while the bounty is unclaimed.
+  refund-percent: 75.0
+
+admin-actions:
+  # Refund % paid to EVERY contributor when an admin uses /bountyadmin
+  # remove or clear. Defaults to a full refund on purpose: burning a
+  # player's money via a moderation action reads as the plugin stealing
+  # from them, not as moderation, and is a guaranteed 1-star review.
+  refund-percent: 100.0
+
+claim:
+  # Also show a title/subtitle (see messages.yml) to every online player
+  # when a bounty is claimed, in addition to the chat broadcast.
+  broadcast-title: false
+
+anti-abuse:
+  # A killer who claims a bounty on the same victim again within this many
+  # minutes gets nothing on the repeat kill — blunts alt/farm trading.
+  # The bounty is kept, not cleared, when a claim is blocked this way.
+  claim-cooldown-minutes: 30
+  # Never pay out a kill where the killer and victim share an IP address.
+  ignore-same-ip-kills: true
+
+storage:
+  # SQLite is the only backend in v1. Kept as its own section so a future
+  # MySQL backend is a config change, not a rewrite.
+  type: sqlite

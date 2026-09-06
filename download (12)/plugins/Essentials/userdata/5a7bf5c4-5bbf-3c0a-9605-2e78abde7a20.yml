@@ -1,0 +1,39 @@
+npc: false
+last-account-name: joseboss31
+money: '0'
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 87.196.82.244
+afk: false
+socialspy: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788290010973
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788291010654
+  login: 1788289341882
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 102.06564716384156
+  y: 88.0
+  z: 262.04322373798226
+  yaw: -119.6805419921875
+  pitch: -37.95000076293945
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 105.07882624570563
+  y: 86.0
+  z: 261.98750001192093
+  yaw: -175.17742919921875
+  pitch: -90.0

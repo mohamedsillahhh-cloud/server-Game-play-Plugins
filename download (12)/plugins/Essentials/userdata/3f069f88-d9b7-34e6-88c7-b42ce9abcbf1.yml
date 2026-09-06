@@ -1,0 +1,31 @@
+npc: false
+last-account-name: BA_P_MRD_PITTERR
+money: '0'
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 174.168.128.231
+afk: false
+socialspy: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788141798637
+  login: 1788141162766
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 142.45460136488916
+  y: -27.0
+  z: -154.90487544563547
+  yaw: 138.85540771484375
+  pitch: 83.71504974365234

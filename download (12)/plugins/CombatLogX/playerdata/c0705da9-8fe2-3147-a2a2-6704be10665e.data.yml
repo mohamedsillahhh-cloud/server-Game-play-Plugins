@@ -1,0 +1,4 @@
+newbie-helper:
+  protected: false
+  pvp-toggle: true
+punishment-count: 2

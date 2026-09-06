@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 102.211.10.12
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788375162725
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788650769150
+  login: 1788650045846
+money: '0'
+last-account-name: BloodHound_tg
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 269.30000001192093
+  y: -12.0
+  z: -146.92130696091047
+  yaw: 161.5500030517578
+  pitch: 36.0000114440918
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 393.83314593525506
+  y: -29.50479912299409
+  z: -262.7176711732135
+  yaw: 45.7503662109375
+  pitch: 10.950065612792969

@@ -1,0 +1,45 @@
+settings:
+  teleport-delay-seconds: 5
+  anti-killfarm-window-seconds: 600
+  anti-killfarm-warning-at: 3
+  anti-killfarm-demote-at: 6
+  save-interval-seconds: 120
+  shop-command-intercept: true
+
+ranks:
+  AVENTUREIRO: {price: 10000000, hours: 15, kills: 10, mobs: 1000, blocks: 5000}
+  VETERANO: {price: 30000000, hours: 35, kills: 30, mobs: 5000, blocks: 20000}
+  ELITE: {price: 75000000, hours: 70, kills: 75, mobs: 15000, blocks: 50000}
+  MESTRE: {price: 175000000, hours: 120, kills: 150, mobs: 40000, blocks: 120000}
+  LENDARIO: {price: 400000000, hours: 200, kills: 300, mobs: 100000, blocks: 300000}
+
+licenses:
+  HOME_6: {price: 10000000, rank: AVENTUREIRO}
+  HOME_7: {price: 20000000, rank: VETERANO}
+  HOME_8: {price: 35000000, rank: ELITE}
+  HOME_9: {price: 55000000, rank: MESTRE}
+  HOME_10: {price: 80000000, rank: LENDARIO}
+  SPAWNER_I: {price: 15000000, rank: AVENTUREIRO}
+  SPAWNER_II: {price: 35000000, rank: VETERANO}
+  SPAWNER_III: {price: 75000000, rank: ELITE}
+  SPAWNER_IV: {price: 150000000, rank: MESTRE}
+  EC_REMOTE: {price: 10000000, rank: AVENTUREIRO}
+  EC_36: {price: 15000000, rank: AVENTUREIRO}
+  EC_45: {price: 30000000, rank: ELITE}
+  EC_54: {price: 60000000, rank: MESTRE}
+  CRAFT: {price: 30000000, rank: VETERANO}
+  DIAMOND_ARSENAL: {price: 50000000, rank: ELITE}
+  NETHERITE_ARSENAL: {price: 150000000, rank: LENDARIO}
+
+spawners:
+  ZOMBIE: {price: 800000, license: NONE, display: '&aZombie Spawner'}
+  SKELETON: {price: 800000, license: NONE, display: '&fSkeleton Spawner'}
+  PIG: {price: 5000000, license: SPAWNER_I, display: '&dPig Spawner'}
+  COW: {price: 7500000, license: SPAWNER_I, display: '&fCow Spawner'}
+  BLAZE: {price: 20000000, license: SPAWNER_II, display: '&6Blaze Spawner'}
+  WITHER_SKELETON: {price: 60000000, license: SPAWNER_III, display: '&8Wither Skeleton Spawner'}
+  IRON_GOLEM: {price: 100000000, license: SPAWNER_IV, display: '&fIron Golem Spawner'}
+
+rewards:
+  diamond-package-price: 100000000
+  netherite-package-price: 350000000

@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 102.213.206.62
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788633340170
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788654360583
+  login: 1788654345612
+money: '16395.0'
+last-account-name: tristaomn_42
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -77785.782412986
+  y: 69.9375
+  z: 78094.20212308093
+  yaw: -153.1616668701172
+  pitch: 21.000017166137695
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 61.073592215376486
+  y: 63.0
+  z: -36.863073113540615
+  yaw: 43.650028228759766
+  pitch: 13.950037002563477
+homes:
+  home:
+    world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+    world-name: world
+    x: -79074.76868764209
+    y: 28.0
+    z: 72428.8215407539
+    yaw: 91.50318908691406
+    pitch: 48.45009231567383

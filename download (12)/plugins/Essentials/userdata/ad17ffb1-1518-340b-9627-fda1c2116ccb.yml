@@ -1,0 +1,31 @@
+npc: false
+last-account-name: ibras_s7
+money: '0'
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 174.168.128.231
+afk: false
+socialspy: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788544446876
+  login: 1788544407852
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 61.073592215376486
+  y: 63.0
+  z: -36.863073113540615
+  yaw: 47.400028228759766
+  pitch: 13.050037384033203

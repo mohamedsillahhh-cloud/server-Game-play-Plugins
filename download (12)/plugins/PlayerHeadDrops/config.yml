@@ -1,0 +1,59 @@
+drop-chance: 1.0
+
+one-time-drop: false
+
+cooldown-seconds: 0
+
+only-pvp: true
+
+drop-to-inventory: false
+
+anti-farm:
+  ignore-suicide: true
+  ignore-void: true
+  ignore-self-kill: true
+
+worlds:
+  mode: blacklist
+  list:
+    - world_the_lobby
+    - creative_world
+
+head:
+  name-format: "&eCabeça de %player%"
+
+  name-color: yellow
+
+  name-italic: false
+
+  lore:
+    - "&7Morto por: &c%killer%"
+    - "&7Mundo: &f%world%"
+    - "&8%date% %time%"
+
+mob-heads:
+  enabled: false
+
+looting-boost:
+  enabled: false
+
+permission-boost:
+  enabled: false
+
+announce:
+  enabled: true
+  message: "&e☠ &c%killer% &7matou &f%player% &7e a sua cabeça caiu!"
+  radius: -1
+
+economy:
+  enabled: false
+  reward: 0.0
+
+effects:
+  sound:
+    enabled: true
+    name: entity.player.levelup
+
+  particles:
+    enabled: true
+    name: SOUL

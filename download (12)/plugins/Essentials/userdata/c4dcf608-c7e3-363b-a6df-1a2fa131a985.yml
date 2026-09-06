@@ -1,0 +1,31 @@
+npc: false
+last-account-name: Ridoni
+money: '0'
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 76.118.148.122
+afk: false
+socialspy: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788140720693
+  login: 1788140686747
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -1981.1123637350643
+  y: -50.0
+  z: -2447.514210274949
+  yaw: -87.59205627441406
+  pitch: 28.34993553161621

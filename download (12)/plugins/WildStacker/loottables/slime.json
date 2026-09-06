@@ -1,0 +1,29 @@
+{
+  "pairs": [
+    {
+      "slime-size": 1,
+      "chance": 100,
+      "items": [
+        {
+          "type": "SLIME_BALL",
+          "chance": 100,
+          "min": 0,
+          "max": 2,
+          "looting": true
+        }
+      ]
+    },
+    {
+      "killer": [
+        "WITHER"
+      ],
+      "chance": 100,
+      "items": [
+        {
+          "type": "WITHER_ROSE",
+          "chance": 100
+        }
+      ]
+    }
+  ]
+}

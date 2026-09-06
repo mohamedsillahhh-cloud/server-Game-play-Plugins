@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 165.90.123.56
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788386425823
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788638655134
+  login: 1788638483074
+money: '100.0'
+last-account-name: rodri
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 23.919686108710927
+  y: 63.08576431274413
+  z: -60.15749806778443
+  yaw: -137.189697265625
+  pitch: 3.7499771118164062
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 74.91161974916596
+  y: 63.0
+  z: -95.31836085949676
+  yaw: 56.40040969848633
+  pitch: 13.650006294250488

@@ -1,0 +1,31 @@
+npc: false
+last-account-name: baaraatoon
+money: '0'
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 165.90.123.56
+afk: false
+socialspy: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788638717569
+  login: 1788638337047
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 61.073592215376486
+  y: 63.0
+  z: -36.863073113540615
+  yaw: -40.0504150390625
+  pitch: 40.36763381958008

@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 102.209.162.73
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788632239245
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788632946403
+  login: 1788632910708
+money: '10528.0'
+last-account-name: jeylen13
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -76553.52262848048
+  y: -52.5
+  z: 75997.69090987222
+  yaw: 176.53504943847656
+  pitch: 22.19997215270996
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 67.1243384824674
+  y: 65.0
+  z: -43.96967182311403
+  yaw: 37.50054931640625
+  pitch: 18.150053024291992
+homes:
+  home:
+    world: 08a92632-21a9-4cb7-8d69-5bf50e2bde3b
+    world-name: world_the_end
+    x: -1230.8299379342943
+    y: 142.0
+    z: 4245.628210771361
+    yaw: 98.99545288085938
+    pitch: 15.90027141571045

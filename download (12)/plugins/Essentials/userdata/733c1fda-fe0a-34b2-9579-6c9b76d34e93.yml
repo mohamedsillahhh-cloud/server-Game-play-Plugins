@@ -1,0 +1,39 @@
+npc: false
+last-account-name: MIto_2
+money: '200'
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 156.232.57.152
+afk: false
+socialspy: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788370533569
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788379691696
+  login: 1788379649529
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 61.52602455656096
+  y: 63.0
+  z: -36.23203806856549
+  yaw: 38.69997024536133
+  pitch: -0.7499914169311523
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -835.4994275831299
+  y: 65.0
+  z: -155.5668739819012
+  yaw: -155.74322509765625
+  pitch: 36.14993667602539

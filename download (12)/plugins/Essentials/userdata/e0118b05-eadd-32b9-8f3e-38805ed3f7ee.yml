@@ -1,0 +1,39 @@
+npc: false
+last-account-name: Mito
+money: '322.0'
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 156.232.57.152
+afk: false
+socialspy: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788631410319
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788638953480
+  login: 1788638944224
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 61.073592215376486
+  y: 63.0
+  z: -36.863073113540615
+  yaw: 55.35001754760742
+  pitch: 4.950037956237793
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 242.93546450593547
+  y: 67.0
+  z: -338.5045808310046
+  yaw: 150.15142822265625
+  pitch: 7.500020980834961

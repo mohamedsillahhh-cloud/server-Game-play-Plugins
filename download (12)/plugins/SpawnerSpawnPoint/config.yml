@@ -1,0 +1,31 @@
+# Distância máxima, em blocos, entre o spawner e o ponto escolhido.
+# Coloca 0 para não ter limite.
+max-distance: 32
+
+# Distância máxima para o jogador conseguir selecionar um spawner olhando para ele.
+spawner-look-distance: 8
+
+# Se true, o ponto escolhido precisa estar no mesmo mundo do spawner.
+require-same-world: true
+
+# Se true, centra o mob no meio do bloco selecionado (X+0.5, Z+0.5).
+center-on-block: true
+
+# Altura adicional aplicada ao ponto de spawn.
+# 1.0 faz o mob aparecer em cima do bloco clicado.
+y-offset: 1.0
+
+messages:
+  prefix: '&8[&6SpawnerSpawn&8] '
+  no-player: '&cEste comando só pode ser usado por jogadores.'
+  no-permission: '&cNão tens permissão para fazer isso.'
+  look-at-spawner: '&cOlha diretamente para o spawner que queres configurar.'
+  select-destination: '&eSpawner selecionado. Agora &6clica com o botão direito num bloco &epara definir onde os mobs vão nascer.'
+  cancelled: '&cSeleção cancelada.'
+  too-far: '&cEsse ponto está demasiado longe do spawner. Máximo: &e{distance} blocos&c.'
+  different-world: '&cO ponto precisa estar no mesmo mundo do spawner.'
+  set-success: '&aPonto de spawn definido: &f{x} {y} {z}&a.'
+  remove-success: '&aPonto personalizado removido deste spawner.'
+  no-custom-spawn: '&eEste spawner não tem um ponto personalizado.'
+  info: '&eSpawn deste spawner: &f{world} {x} {y} {z}'
+  spawner-broken: '&eO ponto personalizado foi removido porque o spawner foi destruído.'

@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 179.64.21.138
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788652096562
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788652835127
+  login: 1788652218187
+money: '3247760.0'
+last-account-name: felipex_xiter
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -47329.35781401413
+  y: -7.0
+  z: 56770.41074904485
+  yaw: -168.66586303710938
+  pitch: 13.799750328063965
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -47329.414659330156
+  y: -7.0
+  z: 56768.201201826916
+  yaw: -0.81597900390625
+  pitch: 15.899751663208008
+homes:
+  home:
+    world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+    world-name: world
+    x: 1910.2706481695584
+    y: -31.0
+    z: -145.79792422862297
+    yaw: -179.7012939453125
+    pitch: 9.000031471252441

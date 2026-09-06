@@ -1,0 +1,27 @@
+# RichReveal - configuracao
+
+cycle:
+  # Ciclo principal. 600 segundos = 10 minutos.
+  interval-seconds: 600
+
+countdown:
+  # Avisos intermediarios. Com ciclo de 10 min e 180 s, aparecem em 07:00, 04:00 e 01:00.
+  intermediate-every-seconds: 180
+  # Nos ultimos 15 segundos, mostra 15 -> 1 segundo a segundo.
+  final-warning-seconds: 15
+
+richest:
+  # Em empate: random = aleatorio; name = nome alfabeticamente.
+  tie-breaker: random
+
+reveal:
+  # title, actionbar ou bossbar
+  display: title
+  # Duracao do title/bossbar em ticks. 100 ticks = 5 segundos.
+  duration-ticks: 100
+
+messages:
+  intermediate-countdown: "&eProxima revelacao em: &f{time}"
+  final-countdown: "&c&lREVELACAO EM &f{seconds}&c&l SEGUNDOS!"
+  reveal-title: "&6&lJOGADOR MAIS RICO"
+  reveal-subtitle: "&f{player} &7- &eX: {x} Z: {z} &7| &b{world}"

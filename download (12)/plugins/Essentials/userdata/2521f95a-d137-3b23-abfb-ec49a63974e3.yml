@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 41.215.218.220
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788566037294
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788568154109
+  login: 1788566870297
+money: '22226.5'
+last-account-name: Infernalx11
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 102.65761539607706
+  y: 70.0
+  z: -107.153729025684
+  yaw: -38.09989547729492
+  pitch: 40.64998245239258
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 193.2648493999058
+  y: 66.16610926093821
+  z: -395.69999998807907
+  yaw: 96.2962646484375
+  pitch: 27.300033569335938

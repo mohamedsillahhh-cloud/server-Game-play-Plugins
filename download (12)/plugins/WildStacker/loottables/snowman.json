@@ -1,0 +1,27 @@
+{
+  "pairs": [
+    {
+      "chance": 100,
+      "items": [
+        {
+          "type": "SNOWBALL",
+          "chance": 100,
+          "min": 0,
+          "max": 15
+        }
+      ]
+    },
+    {
+      "killer": [
+        "WITHER"
+      ],
+      "chance": 100,
+      "items": [
+        {
+          "type": "WITHER_ROSE",
+          "chance": 100
+        }
+      ]
+    }
+  ]
+}

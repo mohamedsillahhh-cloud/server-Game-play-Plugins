@@ -1,0 +1,13 @@
+spawnerek_magma_cube-spawner-entity: MAGMA_CUBE
+spawnerek_enderman-spawner-entity: ENDERMAN
+spawnerek_blaze-spawner-entity: BLAZE
+spawnerek_witch-spawner-entity: WITCH
+spawnerek_cave_spider-spawner-entity: CAVE_SPIDER
+spawnerek_zombie-spawner-entity: ZOMBIE
+spawnerek_creeper-spawner-entity: CREEPER
+spawnerek_iron_golem-spawner-entity: IRON_GOLEM
+spawnerek_skeleton-spawner-entity: SKELETON
+spawnerek_wither_skeleton-spawner-entity: WITHER_SKELETON
+spawnerek_spider-spawner-entity: SPIDER
+spawnerek_slime-spawner-entity: SLIME
+spawnerek_guardian-spawner-entity: GUARDIAN

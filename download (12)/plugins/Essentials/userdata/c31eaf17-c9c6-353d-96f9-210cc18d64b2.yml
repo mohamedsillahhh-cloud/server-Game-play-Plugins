@@ -1,0 +1,39 @@
+npc: false
+last-account-name: Lucasplays26371
+money: '13609568.0'
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 154.203.70.213
+afk: false
+socialspy: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788055570825
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788651823832
+  login: 1788650562201
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 107.30000001192093
+  y: 67.0
+  z: -290.30000001192093
+  yaw: 21.747129440307617
+  pitch: 21.1500186920166
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 107.30000001192093
+  y: 67.0
+  z: -290.30000001192093
+  yaw: -172.80299377441406
+  pitch: -1.2000247240066528

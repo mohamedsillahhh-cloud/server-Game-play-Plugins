@@ -1,0 +1,38 @@
+# Set this to true if players should be tagged by all types of damage.
+# If this is true, damage-type settings will be ignored.
+# Default: true
+all-damage: false
+
+# Should CombatLogX tag players when they are blown up by end crystals?
+end-crystals: false
+
+# Should CombatLogX only use Damage Tagger when a player is already tagged by something else?
+retag-only: false
+
+# See the SpigotMC Documentation for descriptions.
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+damage-type:
+  block-explosion: false
+  contact: false
+  cramming: false
+  custom: false
+  drowning: false
+  dryout: false
+  entity-explosion: false # Only triggered by end crystals.
+  fall: false
+  falling-block: false
+  fire: false
+  fire-tick: false
+  fly-into-wall: false
+  freeze: false
+  hot-floor: false
+  lava: false
+  lightning: false
+  magic: false
+  melting: false
+  poison: false
+  starvation: false
+  suffocation: false
+  void: false
+  wither: false
+  world-border: false

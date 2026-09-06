@@ -1,0 +1,39 @@
+npc: false
+last-account-name: Marcelo_76
+money: '0.0'
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 154.203.70.213
+afk: false
+socialspy: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788632277705
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788651513839
+  login: 1788651323346
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -79526.30930087365
+  y: 66.0
+  z: 71863.69999998808
+  yaw: -95.35372924804688
+  pitch: 10.199840545654297
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 54.24709751210109
+  y: 63.0
+  z: -38.143157975305364
+  yaw: -97.94932556152344
+  pitch: 15.450018882751465

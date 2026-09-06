@@ -1,0 +1,26 @@
+# KillMoney - Paper 26.2
+
+# Dinheiro recebido ao matar outro jogador.
+kill-reward: 100.0
+
+# Dinheiro perdido sempre que o jogador morre.
+death-penalty: 500.0
+
+# false = o jogador nunca fica com saldo negativo.
+# Se tiver menos de death-penalty, perde apenas o saldo que possui.
+allow-negative-balance: false
+
+# Se true, não recompensa quando killer e vítima têm o mesmo IP.
+# Útil para reduzir farm entre contas alternativas.
+anti-same-ip: false
+
+messages:
+  prefix: "&8[&6KillMoney&8] &r"
+
+  killer: "&a+{amount}$ &7por matares &f{player}&7!"
+  victim-pvp: "&c-{amount}$ &7por morreres para &f{killer}&7!"
+  victim-other: "&c-{amount}$ &7por teres morrido!"
+
+  no-permission: "&cNão tens permissão para usar este comando."
+  reload: "&aConfiguração do KillMoney recarregada."
+  vault-error: "&cNão foi possível aceder à economia através do Vault."

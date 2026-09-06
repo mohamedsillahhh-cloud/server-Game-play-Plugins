@@ -1,0 +1,28 @@
+{
+  "pairs": [
+    {
+      "chance": 100,
+      "items": [
+        {
+          "type": "STRING",
+          "chance": 100,
+          "min": 2,
+          "max": 5,
+          "looting": true
+        }
+      ]
+    },
+    {
+      "killer": [
+        "WITHER"
+      ],
+      "chance": 100,
+      "items": [
+        {
+          "type": "WITHER_ROSE",
+          "chance": 100
+        }
+      ]
+    }
+  ]
+}

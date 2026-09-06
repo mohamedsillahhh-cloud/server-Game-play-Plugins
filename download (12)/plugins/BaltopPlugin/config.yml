@@ -1,0 +1,116 @@
+# ============================================================
+#   BaltopPlugin - Configuration File
+#   Plugin by BaltopDev | Version 1.0.0
+# ============================================================
+
+# GUI Configuration
+gui:
+  # Title of the inventory (supports color codes with &)
+  title: "&6&lBaltop Leaderboard"
+  # Number of rows in the GUI (must be 3, 4, 5, or 6)
+  rows: 6
+  # Maximum number of players to show in the leaderboard (default: 54 to fill 6-row GUI pages)
+  max-players: 100
+  # Slot index for the "Previous Page" navigation button (0-indexed)
+  prev-page-slot: 45
+  # Slot index for the "Next Page" navigation button (0-indexed)
+  next-page-slot: 53
+  # Filler item material for empty slots (set to AIR to leave empty)
+  filler-material: "GRAY_STAINED_GLASS_PANE"
+  # Show navigation buttons even on first/last page (grayed out)
+  always-show-navigation: true
+
+# Cache / Refresh Settings
+cache:
+  # How often (in minutes) to refresh the baltop data
+  refresh-interval: 5
+  # Whether to log cache refresh events to console
+  log-refresh: true
+  # Load data asynchronously on startup (recommended: true)
+  async-load: true
+
+# Balance Formatting
+formatting:
+  # Currency symbol prefix
+  currency-symbol: "$"
+  # Use short format (1K, 1M, 1B) or full number
+  use-short-format: true
+  # Decimal places for short format (e.g. 1.25M)
+  short-format-decimals: 2
+
+# Lore displayed on each player head in the GUI
+# Placeholders: {rank}, {player}, {balance}, {last-seen}, {status}
+lore:
+  - ""
+  - "&7Rank: &e#{rank}"
+  - "&7Player: &b{player}"
+  - "&7Balance: &a{balance}"
+  - "&7Status: {status}"
+  - "&7Last Seen: &f{last-seen}"
+  - ""
+  - "&8» &eClick for more info"
+
+# Head item display name
+# Placeholders: {rank}, {player}
+head-name: "&e#{rank} &f- &b{player}"
+
+# Click Info Panel (shown when clicking a player head)
+info-panel:
+  enabled: true
+  # Title of the info panel inventory
+  title: "&b&lPlayer Info"
+  # Lore shown on the info item
+  lore:
+    - ""
+    - "&7Player: &b{player}"
+    - "&7Rank: &e#{rank}"
+    - "&7Balance: &a{balance}"
+    - "&7Status: {status}"
+    - "&7Last Seen: &f{last-seen}"
+    - ""
+    - "&8Click anywhere to go back"
+
+# Messages (supports color codes with &)
+messages:
+  prefix: "&8[&6&lBaltop&8] &r"
+  no-permission: "&cYou don't have permission to use this command."
+  loading: "&eLeaderboard is currently loading, please wait..."
+  empty: "&cNo player data found."
+  reload-success: "&aConfiguration reloaded successfully."
+  refresh-success: "&aLeaderboard data refreshed successfully."
+  invalid-page: "&cInvalid page number. Please use a number between 1 and {max}."
+  console-only: "&cThis command can only be run by players."
+  refreshing: "&eRefreshing leaderboard data asynchronously..."
+
+# Hologram Support (requires DecentHolograms)
+holograms:
+  enabled: false
+  # World name where holograms should be placed
+  world: "world"
+  # Lines to display per hologram
+  # Placeholders: {rank}, {player}, {balance}
+  lines:
+    - "&6&l⭐ TOP {rank} ⭐"
+    - "&b{player}"
+    - "&a{balance}"
+  # Positions for holograms (top 3)
+  positions:
+    "1":
+      x: 0.5
+      y: 65.0
+      z: 0.5
+    "2":
+      x: 3.5
+      y: 65.0
+      z: 0.5
+    "3":
+      x: -2.5
+      y: 65.0
+      z: 0.5
+
+# PlaceholderAPI Support
+# Available placeholders: %baltop_<rank>_name%, %baltop_<rank>_balance%, %baltop_<rank>_rank%
+placeholders:
+  enabled: true
+  # Maximum rank for placeholders (e.g. 10 enables %baltop_1_name% through %baltop_10_name%)
+  max-rank: 10

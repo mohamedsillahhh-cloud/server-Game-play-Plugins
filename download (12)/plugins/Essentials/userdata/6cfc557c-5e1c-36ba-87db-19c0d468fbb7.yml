@@ -1,0 +1,39 @@
+npc: false
+last-account-name: PiterrByYolo
+money: '55.0'
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 102.211.9.132
+afk: false
+socialspy: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788632378955
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788660163683
+  login: 1788660473587
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 70.35065944055847
+  y: 67.0
+  z: -60.690140211723694
+  yaw: -29.09954833984375
+  pitch: 3.4500393867492676
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -79014.99017311007
+  y: -26.0
+  z: 71899.13885067754
+  yaw: 95.5439453125
+  pitch: -2.9999473094940186

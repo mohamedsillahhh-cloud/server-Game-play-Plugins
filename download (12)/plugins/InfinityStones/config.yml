@@ -1,0 +1,387 @@
+#
+#     ██╗███╗░░██╗███████╗██╗███╗░░██╗██╗████████╗██╗░░░██╗  
+#     ██║████╗░██║██╔════╝██║████╗░██║██║╚══██╔══╝╚██╗░██╔╝  
+#     ██║██╔██╗██║█████╗░░██║██╔██╗██║██║░░░██║░░░░╚████╔╝░  
+#     ██║██║╚████║██╔══╝░░██║██║╚████║██║░░░██║░░░░░╚██╔╝░░  
+#     ██║██║░╚███║██║░░░░░██║██║░╚███║██║░░░██║░░░░░░██║░░░  
+#     ╚═╝╚═╝░░╚══╝╚═╝░░░░░╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░░░░╚═╝░░░  
+#
+#     ░░██████╗████████╗░█████╗░███╗░░██╗███████╗░██████╗
+#     ░██╔════╝╚══██╔══╝██╔══██╗████╗░██║██╔════╝██╔════╝
+#     ░╚█████╗░░░░██║░░░██║░░██║██╔██╗██║█████╗░░╚█████╗░
+#     ░░╚═══██╗░░░██║░░░██║░░██║██║╚████║██╔══╝░░░╚═══██╗
+#     ░██████╔╝░░░██║░░░╚█████╔╝██║░╚███║███████╗██████╔╝
+#     ░╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚══╝╚══════╝╚═════╝░
+#
+# 	   ---------- a plugin by Natecb1313 ---------------
+
+
+#  ░██████╗░░█████╗░███╗░░░███╗███████╗  ░██████╗███████╗████████╗████████╗██╗███╗░░██╗░██████╗░░██████╗
+#  ██╔════╝░██╔══██╗████╗░████║██╔════╝  ██╔════╝██╔════╝╚══██╔══╝╚══██╔══╝██║████╗░██║██╔════╝░██╔════╝
+#  ██║░░██╗░███████║██╔████╔██║█████╗░░  ╚█████╗░█████╗░░░░░██║░░░░░░██║░░░██║██╔██╗██║██║░░██╗░╚█████╗░
+#  ██║░░╚██╗██╔══██║██║╚██╔╝██║██╔══╝░░  ░╚═══██╗██╔══╝░░░░░██║░░░░░░██║░░░██║██║╚████║██║░░╚██╗░╚═══██╗
+#  ╚██████╔╝██║░░██║██║░╚═╝░██║███████╗  ██████╔╝███████╗░░░██║░░░░░░██║░░░██║██║░╚███║╚██████╔╝██████╔╝
+#  ░╚═════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝  ╚═════╝░╚══════╝░░░╚═╝░░░░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═════╝░
+
+#  If set to true, players will drop stones on the ground upon death. (Default: false)
+drop-stones-on-death: false
+
+#  If set to true, players will permenately loose the stones on upon death. (Default: false)
+delete-stones-on-death: false
+
+# If set to false, particles will not be shown when using the infinity stones. (Default: true)
+show-particles: true
+
+#  Any stone abilities in the worlds listed below will not work.
+disabled-worlds:
+  - 'example1'
+  - 'example2'
+  
+#  Detirmine what items or tools can use the stone abilities.
+
+items:
+  name:
+    - '&6Example Name'
+  localized-name:
+    - 'gauntlet'
+  material:
+    - 'NETHERITE_SWORD'
+    - 'DIAMOND_SWORD'
+    - 'GOLDEN_SWORD'
+    - 'IRON_SWORD'
+    - 'STONE_SWORD'
+    - 'WOODEN_SWORD'
+  
+  
+#
+#
+#                       ░██████╗████████╗░█████╗░███╗░░██╗███████╗  ░█████╗░██████╗░██╗██╗░░░░░██╗████████╗██╗███████╗░██████╗
+#                       ██╔════╝╚══██╔══╝██╔══██╗████╗░██║██╔════╝  ██╔══██╗██╔══██╗██║██║░░░░░██║╚══██╔══╝██║██╔════╝██╔════╝
+#                       ╚█████╗░░░░██║░░░██║░░██║██╔██╗██║█████╗░░  ███████║██████╦╝██║██║░░░░░██║░░░██║░░░██║█████╗░░╚█████╗░
+#                       ░╚═══██╗░░░██║░░░██║░░██║██║╚████║██╔══╝░░  ██╔══██║██╔══██╗██║██║░░░░░██║░░░██║░░░██║██╔══╝░░░╚═══██╗
+#                       ██████╔╝░░░██║░░░╚█████╔╝██║░╚███║███████╗  ██║░░██║██████╦╝██║███████╗██║░░░██║░░░██║███████╗██████╔╝
+#                       ╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚══╝╚══════╝  ╚═╝░░╚═╝╚═════╝░╚═╝╚══════╝╚═╝░░░╚═╝░░░╚═╝╚══════╝╚═════╝░
+
+#-------------------------------------------------------------------------------------------------
+
+
+#  ██████╗░░█████╗░░██╗░░░░░░░██╗███████╗██████╗░  ░██████╗████████╗░█████╗░███╗░░██╗███████╗
+#  ██╔══██╗██╔══██╗░██║░░██╗░░██║██╔════╝██╔══██╗  ██╔════╝╚══██╔══╝██╔══██╗████╗░██║██╔════╝
+#  ██████╔╝██║░░██║░╚██╗████╗██╔╝█████╗░░██████╔╝  ╚█████╗░░░░██║░░░██║░░██║██╔██╗██║█████╗░░
+#  ██╔═══╝░██║░░██║░░████╔═████║░██╔══╝░░██╔══██╗  ░╚═══██╗░░░██║░░░██║░░██║██║╚████║██╔══╝░░
+#  ██║░░░░░╚█████╔╝░░╚██╔╝░╚██╔╝░███████╗██║░░██║  ██████╔╝░░░██║░░░╚█████╔╝██║░╚███║███████╗
+#  ╚═╝░░░░░░╚════╝░░░░╚═╝░░░╚═╝░░╚══════╝╚═╝░░╚═╝  ╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚══╝╚══════╝
+
+#  set to false to disable the power stones' power beam ability (Default: true)
+power-beam: true
+
+#  adjust the cooldown for the power stone's beam ability (seconds)
+power-beam-cooldown: 2
+
+#  How much damage should the power stone projectile deal?(1 damage = 1/2 heart) (Default: 4.0)
+power-stone-beam-damage: 4.0
+
+#  How long should mobs hit by the power stone beam be set on fire? This value is in ticks (20 ticks = 1 second) (Default: 40)
+power-stone-beam-fireticks: 40
+
+#  How much more damage should you deal with the power stone? Written as a percent in decimal form (0.30 = 30% more damage) (Default: 0.30)
+power-stone-damage-multiplier: 0.30
+
+#  Set to false to disable pvp with the power beam
+power-beam-damages-players: true
+
+
+
+#  ██████╗░███████╗░█████╗░██╗░░░░░██╗████████╗██╗░░░██╗  ░██████╗████████╗░█████╗░███╗░░██╗███████╗
+#  ██╔══██╗██╔════╝██╔══██╗██║░░░░░██║╚══██╔══╝╚██╗░██╔╝  ██╔════╝╚══██╔══╝██╔══██╗████╗░██║██╔════╝
+#  ██████╔╝█████╗░░███████║██║░░░░░██║░░░██║░░░░╚████╔╝░  ╚█████╗░░░░██║░░░██║░░██║██╔██╗██║█████╗░░
+#  ██╔══██╗██╔══╝░░██╔══██║██║░░░░░██║░░░██║░░░░░╚██╔╝░░  ░╚═══██╗░░░██║░░░██║░░██║██║╚████║██╔══╝░░
+#  ██║░░██║███████╗██║░░██║███████╗██║░░░██║░░░░░░██║░░░  ██████╔╝░░░██║░░░╚█████╔╝██║░╚███║███████╗
+#  ╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚══════╝╚═╝░░░╚═╝░░░░░░╚═╝░░░  ╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚══╝╚══════╝
+
+# set to false to disable the reality stones' speed boost ability (Default: true)
+speed-ability: true
+
+# set the potion level of the reality stones' speed effect (Default : 2)
+speed-level: 2
+
+#  How much less damage should you take with the Reality Stone? Written as a percent in decimal form (0.30 = 30% less damage) (Default: 0.30)
+reality-stone-damage-reduction: 0.30
+
+#  ░██████╗██████╗░░█████╗░░█████╗░███████╗  ░██████╗████████╗░█████╗░███╗░░██╗███████╗
+#  ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝  ██╔════╝╚══██╔══╝██╔══██╗████╗░██║██╔════╝
+#  ╚█████╗░██████╔╝███████║██║░░╚═╝█████╗░░  ╚█████╗░░░░██║░░░██║░░██║██╔██╗██║█████╗░░
+#  ░╚═══██╗██╔═══╝░██╔══██║██║░░██╗██╔══╝░░  ░╚═══██╗░░░██║░░░██║░░██║██║╚████║██╔══╝░░
+#  ██████╔╝██║░░░░░██║░░██║╚█████╔╝███████╗  ██████╔╝░░░██║░░░╚█████╔╝██║░╚███║███████╗
+#  ╚═════╝░╚═╝░░░░░╚═╝░░╚═╝░╚════╝░╚══════╝  ╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚══╝╚══════╝
+
+#  set to false to disable the double jump ability (Default: true)
+double-jump: true
+
+#  detirmines the volocity multiplier of the double jump (default: 1.5 )
+double-jump-velocity-multiplier: 1.5
+
+#  detirmises the Y boost of the double jump (How high the player is boosted) (default: 1.0)
+double-jump-y-boost: 1.0
+
+#  Cooldown do double jump da Joia do Espaço (segundos)
+double-jump-cooldown: 15
+
+#  How many seconds should the Space Stones' teleport cooldown be? (Default: 5)
+space-stone-teleport-cooldown: 20
+
+#  set to false to dissable the space stone teleport ability
+teleport-ability: true
+
+#  ███╗░░░███╗██╗███╗░░██╗██████╗░  ░██████╗████████╗░█████╗░███╗░░██╗███████╗
+#  ████╗░████║██║████╗░██║██╔══██╗  ██╔════╝╚══██╔══╝██╔══██╗████╗░██║██╔════╝
+#  ██╔████╔██║██║██╔██╗██║██║░░██║  ╚█████╗░░░░██║░░░██║░░██║██╔██╗██║█████╗░░
+#  ██║╚██╔╝██║██║██║╚████║██║░░██║  ░╚═══██╗░░░██║░░░██║░░██║██║╚████║██╔══╝░░
+#  ██║░╚═╝░██║██║██║░╚███║██████╔╝  ██████╔╝░░░██║░░░╚█████╔╝██║░╚███║███████╗
+#  ╚═╝░░░░░╚═╝╚═╝╚═╝░░╚══╝╚═════╝░  ╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚══╝╚══════╝
+
+# set to false to disable the mind stones' night vision ability (Default: true)
+night-vision-ability: true
+
+#  Chance (out of 100) to stun a mob whith the mind stone (20 = 20% chance) (Default: 20)
+mind-stone-stun-chance: 20
+
+
+#  ░██████╗░█████╗░██╗░░░██╗██╗░░░░░  ░██████╗████████╗░█████╗░███╗░░██╗███████╗
+#  ██╔════╝██╔══██╗██║░░░██║██║░░░░░  ██╔════╝╚══██╔══╝██╔══██╗████╗░██║██╔════╝
+#  ╚█████╗░██║░░██║██║░░░██║██║░░░░░  ╚█████╗░░░░██║░░░██║░░██║██╔██╗██║█████╗░░
+#  ░╚═══██╗██║░░██║██║░░░██║██║░░░░░  ░╚═══██╗░░░██║░░░██║░░██║██║╚████║██╔══╝░░
+#  ██████╔╝╚█████╔╝╚██████╔╝███████╗  ██████╔╝░░░██║░░░╚█████╔╝██║░╚███║███████╗
+#  ╚═════╝░░╚════╝░░╚═════╝░╚══════╝  ╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚══╝╚══════╝
+
+# set to false to disable the soul stones' absorbtion ability (Default: true)
+absorbtion-ability: true
+
+#  Chance (out of 100) to choke a mob whith the soul stone (10 = 10% chance) (Default: 10)
+soul-stone-choke-chance: 10
+
+
+#  ████████╗██╗███╗░░░███╗███████╗░██████╗  ░██████╗████████╗░█████╗░███╗░░██╗███████╗
+#  ╚══██╔══╝██║████╗░████║██╔════╝██╔════╝  ██╔════╝╚══██╔══╝██╔══██╗████╗░██║██╔════╝
+#  ░░░██║░░░██║██╔████╔██║█████╗░░╚█████╗░  ╚█████╗░░░░██║░░░██║░░██║██╔██╗██║█████╗░░
+#  ░░░██║░░░██║██║╚██╔╝██║██╔══╝░░░╚═══██╗  ░╚═══██╗░░░██║░░░██║░░██║██║╚████║██╔══╝░░
+#  ░░░██║░░░██║██║░╚═╝░██║███████╗██████╔╝  ██████╔╝░░░██║░░░╚█████╔╝██║░╚███║███████╗
+#  ░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝╚══════╝╚═════╝░  ╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚══╝╚══════╝
+
+# set to false to disable the time stones' luck boost ability (Default: true)
+luck-ability: true
+
+# set the potion level of the time stones' luck effect (Default: 2)
+luck-level: 2
+
+# set to false to disable the time stones' slow falling ability (Default: true)
+slow-fall-ability: true
+
+
+#  ░█████╗░██╗░░░░░██╗░░░░░  ░██████╗████████╗░█████╗░███╗░░██╗███████╗░██████╗
+#  ██╔══██╗██║░░░░░██║░░░░░  ██╔════╝╚══██╔══╝██╔══██╗████╗░██║██╔════╝██╔════╝
+#  ███████║██║░░░░░██║░░░░░  ╚█████╗░░░░██║░░░██║░░██║██╔██╗██║█████╗░░╚█████╗░
+#  ██╔══██║██║░░░░░██║░░░░░  ░╚═══██╗░░░██║░░░██║░░██║██║╚████║██╔══╝░░░╚═══██╗
+#  ██║░░██║███████╗███████╗  ██████╔╝░░░██║░░░╚█████╔╝██║░╚███║███████╗██████╔╝
+#  ╚═╝░░╚═╝╚══════╝╚══════╝  ╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚══╝╚══════╝╚═════╝░
+
+#  set to false to disable the all stones' power beam ability (Default: true)
+all-power-beam: true
+
+#  How much damage should the all power stones projectile deal?(1 damage = 1/2 heart) (Default: 8.0)
+all-stone-power-beam-damage: 8.0
+
+#  How long should mobs hit by the All Stones Power Beam be set on fire? This value is in ticks (20 ticks = 1 second) (Default: 80)
+all-stone-power-beam-fireticks: 80
+
+#
+#
+#
+
+#  ███╗░░░███╗███████╗░██████╗░██████╗░█████╗░░██████╗░███████╗░██████╗
+#  ████╗░████║██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝░██╔════╝██╔════╝
+#  ██╔████╔██║█████╗░░╚█████╗░╚█████╗░███████║██║░░██╗░█████╗░░╚█████╗░
+#  ██║╚██╔╝██║██╔══╝░░░╚═══██╗░╚═══██╗██╔══██║██║░░╚██╗██╔══╝░░░╚═══██╗
+#  ██║░╚═╝░██║███████╗██████╔╝██████╔╝██║░░██║╚██████╔╝███████╗██████╔╝
+#  ╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚═════╝░╚═╝░░╚═╝░╚═════╝░╚══════╝╚═════╝░
+#
+#-----------------------------------------------------------------------
+
+# I would appreciate it if you kept the prefix as it is. This helps other players find my plugin!
+prefix: '&f[&cIn&6fi&eni&aty&bSt&9on&5es&f] '
+
+already-equipped: '&cJá tens esta Joia equipada!'
+
+space-stone-teleport: '&9Whoosh!' 
+
+no-permission: '&cNão tens permissão para usar este comando!'
+
+invalid-stone-type: '&c não é um tipo de Joia válido! Usa: &apower&c, &aspace&c, &atime&c, &asoul&c, &areality&c, &amind&c ou &aall&c!'
+
+the-end-is-near: '&5&lO Fim Está Próximo...'
+the-end-is-near-subtitle: '&aEquipaste todas as Joias do Infinito!'
+
+power-stone-equip: '&5&k_&r&5&l Joia do Poder &5&k_'
+power-stone-equip-subtitle: '&aEquipada!'
+
+reality-stone-equip: '&c&k_&r&c&l Joia da Realidade &c&k_'
+reality-stone-equip-subtitle: '&aEquipada!'
+
+space-stone-equip: '&9&k_&r&9&l Joia do Espaço &9&k_'
+space-stone-equip-subtitle: '&aEquipada!'
+
+mind-stone-equip: '&e&k_&r&e&l Joia da Mente &e&k_'
+mind-stone-equip-subtitle: '&aEquipada!'
+
+time-stone-equip: '&a&k_&r&a&l Joia do Tempo &a&k_'
+time-stone-equip-subtitle: '&aEquipada!'
+
+soul-stone-equip: '&6&k_&r&6&l Joia da Alma &6&k_'
+soul-stone-equip-subtitle: '&aEquipada!'
+
+teleport-cooldown-message: '&cEsta habilidade está em cooldown durante &6%time% &csegundos!'
+
+#  ██╗████████╗███████╗███╗░░░███╗░██████╗
+#  ██║╚══██╔══╝██╔════╝████╗░████║██╔════╝
+#  ██║░░░██║░░░█████╗░░██╔████╔██║╚█████╗░
+#  ██║░░░██║░░░██╔══╝░░██║╚██╔╝██║░╚═══██╗
+#  ██║░░░██║░░░███████╗██║░╚═╝░██║██████╔╝
+#  ╚═╝░░░╚═╝░░░╚══════╝╚═╝░░░░░╚═╝╚═════╝░
+#
+#------------------------------------------
+
+#                                  edit the names of the infinity stone items
+
+power-stone-name: '&5Joia do Poder'
+power-stone-item: 'PURPLE_DYE'
+
+space-stone-name: '&9Joia do Espaço'
+space-stone-item: 'BLUE_DYE'
+
+time-stone-name: '&aJoia do Tempo'
+time-stone-item: 'LIME_DYE'
+
+mind-stone-name: '&eJoia da Mente'
+mind-stone-item: 'YELLOW_DYE'
+
+reality-stone-name: '&cJoia da Realidade'
+reality-stone-item: 'RED_DYE'
+
+soul-stone-name: '&6Joia da Alma'
+soul-stone-item: 'ORANGE_DYE'
+
+
+
+
+#  ░██████╗░██╗░░░██╗██╗
+#  ██╔════╝░██║░░░██║██║
+#  ██║░░██╗░██║░░░██║██║
+#  ██║░░╚██╗██║░░░██║██║
+#  ╚██████╔╝╚██████╔╝██║
+#  ░╚═════╝░░╚═════╝░╚═╝
+#
+#----------------------------------------
+
+# %player% will be replaced with the player's name
+# %player-plural% will be replaced with the player's name + 's
+gauntlet-gui-name: '&8Manopla de %player%'
+
+#         Edit the lore of the infinity stone items when equipped in the GUI. You can remove lines if you have disabled an ability... etc.
+
+power-stone-slot: 6
+soul-stone-slot: 10
+mind-stone-slot: 22
+space-stone-slot: 4
+reality-stone-slot: 2
+time-stone-slot: 16
+
+fill-material: 'BLACK_STAINED_GLASS_PANE'
+
+power-stone-lore:
+  - '&6-------------------------'
+  - '&7➢ +30% de resistência a dano'
+  - ' '
+  - '&7➢ Adiciona uma habilidade passiva &e[Clique Esquerdo]'
+  - '&7   à tua espada que'
+  - '&7   dispara um poderoso feixe'
+  - '&7   de energia'
+  - '&6-------------------------'
+
+soul-stone-lore:
+  - '&6-------------------------'
+  - '&7➢ Ao matar um mob, recebes 20%'
+  - '&7   da vida dele como &6Absorção'
+  - '&7   (&fMáx: &610❤&7)'
+  - ' '
+  - '&7➢ Dá 10% de probabilidade de'
+  - '&7   sufocar um mob ao acertá-lo'
+  - '&6-------------------------'
+  
+mind-stone-lore:
+  - '&6-------------------------'
+  - '&7➢ 20% de probabilidade de atordoar um mob'
+  - '&7   ao causar-lhe dano'
+  - ' '
+  - '&7➢ Recebes permanentemente o efeito'
+  - '&9   Visão Noturna'
+  - '&6-------------------------'
+  
+space-stone-lore:
+  - '&6-------------------------'
+  - '&7➢&e [Clique Direito]&7 com a espada para'
+  - '&7   teleportar-te para o'
+  - '&7   bloco apontado &7&o(Cooldown: 5 segundos)'
+  - ' '
+  - '&7➢ Permite Salto Duplo'
+  - '&6-------------------------'
+
+reality-stone-lore:
+  - '&6-------------------------'
+  - '&7➢ Recebes permanentemente o efeito'
+  - '&a   Sorte'
+  - ' '
+  - '&7➢ +30% de resistência a dano'
+  - ''
+  - '&6-------------------------'
+
+time-stone-lore:
+  - '&6-------------------------'
+  - '&7➢ Mantém &e[Shift]&7 enquanto cais'
+  - '&7   para ativar o efeito &fQueda Lenta'
+  - '&a   Sorte'
+  - ' '
+  - '&7➢ Recebes permanentemente o efeito'
+  - '&a   Sorte'
+  - '&6-------------------------'
+
+
+
+
+
+
+# -----------------------------------------------------------------------------
+# INFINITY STONE CRATE
+# /stonecrate charges the player and rolls one random Infinity Stone.
+# Requires Vault + an economy provider (for example EssentialsX Economy).
+stone-crate:
+  enabled: true
+  price: 500000.0
+  animation-rolls: 20
+  animation-interval-ticks: 4
+  gui-title: '&5&lCrate das Joias do Infinito'
+  broadcast-win: false
+  weights:
+    power: 1.0
+    space: 1.0
+    reality: 1.0
+    soul: 1.0
+    time: 1.0
+    mind: 1.0
+  messages:
+    no-economy: '&cA economia da crate está indisponível. Contacta um administrador.'
+    disabled: '&cA crate das Joias do Infinito está desativada.'
+    insufficient-funds: '&cPrecisas de &6100.000$ &cpara abrir uma crate das Joias do Infinito.'
+    paid: '&7Pagaste &6100.000$ &7para abrir uma crate das Joias do Infinito...'
+    already-rolling: '&cJá tens um sorteio de crate em andamento.'
+    won: '&aGanhaste: %stone%&a!'
+    broadcast: '&6%player% &7abriu uma Crate das Joias do Infinito e ganhou %stone%&7!'

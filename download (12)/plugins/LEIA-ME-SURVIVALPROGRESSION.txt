@@ -1,0 +1,75 @@
+SURVIVALPROGRESSION 1.0.0 - PAPER 26.2
+========================================
+
+INSTALACAO SEGURA
+1. DESLIGA o servidor completamente.
+2. Faz backup da pasta plugins e do mundo.
+3. Remove/renomeia plugins/HomesPanel-1.0.0.jar. NAO apagues a pasta plugins/HomesPanel,
+   porque SurvivalProgression importa automaticamente o homes.yml existente na primeira inicializacao.
+4. Copia SurvivalProgression-1.0.0.jar para plugins/.
+5. Substitui estes ficheiros do CommunityShop pelos incluidos em patched/loerx-communityshop/:
+   - config.yml
+   - prices.yml
+   - stock.yml
+   - slots.yml
+6. Liga o servidor.
+
+IMPORTANTE
+- Estatisticas do novo sistema comecam TODAS em 0: kills validas, mobs, blocos e tempo de progressao.
+- O dinheiro atual NAO e resetado.
+- Inventarios, items, homes existentes e spawners colocados NAO sao apagados.
+- Os 27 slots vanilla do Ender Chest sao preservados.
+- Nao existe limite de spawners colocados.
+- O CommunityShop antigo deixa de vender spawners. /shop abre um menu seguro:
+  Loja Geral -> CommunityShop original; Spawners -> loja controlada pelo SurvivalProgression.
+
+SPAWNERS - PRECO FIXO POR UNIDADE
+Zombie: 800.000 (rank inicial)
+Skeleton: 800.000 (rank inicial)
+Pig: 5.000.000 (Spawner I)
+Cow: 7.500.000 (Spawner I)
+Blaze: 20.000.000 (Spawner II)
+Wither Skeleton: 60.000.000 (Spawner III)
+Iron Golem: 100.000.000 (Spawner IV)
+
+RANKS
+Inicial -> Aventureiro: 10M + 15h + 10 kills + 1.000 mobs + 5.000 blocos
+Aventureiro -> Veterano: 30M + 35h + 30 kills + 5.000 mobs + 20.000 blocos
+Veterano -> Elite: 75M + 70h + 75 kills + 15.000 mobs + 50.000 blocos
+Elite -> Mestre: 175M + 120h + 150 kills + 40.000 mobs + 120.000 blocos
+Mestre -> Lendario: 400M + 200h + 300 kills + 100.000 mobs + 300.000 blocos
+
+ANTI FARM DE KILLS
+- Primeira kill num jogador dentro da janela: conta.
+- Kills repetidas no mesmo jogador durante 10 minutos nao contam.
+- Na 3a kill repetida aparece aviso: mais 3 e perde um rank.
+- Na 4a: faltam 2; na 5a: falta 1; na 6a: desce um rank.
+- Licencas compradas NAO sao apagadas no downgrade; ficam suspensas se o rank atual ja nao cumprir o requisito.
+
+HOMES
+5 iniciais. Licencas: 6=10M, 7=20M, 8=35M, 9=55M, 10=80M.
+O plugin importa o homes.yml do HomesPanel antigo.
+
+ENDER CHEST
+Estado vanilla continua com 27 slots pelo bloco normal.
+Licenca /ec remoto: 10M.
+Expansoes: 36=15M, 45=30M, 54=60M.
+Se perder rank, os slots bloqueados ficam guardados e voltam quando recuperar acesso.
+
+CRAFT
+Licenca /craft: 30M, rank Veterano.
+
+EQUIPAMENTOS
+Diamond Arsenal: licenca 50M + pacote 100M (total 150M), compra unica.
+Netherite Arsenal: licenca 150M + pacote 350M (total 500M), compra unica.
+Inclui full armor, sword, pickaxe, axe, shovel e hoe com encantamentos vanilla maximos compativeis.
+
+COMANDOS
+/progress, /progresso, /rank, /licencas - menu principal
+/home [nome], /homes, /sethome <nome>, /delhome <nome>
+/ec
+/craft
+/shop
+
+Se o servidor mostrar erro ao arrancar, envia o trecho completo do console desde
+"Enabling SurvivalProgression" ate ao fim da stacktrace.

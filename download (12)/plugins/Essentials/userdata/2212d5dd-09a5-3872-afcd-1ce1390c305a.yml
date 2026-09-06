@@ -1,0 +1,39 @@
+npc: false
+last-account-name: coinga
+money: '0.0'
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 95.94.212.138
+afk: false
+socialspy: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788576547112
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788660195328
+  login: 1788660482620
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 112.27451633231347
+  y: 68.0
+  z: -47.894375921832584
+  yaw: 140.5498046875
+  pitch: 13.350005149841309
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 61.073592215376486
+  y: 63.0
+  z: -36.863073113540615
+  yaw: 15.900026321411133
+  pitch: 11.400031089782715

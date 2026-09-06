@@ -1,0 +1,311 @@
+debug: false
+
+
+enable-metrics: true
+
+
+language: en-default
+
+
+
+save-instantly: true
+
+
+
+bypass-spawn-blocking: true
+
+
+
+enable-world-guard-restrictions: true
+
+require-world-guard-allow-shop-flag: true
+
+
+
+shop-creation-item: minecraft:villager_spawn_egg
+
+
+
+max-shops-per-player: 10
+
+
+
+protect-containers: true
+
+
+prevent-item-movement: true
+
+
+
+delete-shopkeeper-on-break-container: true
+
+
+
+disable-gravity: false
+
+
+
+entity-behavior-tick-period: 3
+
+
+
+silence-shop-entities: true
+
+
+
+show-nameplates: true
+
+
+
+always-show-nameplates: true
+
+
+
+enable-citizen-shops: false
+
+
+
+enable-sign-shops: true
+
+
+
+enable-sign-post-shops: true
+
+
+
+enable-hanging-sign-shops: true
+
+
+
+prevent-trading-with-own-shop: true
+
+
+
+currency-item: minecraft:emerald
+
+
+high-currency-item: minecraft:emerald_block
+
+
+high-currency-value: 9
+
+
+
+tax-rate: 0
+config-version: 11
+add-shop-creation-item-tag: false
+identify-shop-creation-item-by-tag: false
+trade-log-storage: DISABLED
+data-version: 4903
+debug-options: []
+ignore-failed-server-assumption-tests: false
+delete-unspawnable-shopkeepers: false
+check-shop-interaction-result: false
+register-world-guard-allow-shop-flag: true
+enable-towny-restrictions: false
+check-spawn-location-interaction-result: false
+disable-inventory-verification: false
+prevent-shop-creation-item-regular-usage: true
+invert-shop-type-and-object-type-selection: false
+deleting-player-shop-returns-creation-item: false
+require-container-recently-placed: true
+max-container-distance: 15
+max-shops-perm-options: 5,15,25
+prevent-copper-golem-access: true
+player-shopkeeper-inactive-days: 0
+enabled-living-shops:
+- VILLAGER
+- ALLAY
+- ARMADILLO
+- ARMOR_STAND
+- AXOLOTL
+- BEE
+- BLAZE
+- BOGGED
+- BREEZE
+- CAMEL
+- CAMEL_HUSK
+- CAT
+- CAVE_SPIDER
+- CHICKEN
+- COD
+- COPPER_GOLEM
+- COW
+- CREAKING
+- CREEPER
+- DOLPHIN
+- DONKEY
+- DROWNED
+- ENDERMAN
+- EVOKER
+- FOX
+- FROG
+- GHAST
+- GIANT
+- GLOW_SQUID
+- GOAT
+- HAPPY_GHAST
+- HOGLIN
+- HORSE
+- HUSK
+- ILLUSIONER
+- IRON_GOLEM
+- LLAMA
+- MAGMA_CUBE
+- MANNEQUIN
+- MOOSHROOM
+- MULE
+- NAUTILUS
+- OCELOT
+- PANDA
+- PARCHED
+- PARROT
+- PHANTOM
+- PIG
+- PIGLIN
+- PIGLIN_BRUTE
+- PILLAGER
+- POLAR_BEAR
+- PUFFERFISH
+- RABBIT
+- RAVAGER
+- SALMON
+- SHEEP
+- SHULKER
+- SILVERFISH
+- SKELETON
+- SKELETON_HORSE
+- SLIME
+- SNIFFER
+- SNOW_GOLEM
+- SPIDER
+- SQUID
+- STRAY
+- STRIDER
+- SULFUR_CUBE
+- TADPOLE
+- TRADER_LLAMA
+- TROPICAL_FISH
+- TURTLE
+- VEX
+- VINDICATOR
+- WANDERING_TRADER
+- WARDEN
+- WITCH
+- WITHER_SKELETON
+- WOLF
+- ZOGLIN
+- ZOMBIE
+- ZOMBIE_HORSE
+- ZOMBIE_NAUTILUS
+- ZOMBIE_VILLAGER
+- ZOMBIFIED_PIGLIN
+enable-end-crystal-shops: true
+allow-end-crystal-shops-in-the-end: false
+gravity-chunk-range: 4
+shulker-peek-if-player-nearby: true
+shulker-peek-height: 0.3
+slime-max-size: 5
+magma-cube-max-size: 5
+sulfur-cube-max-size: 5
+default-citizen-npc-type: PLAYER
+set-citizen-npc-owner-of-player-shops: false
+citizen-npc-fluid-pushable: false
+cancel-citizen-npc-interactions: true
+save-citizen-npcs-instantly: false
+snapshots-save-citizen-npc-data: true
+delete-invalid-citizen-shopkeepers: false
+enable-glowing-sign-text: true
+name-regex: '[A-Za-z0-9 ]{3,25}'
+naming-of-player-shops-via-item: false
+allow-renaming-of-player-npc-shops: false
+selling-empty-trade-result-item: minecraft:gray_stained_glass_pane
+selling-empty-trade-item1: minecraft:gray_stained_glass_pane
+selling-empty-trade-item2: minecraft:gray_stained_glass_pane
+selling-empty-item1: minecraft:barrier
+selling-empty-item2: minecraft:barrier
+buying-empty-trade-result-item: minecraft:gray_stained_glass_pane
+buying-empty-trade-item1: minecraft:gray_stained_glass_pane
+buying-empty-trade-item2: minecraft:air
+buying-empty-result-item: minecraft:barrier
+buying-empty-item2: minecraft:air
+trading-empty-trade-result-item: minecraft:gray_stained_glass_pane
+trading-empty-trade-item1: minecraft:gray_stained_glass_pane
+trading-empty-trade-item2: minecraft:gray_stained_glass_pane
+trading-empty-result-item: minecraft:barrier
+trading-empty-item1: minecraft:barrier
+trading-empty-item2: minecraft:barrier
+book-empty-trade-result-item: minecraft:gray_stained_glass_pane
+book-empty-trade-item1: minecraft:gray_stained_glass_pane
+book-empty-trade-item2: minecraft:gray_stained_glass_pane
+book-empty-item1: minecraft:barrier
+book-empty-item2: minecraft:barrier
+max-trades-pages: 5
+previous-page-item: minecraft:writable_book
+next-page-item: minecraft:writable_book
+current-page-item: minecraft:writable_book
+trade-setup-item: minecraft:paper
+shop-information-item: minecraft:paper
+placeholder-item: minecraft:paper
+enable-closing-of-player-shops: true
+force-open-player-shops: true
+shop-open-item: minecraft:green_banner
+shop-closed-item: minecraft:red_banner
+name-item: minecraft:name_tag
+enable-all-equipment-editor-slots: false
+enable-moving-of-player-shops: true
+move-item: minecraft:ender_pearl
+max-members-per-shop: 9
+allow-members-with-full-access: true
+members-item: minecraft:player_head
+add-member-item: minecraft:name_tag
+enable-container-option-on-player-shop: true
+container-item: minecraft:chest
+trade-notifications-item: minecraft:bell
+delete-item: minecraft:bone
+disable-other-villagers: false
+disable-other-villagers-worlds: []
+block-villager-spawns: false
+block-villager-spawns-worlds: []
+disable-zombie-villager-curing: false
+disable-zombie-villager-curing-worlds: []
+hire-other-villagers: false
+hire-other-villagers-worlds: []
+disable-wandering-traders: false
+disable-wandering-traders-worlds: []
+block-wandering-trader-spawns: false
+block-wandering-trader-spawns-worlds: []
+hire-wandering-traders: false
+hire-wandering-traders-worlds: []
+edit-regular-villagers: false
+edit-regular-wandering-traders: false
+hire-item: minecraft:emerald
+hire-other-villagers-costs: 1
+hire-require-creation-permission: true
+prevent-trading-while-member-is-online: false
+use-strict-item-comparison: false
+increment-villager-statistics: false
+simulate-villager-trading-sounds: true
+simulate-villager-ambient-sounds: false
+simulate-wandering-trader-trading-sounds: true
+simulate-wandering-trader-ambient-sounds: false
+simulate-trading-sounds-only-for-the-trading-player: true
+trade-succeeded-sound:
+  sound: minecraft:ui.button.click
+  pitch: 2.0
+  volume: 0.3
+trade-failed-sound:
+  sound: minecraft:block.barrel.close
+  pitch: 2.0
+  volume: 0.5
+tax-round-up: false
+notify-players-about-trades: false
+trade-notification-sound: ''
+notify-shop-members-about-trades: true
+shop-member-trade-notification-sound:
+  sound: minecraft:entity.experience_orb.pickup
+  volume: 0.25
+trade-log-merge-duration-ticks: 300
+trade-log-next-merge-timeout-ticks: 100
+log-item-metadata: false
+high-currency-min-cost: 20

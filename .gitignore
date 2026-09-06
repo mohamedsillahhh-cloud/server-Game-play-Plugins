@@ -1,0 +1,20 @@
+# Duplicado do conteudo descomprimido (84 MB) - nao versionar
+download (12).zip
+*.zip
+
+# OS / editor junk
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Logs / temp
+*.log
+*.tmp
+
+# Bases de dados geradas em runtime (Regeneraveis)
+*.mv.db
+*.trace.db
+
+# Area de trabalho descompilada (nunca deve existir aqui)
+auditoria-pdc/
+src-*/

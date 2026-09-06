@@ -1,0 +1,10 @@
+# Все сообщения используют классические &-цветокоды: &6 золото, &c красный, &a зелёный, &7 серый, &l жирный.
+prefix: "&7[&6PHD&7] "
+no-permission: "&cУ тебя нет прав на это действие."
+reloaded: "&aКонфигурация перезагружена."
+help: "&6&lPlayerHeadDrops &7v2.0.0\n&e/phd reload &7— перезагрузить конфиг\n&e/phd give <player> [receiver] &7— выдать голову игрока\n&e/phd help &7— это меню"
+give-usage: "&cИспользование: /phd give <player> [receiver]"
+give-console: "&cИз консоли укажи получателя: /phd give <player> <receiver>"
+give-success: "&aГолова игрока &e%player% &aвыдана игроку &e%receiver%&a."
+player-not-found: "&cИгрок не найден или не в сети."
+unknown: "&cНеизвестная подкоманда. Смотри /phd help."

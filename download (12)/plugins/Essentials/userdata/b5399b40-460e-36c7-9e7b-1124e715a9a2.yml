@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 52.124.43.233
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788566613672
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788567416156
+  login: 1788564034304
+money: '100.0'
+last-account-name: ViktorSPK
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 4953.233651037163
+  y: -17.0
+  z: -15199.6659643097
+  yaw: 83.8138427734375
+  pitch: 5.4000091552734375
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 4955.566719686732
+  y: -17.0
+  z: -15201.179150496093
+  yaw: -3.63726806640625
+  pitch: 1.5000272989273071

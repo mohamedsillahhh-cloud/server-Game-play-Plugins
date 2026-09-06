@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 102.209.162.73
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788633323354
+  login: 1788631989532
+money: '9193667.0'
+last-account-name: boiola
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -41.5
+  y: 86.0
+  z: 53.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -30.664923788033867
+  y: 61.0
+  z: 26.500809627775396
+  yaw: 140.49703979492188
+  pitch: 84.29679107666016

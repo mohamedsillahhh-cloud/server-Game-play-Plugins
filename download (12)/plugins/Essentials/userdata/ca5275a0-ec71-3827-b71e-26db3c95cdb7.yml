@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 94.62.129.14
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788227038480
+  login: 1788226923878
+money: '0'
+last-account-name: loYo
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -29.5
+  y: 92.0
+  z: 48.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 176.81289272432767
+  y: 81.91894814443285
+  z: -158.64495999710303
+  yaw: 115.16299438476562
+  pitch: 43.82233428955078

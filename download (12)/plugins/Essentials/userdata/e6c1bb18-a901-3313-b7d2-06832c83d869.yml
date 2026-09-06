@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 91.168.193.215
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1787958299976
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1787959338831
+  login: 1787954575259
+money: '0'
+last-account-name: AXLXP
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 64.22560290042072
+  y: 63.0
+  z: -34.16370738495018
+  yaw: 135.59384155273438
+  pitch: 15.991488456726074
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 60.11095927780608
+  y: 63.5
+  z: -31.47848437872975
+  yaw: 106.2560806274414
+  pitch: -90.0

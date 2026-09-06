@@ -1,0 +1,39 @@
+npc: false
+last-account-name: calvo
+money: '0.0'
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 38.44.70.231
+afk: false
+socialspy: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788194514302
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788200840803
+  login: 1788193488201
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 5017.699999988079
+  y: 65.0
+  z: -14491.308679216381
+  yaw: -99.33404541015625
+  pitch: 9.332464218139648
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 4952.310168290245
+  y: -17.0
+  z: -15206.126222681107
+  yaw: -30.3375244140625
+  pitch: 7.050139427185059

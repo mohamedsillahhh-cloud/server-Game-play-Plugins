@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 79.168.162.242
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788549573248
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788618203529
+  login: 1788617538202
+money: '18545.0'
+last-account-name: twoprnogay
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 8896.229925556958
+  y: -46.0
+  z: -27608.643182361684
+  yaw: -130.775146484375
+  pitch: 9.750101089477539
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 8910.300855609657
+  y: -58.0
+  z: -27612.734589746593
+  yaw: 141.8041229248047
+  pitch: 23.250043869018555
+homes:
+  home:
+    world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+    world-name: world
+    x: 5040.347911591875
+    y: 119.0
+    z: -14500.650248958604
+    yaw: 169.79931640625
+    pitch: 19.19975471496582

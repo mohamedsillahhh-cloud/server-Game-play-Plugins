@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 85.94.227.150
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788661094056
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788660275374
+  login: 1788660472057
+money: '37500.0'
+last-account-name: Miklavbl
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -47340.80468692699
+  y: -7.5
+  z: 56752.32953290206
+  yaw: 159.2574920654297
+  pitch: 12.599994659423828
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 59.71598698114563
+  y: 64.0
+  z: -46.73460970004836
+  yaw: 153.306396484375
+  pitch: 34.20017623901367

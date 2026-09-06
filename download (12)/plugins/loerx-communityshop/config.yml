@@ -1,0 +1,5214 @@
+language: en
+shop-mode: community
+gui:
+  category-back-slot: 49
+  border-material: BLACK_STAINED_GLASS_PANE
+categories:
+  blocks:
+    name: '&a⛏ Building Blocks'
+    material: STONE
+    slot: 10
+    lore:
+    - '&7Stone and building materials'
+    - '&890 items • 4 pages'
+    items:
+    - material: STONE
+      buy-price: 24.0
+      sell-price: 12.0
+      name: '&fStone'
+      stack-size: 64
+      page: 1
+      slot: 10
+      id: blocks_STONE
+    - material: COBBLESTONE
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fCobblestone'
+      stack-size: 64
+      page: 1
+      slot: 11
+      id: blocks_COBBLESTONE
+    - material: MOSSY_COBBLESTONE
+      buy-price: 48.0
+      sell-price: 24.0
+      name: '&fMossy Cobblestone'
+      stack-size: 64
+      page: 1
+      slot: 12
+      id: blocks_MOSSY_COBBLESTONE
+    - material: SMOOTH_STONE
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fSmooth Stone'
+      stack-size: 64
+      page: 1
+      slot: 13
+      id: blocks_SMOOTH_STONE
+    - material: STONE_BRICKS
+      buy-price: 32.0
+      sell-price: 16.0
+      name: '&fStone Bricks'
+      stack-size: 64
+      page: 1
+      slot: 14
+      id: blocks_STONE_BRICKS
+    - material: MOSSY_STONE_BRICKS
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fMossy Stone Bricks'
+      stack-size: 64
+      page: 1
+      slot: 15
+      id: blocks_MOSSY_STONE_BRICKS
+    - material: CRACKED_STONE_BRICKS
+      buy-price: 44.0
+      sell-price: 22.0
+      name: '&fCracked Stone Bricks'
+      stack-size: 64
+      page: 1
+      slot: 16
+      id: blocks_CRACKED_STONE_BRICKS
+    - material: CHISELED_STONE_BRICKS
+      buy-price: 44.0
+      sell-price: 22.0
+      name: '&fChiseled Stone Bricks'
+      stack-size: 64
+      page: 1
+      slot: 19
+      id: blocks_CHISELED_STONE_BRICKS
+    - material: GRANITE
+      buy-price: 24.0
+      sell-price: 12.0
+      name: '&fGranite'
+      stack-size: 64
+      page: 1
+      slot: 20
+      id: blocks_GRANITE
+    - material: POLISHED_GRANITE
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fPolished Granite'
+      stack-size: 64
+      page: 1
+      slot: 21
+      id: blocks_POLISHED_GRANITE
+    - material: DIORITE
+      buy-price: 24.0
+      sell-price: 12.0
+      name: '&fDiorite'
+      stack-size: 64
+      page: 1
+      slot: 22
+      id: blocks_DIORITE
+    - material: POLISHED_DIORITE
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fPolished Diorite'
+      stack-size: 64
+      page: 1
+      slot: 23
+      id: blocks_POLISHED_DIORITE
+    - material: ANDESITE
+      buy-price: 24.0
+      sell-price: 12.0
+      name: '&fAndesite'
+      stack-size: 64
+      page: 1
+      slot: 24
+      id: blocks_ANDESITE
+    - material: POLISHED_ANDESITE
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fPolished Andesite'
+      stack-size: 64
+      page: 1
+      slot: 25
+      id: blocks_POLISHED_ANDESITE
+    - material: DEEPSLATE
+      buy-price: 28.0
+      sell-price: 14.0
+      name: '&fDeepslate'
+      stack-size: 64
+      page: 1
+      slot: 28
+      id: blocks_DEEPSLATE
+    - material: COBBLED_DEEPSLATE
+      buy-price: 20.0
+      sell-price: 10.0
+      name: '&fCobbled Deepslate'
+      stack-size: 64
+      page: 1
+      slot: 29
+      id: blocks_COBBLED_DEEPSLATE
+    - material: POLISHED_DEEPSLATE
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fPolished Deepslate'
+      stack-size: 64
+      page: 1
+      slot: 30
+      id: blocks_POLISHED_DEEPSLATE
+    - material: DEEPSLATE_BRICKS
+      buy-price: 48.0
+      sell-price: 24.0
+      name: '&fDeepslate Bricks'
+      stack-size: 64
+      page: 1
+      slot: 31
+      id: blocks_DEEPSLATE_BRICKS
+    - material: DEEPSLATE_TILES
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fDeepslate Tiles'
+      stack-size: 64
+      page: 1
+      slot: 32
+      id: blocks_DEEPSLATE_TILES
+    - material: TUFF
+      buy-price: 28.0
+      sell-price: 14.0
+      name: '&fTuff'
+      stack-size: 64
+      page: 1
+      slot: 33
+      id: blocks_TUFF
+    - material: POLISHED_TUFF
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fPolished Tuff'
+      stack-size: 64
+      page: 1
+      slot: 34
+      id: blocks_POLISHED_TUFF
+    - material: TUFF_BRICKS
+      buy-price: 52.0
+      sell-price: 26.0
+      name: '&fTuff Bricks'
+      stack-size: 64
+      page: 1
+      slot: 37
+      id: blocks_TUFF_BRICKS
+    - material: CALCITE
+      buy-price: 44.0
+      sell-price: 22.0
+      name: '&fCalcite'
+      stack-size: 64
+      page: 1
+      slot: 38
+      id: blocks_CALCITE
+    - material: DRIPSTONE_BLOCK
+      buy-price: 44.0
+      sell-price: 22.0
+      name: '&fDripstone Block'
+      stack-size: 64
+      page: 1
+      slot: 39
+      id: blocks_DRIPSTONE_BLOCK
+    - material: POINTED_DRIPSTONE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fPointed Dripstone'
+      stack-size: 64
+      page: 1
+      slot: 40
+      id: blocks_POINTED_DRIPSTONE
+    - material: DIRT
+      buy-price: 20.0
+      sell-price: 10.0
+      name: '&fDirt'
+      stack-size: 64
+      page: 1
+      slot: 41
+      id: blocks_DIRT
+    - material: COARSE_DIRT
+      buy-price: 28.0
+      sell-price: 14.0
+      name: '&fCoarse Dirt'
+      stack-size: 64
+      page: 1
+      slot: 42
+      id: blocks_COARSE_DIRT
+    - material: ROOTED_DIRT
+      buy-price: 44.0
+      sell-price: 22.0
+      name: '&fRooted Dirt'
+      stack-size: 64
+      page: 1
+      slot: 43
+      id: blocks_ROOTED_DIRT
+    - material: MUD
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fMud'
+      stack-size: 64
+      page: 2
+      slot: 10
+      id: blocks_MUD
+    - material: PACKED_MUD
+      buy-price: 52.0
+      sell-price: 26.0
+      name: '&fPacked Mud'
+      stack-size: 64
+      page: 2
+      slot: 11
+      id: blocks_PACKED_MUD
+    - material: CLAY
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fClay'
+      stack-size: 64
+      page: 2
+      slot: 12
+      id: blocks_CLAY
+    - material: TERRACOTTA
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fTerracotta'
+      stack-size: 64
+      page: 2
+      slot: 13
+      id: blocks_TERRACOTTA
+    - material: SAND
+      buy-price: 24.0
+      sell-price: 12.0
+      name: '&fSand'
+      stack-size: 64
+      page: 2
+      slot: 14
+      id: blocks_SAND
+    - material: RED_SAND
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fRed Sand'
+      stack-size: 64
+      page: 2
+      slot: 15
+      id: blocks_RED_SAND
+    - material: GRAVEL
+      buy-price: 24.0
+      sell-price: 12.0
+      name: '&fGravel'
+      stack-size: 64
+      page: 2
+      slot: 16
+      id: blocks_GRAVEL
+    - material: FLINT
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fFlint'
+      stack-size: 64
+      page: 2
+      slot: 19
+      id: blocks_FLINT
+    - material: SANDSTONE
+      buy-price: 44.0
+      sell-price: 22.0
+      name: '&fSandstone'
+      stack-size: 64
+      page: 2
+      slot: 20
+      id: blocks_SANDSTONE
+    - material: CUT_SANDSTONE
+      buy-price: 52.0
+      sell-price: 26.0
+      name: '&fCut Sandstone'
+      stack-size: 64
+      page: 2
+      slot: 21
+      id: blocks_CUT_SANDSTONE
+    - material: RED_SANDSTONE
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fRed Sandstone'
+      stack-size: 64
+      page: 2
+      slot: 22
+      id: blocks_RED_SANDSTONE
+    - material: CUT_RED_SANDSTONE
+      buy-price: 64.0
+      sell-price: 32.0
+      name: '&fCut Red Sandstone'
+      stack-size: 64
+      page: 2
+      slot: 23
+      id: blocks_CUT_RED_SANDSTONE
+    - material: GLASS
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fGlass'
+      stack-size: 64
+      page: 2
+      slot: 24
+      id: blocks_GLASS
+    - material: GLASS_PANE
+      buy-price: 28.0
+      sell-price: 14.0
+      name: '&fGlass Pane'
+      stack-size: 64
+      page: 2
+      slot: 25
+      id: blocks_GLASS_PANE
+    - material: OBSIDIAN
+      buy-price: 500.0
+      sell-price: 250.0
+      name: '&fObsidian'
+      stack-size: 64
+      page: 2
+      slot: 28
+      id: blocks_OBSIDIAN
+    - material: CRYING_OBSIDIAN
+      buy-price: 1200.0
+      sell-price: 600.0
+      name: '&fCrying Obsidian'
+      stack-size: 64
+      page: 2
+      slot: 29
+      id: blocks_CRYING_OBSIDIAN
+    - material: NETHERRACK
+      buy-price: 12.0
+      sell-price: 6.0
+      name: '&fNetherrack'
+      stack-size: 64
+      page: 2
+      slot: 30
+      id: blocks_NETHERRACK
+    - material: SOUL_SAND
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fSoul Sand'
+      stack-size: 64
+      page: 2
+      slot: 31
+      id: blocks_SOUL_SAND
+    - material: SOUL_SOIL
+      buy-price: 52.0
+      sell-price: 26.0
+      name: '&fSoul Soil'
+      stack-size: 64
+      page: 2
+      slot: 32
+      id: blocks_SOUL_SOIL
+    - material: BASALT
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fBasalt'
+      stack-size: 64
+      page: 2
+      slot: 33
+      id: blocks_BASALT
+    - material: SMOOTH_BASALT
+      buy-price: 48.0
+      sell-price: 24.0
+      name: '&fSmooth Basalt'
+      stack-size: 64
+      page: 2
+      slot: 34
+      id: blocks_SMOOTH_BASALT
+    - material: BLACKSTONE
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fBlackstone'
+      stack-size: 64
+      page: 2
+      slot: 37
+      id: blocks_BLACKSTONE
+    - material: GILDED_BLACKSTONE
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fGilded Blackstone'
+      stack-size: 64
+      page: 2
+      slot: 38
+      id: blocks_GILDED_BLACKSTONE
+    - material: END_STONE
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fEnd Stone'
+      stack-size: 64
+      page: 2
+      slot: 39
+      id: blocks_END_STONE
+    - material: PURPUR_BLOCK
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fPurpur Block'
+      stack-size: 64
+      page: 2
+      slot: 40
+      id: blocks_PURPUR_BLOCK
+    - material: PURPUR_PILLAR
+      buy-price: 84.0
+      sell-price: 42.0
+      name: '&fPurpur Pillar'
+      stack-size: 64
+      page: 2
+      slot: 41
+      id: blocks_PURPUR_PILLAR
+    - material: PRISMARINE
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fPrismarine'
+      stack-size: 64
+      page: 2
+      slot: 42
+      id: blocks_PRISMARINE
+    - material: PRISMARINE_BRICKS
+      buy-price: 96.0
+      sell-price: 48.0
+      name: '&fPrismarine Bricks'
+      stack-size: 64
+      page: 2
+      slot: 43
+      id: blocks_PRISMARINE_BRICKS
+    - material: DARK_PRISMARINE
+      buy-price: 120.0
+      sell-price: 60.0
+      name: '&fDark Prismarine'
+      stack-size: 64
+      page: 3
+      slot: 10
+      id: blocks_DARK_PRISMARINE
+    - material: SEA_LANTERN
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fSea Lantern'
+      stack-size: 64
+      page: 3
+      slot: 11
+      id: blocks_SEA_LANTERN
+    - material: SPONGE
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fSponge'
+      stack-size: 64
+      page: 3
+      slot: 12
+      id: blocks_SPONGE
+    - material: WET_SPONGE
+      buy-price: 1900.0
+      sell-price: 950.0
+      name: '&fWet Sponge'
+      stack-size: 64
+      page: 3
+      slot: 13
+      id: blocks_WET_SPONGE
+    - material: MAGMA_BLOCK
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fMagma Block'
+      stack-size: 64
+      page: 3
+      slot: 14
+      id: blocks_MAGMA_BLOCK
+    - material: NETHER_BRICKS
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fNether Bricks'
+      stack-size: 64
+      page: 3
+      slot: 15
+      id: blocks_NETHER_BRICKS
+    - material: RED_NETHER_BRICKS
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fRed Nether Bricks'
+      stack-size: 64
+      page: 3
+      slot: 16
+      id: blocks_RED_NETHER_BRICKS
+    - material: WARPED_NYLIUM
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fWarped Nylium'
+      stack-size: 64
+      page: 3
+      slot: 19
+      id: blocks_WARPED_NYLIUM
+    - material: CRIMSON_NYLIUM
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fCrimson Nylium'
+      stack-size: 64
+      page: 3
+      slot: 20
+      id: blocks_CRIMSON_NYLIUM
+    - material: NETHER_WART_BLOCK
+      buy-price: 68.0
+      sell-price: 34.0
+      name: '&fNether Wart Block'
+      stack-size: 64
+      page: 3
+      slot: 21
+      id: blocks_NETHER_WART_BLOCK
+    - material: HAY_BLOCK
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fHay Bale'
+      stack-size: 64
+      page: 3
+      slot: 22
+      id: blocks_HAY_BLOCK
+    - material: BONE_BLOCK
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fBone Block'
+      stack-size: 64
+      page: 3
+      slot: 23
+      id: blocks_BONE_BLOCK
+    - material: COAL_BLOCK
+      buy-price: 700.0
+      sell-price: 315.0
+      name: '&fBlock of Coal'
+      stack-size: 64
+      page: 3
+      slot: 24
+      id: blocks_COAL_BLOCK
+    - material: IRON_BLOCK
+      buy-price: 4800.0
+      sell-price: 2250.0
+      name: '&fBlock of Iron'
+      stack-size: 64
+      page: 3
+      slot: 25
+      id: blocks_IRON_BLOCK
+    - material: GOLD_BLOCK
+      buy-price: 8500.0
+      sell-price: 4050.0
+      name: '&fBlock of Gold'
+      stack-size: 64
+      page: 3
+      slot: 28
+      id: blocks_GOLD_BLOCK
+    - material: DIAMOND_BLOCK
+      buy-price: 19000.0
+      sell-price: 9000.0
+      name: '&fBlock of Diamond'
+      stack-size: 64
+      page: 3
+      slot: 29
+      id: blocks_DIAMOND_BLOCK
+    - material: EMERALD_BLOCK
+      buy-price: 14200.0
+      sell-price: 6750.0
+      name: '&fBlock of Emerald'
+      stack-size: 64
+      page: 3
+      slot: 30
+      id: blocks_EMERALD_BLOCK
+    - material: REDSTONE_BLOCK
+      buy-price: 520.0
+      sell-price: 250.0
+      name: '&fBlock of Redstone'
+      stack-size: 64
+      page: 3
+      slot: 31
+      id: blocks_REDSTONE_BLOCK
+    - material: LAPIS_BLOCK
+      buy-price: 1520.0
+      sell-price: 720.0
+      name: '&fBlock of Lapis Lazuli'
+      stack-size: 64
+      page: 3
+      slot: 32
+      id: blocks_LAPIS_BLOCK
+    - material: QUARTZ_BLOCK
+      buy-price: 380.0
+      sell-price: 180.0
+      name: '&fBlock of Quartz'
+      stack-size: 64
+      page: 3
+      slot: 33
+      id: blocks_QUARTZ_BLOCK
+    - material: COPPER_BLOCK
+      buy-price: 850.0
+      sell-price: 405.0
+      name: '&fBlock of Copper'
+      stack-size: 64
+      page: 3
+      slot: 34
+      id: blocks_COPPER_BLOCK
+    - material: AMETHYST_BLOCK
+      buy-price: 500.0
+      sell-price: 240.0
+      name: '&fBlock of Amethyst'
+      stack-size: 64
+      page: 3
+      slot: 37
+      id: blocks_AMETHYST_BLOCK
+    - material: BAMBOO_BLOCK
+      buy-price: 340.0
+      sell-price: 162.0
+      name: '&fBlock of Bamboo'
+      stack-size: 64
+      page: 3
+      slot: 38
+      id: blocks_BAMBOO_BLOCK
+    - material: MOSS_BLOCK
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fMoss Block'
+      stack-size: 64
+      page: 3
+      slot: 39
+      id: blocks_MOSS_BLOCK
+    - material: SNOW_BLOCK
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fSnow Block'
+      stack-size: 64
+      page: 3
+      slot: 40
+      id: blocks_SNOW_BLOCK
+    - material: ICE
+      buy-price: 48.0
+      sell-price: 24.0
+      name: '&fIce'
+      stack-size: 64
+      page: 3
+      slot: 41
+      id: blocks_ICE
+    - material: PACKED_ICE
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fPacked Ice'
+      stack-size: 64
+      page: 3
+      slot: 42
+      id: blocks_PACKED_ICE
+    - material: BLUE_ICE
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fBlue Ice'
+      stack-size: 64
+      page: 3
+      slot: 43
+      id: blocks_BLUE_ICE
+    - material: GLOWSTONE
+      buy-price: 160.0
+      sell-price: 80.0
+      name: '&fGlowstone'
+      stack-size: 64
+      page: 4
+      slot: 10
+      id: blocks_GLOWSTONE
+    - material: SHROOMLIGHT
+      buy-price: 140.0
+      sell-price: 70.0
+      name: '&fShroomlight'
+      stack-size: 64
+      page: 4
+      slot: 11
+      id: blocks_SHROOMLIGHT
+    - material: SCULK
+      buy-price: 160.0
+      sell-price: 80.0
+      name: '&fSculk'
+      stack-size: 64
+      page: 4
+      slot: 12
+      id: blocks_SCULK
+    - material: SCULK_CATALYST
+      buy-price: 1000.0
+      sell-price: 500.0
+      name: '&fSculk Catalyst'
+      stack-size: 64
+      page: 4
+      slot: 13
+      id: blocks_SCULK_CATALYST
+    - material: SCULK_SENSOR
+      buy-price: 1400.0
+      sell-price: 700.0
+      name: '&fSculk Sensor'
+      stack-size: 64
+      page: 4
+      slot: 14
+      id: blocks_SCULK_SENSOR
+    - material: REINFORCED_DEEPSLATE
+      buy-price: 6000.0
+      sell-price: 3000.0
+      name: '&fReinforced Deepslate'
+      stack-size: 64
+      page: 4
+      slot: 15
+      id: blocks_REINFORCED_DEEPSLATE
+  wood:
+    name: '&6🪵 Wood'
+    material: OAK_LOG
+    slot: 11
+    lore:
+    - '&7Logs, planks and wooden blocks'
+    - '&8110 items • 4 pages'
+    items:
+    - material: OAK_LOG
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fOak Log'
+      stack-size: 64
+      page: 1
+      slot: 10
+      id: wood_OAK_LOG
+    - material: OAK_PLANKS
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fOak Planks'
+      stack-size: 64
+      page: 1
+      slot: 11
+      id: wood_OAK_PLANKS
+    - material: OAK_WOOD
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fOak Wood'
+      stack-size: 64
+      page: 1
+      slot: 12
+      id: wood_OAK_WOOD
+    - material: OAK_LEAVES
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fOak Leaves'
+      stack-size: 64
+      page: 1
+      slot: 13
+      id: wood_OAK_LEAVES
+    - material: OAK_SLAB
+      buy-price: 10.0
+      sell-price: 5.0
+      name: '&fOak Slab'
+      stack-size: 64
+      page: 1
+      slot: 14
+      id: wood_OAK_SLAB
+    - material: OAK_STAIRS
+      buy-price: 20.0
+      sell-price: 10.0
+      name: '&fOak Stairs'
+      stack-size: 64
+      page: 1
+      slot: 15
+      id: wood_OAK_STAIRS
+    - material: OAK_FENCE
+      buy-price: 32.0
+      sell-price: 16.0
+      name: '&fOak Fence'
+      stack-size: 64
+      page: 1
+      slot: 16
+      id: wood_OAK_FENCE
+    - material: OAK_DOOR
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fOak Door'
+      stack-size: 64
+      page: 1
+      slot: 19
+      id: wood_OAK_DOOR
+    - material: OAK_TRAPDOOR
+      buy-price: 64.0
+      sell-price: 32.0
+      name: '&fOak Trapdoor'
+      stack-size: 64
+      page: 1
+      slot: 20
+      id: wood_OAK_TRAPDOOR
+    - material: OAK_SIGN
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fOak Sign'
+      stack-size: 16
+      page: 1
+      slot: 21
+      id: wood_OAK_SIGN
+    - material: SPRUCE_LOG
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fSpruce Log'
+      stack-size: 64
+      page: 1
+      slot: 22
+      id: wood_SPRUCE_LOG
+    - material: SPRUCE_PLANKS
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fSpruce Planks'
+      stack-size: 64
+      page: 1
+      slot: 23
+      id: wood_SPRUCE_PLANKS
+    - material: SPRUCE_WOOD
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fSpruce Wood'
+      stack-size: 64
+      page: 1
+      slot: 24
+      id: wood_SPRUCE_WOOD
+    - material: SPRUCE_LEAVES
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fSpruce Leaves'
+      stack-size: 64
+      page: 1
+      slot: 25
+      id: wood_SPRUCE_LEAVES
+    - material: SPRUCE_SLAB
+      buy-price: 10.0
+      sell-price: 5.0
+      name: '&fSpruce Slab'
+      stack-size: 64
+      page: 1
+      slot: 28
+      id: wood_SPRUCE_SLAB
+    - material: SPRUCE_STAIRS
+      buy-price: 20.0
+      sell-price: 10.0
+      name: '&fSpruce Stairs'
+      stack-size: 64
+      page: 1
+      slot: 29
+      id: wood_SPRUCE_STAIRS
+    - material: SPRUCE_FENCE
+      buy-price: 32.0
+      sell-price: 16.0
+      name: '&fSpruce Fence'
+      stack-size: 64
+      page: 1
+      slot: 30
+      id: wood_SPRUCE_FENCE
+    - material: SPRUCE_DOOR
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fSpruce Door'
+      stack-size: 64
+      page: 1
+      slot: 31
+      id: wood_SPRUCE_DOOR
+    - material: SPRUCE_TRAPDOOR
+      buy-price: 64.0
+      sell-price: 32.0
+      name: '&fSpruce Trapdoor'
+      stack-size: 64
+      page: 1
+      slot: 32
+      id: wood_SPRUCE_TRAPDOOR
+    - material: SPRUCE_SIGN
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fSpruce Sign'
+      stack-size: 16
+      page: 1
+      slot: 33
+      id: wood_SPRUCE_SIGN
+    - material: BIRCH_LOG
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fBirch Log'
+      stack-size: 64
+      page: 1
+      slot: 34
+      id: wood_BIRCH_LOG
+    - material: BIRCH_PLANKS
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fBirch Planks'
+      stack-size: 64
+      page: 1
+      slot: 37
+      id: wood_BIRCH_PLANKS
+    - material: BIRCH_WOOD
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fBirch Wood'
+      stack-size: 64
+      page: 1
+      slot: 38
+      id: wood_BIRCH_WOOD
+    - material: BIRCH_LEAVES
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fBirch Leaves'
+      stack-size: 64
+      page: 1
+      slot: 39
+      id: wood_BIRCH_LEAVES
+    - material: BIRCH_SLAB
+      buy-price: 10.0
+      sell-price: 5.0
+      name: '&fBirch Slab'
+      stack-size: 64
+      page: 1
+      slot: 40
+      id: wood_BIRCH_SLAB
+    - material: BIRCH_STAIRS
+      buy-price: 20.0
+      sell-price: 10.0
+      name: '&fBirch Stairs'
+      stack-size: 64
+      page: 1
+      slot: 41
+      id: wood_BIRCH_STAIRS
+    - material: BIRCH_FENCE
+      buy-price: 32.0
+      sell-price: 16.0
+      name: '&fBirch Fence'
+      stack-size: 64
+      page: 1
+      slot: 42
+      id: wood_BIRCH_FENCE
+    - material: BIRCH_DOOR
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fBirch Door'
+      stack-size: 64
+      page: 1
+      slot: 43
+      id: wood_BIRCH_DOOR
+    - material: BIRCH_TRAPDOOR
+      buy-price: 64.0
+      sell-price: 32.0
+      name: '&fBirch Trapdoor'
+      stack-size: 64
+      page: 2
+      slot: 10
+      id: wood_BIRCH_TRAPDOOR
+    - material: BIRCH_SIGN
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fBirch Sign'
+      stack-size: 16
+      page: 2
+      slot: 11
+      id: wood_BIRCH_SIGN
+    - material: JUNGLE_LOG
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fJungle Log'
+      stack-size: 64
+      page: 2
+      slot: 12
+      id: wood_JUNGLE_LOG
+    - material: JUNGLE_PLANKS
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fJungle Planks'
+      stack-size: 64
+      page: 2
+      slot: 13
+      id: wood_JUNGLE_PLANKS
+    - material: JUNGLE_WOOD
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fJungle Wood'
+      stack-size: 64
+      page: 2
+      slot: 14
+      id: wood_JUNGLE_WOOD
+    - material: JUNGLE_LEAVES
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fJungle Leaves'
+      stack-size: 64
+      page: 2
+      slot: 15
+      id: wood_JUNGLE_LEAVES
+    - material: JUNGLE_SLAB
+      buy-price: 10.0
+      sell-price: 5.0
+      name: '&fJungle Slab'
+      stack-size: 64
+      page: 2
+      slot: 16
+      id: wood_JUNGLE_SLAB
+    - material: JUNGLE_STAIRS
+      buy-price: 20.0
+      sell-price: 10.0
+      name: '&fJungle Stairs'
+      stack-size: 64
+      page: 2
+      slot: 19
+      id: wood_JUNGLE_STAIRS
+    - material: JUNGLE_FENCE
+      buy-price: 32.0
+      sell-price: 16.0
+      name: '&fJungle Fence'
+      stack-size: 64
+      page: 2
+      slot: 20
+      id: wood_JUNGLE_FENCE
+    - material: JUNGLE_DOOR
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fJungle Door'
+      stack-size: 64
+      page: 2
+      slot: 21
+      id: wood_JUNGLE_DOOR
+    - material: JUNGLE_TRAPDOOR
+      buy-price: 64.0
+      sell-price: 32.0
+      name: '&fJungle Trapdoor'
+      stack-size: 64
+      page: 2
+      slot: 22
+      id: wood_JUNGLE_TRAPDOOR
+    - material: JUNGLE_SIGN
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fJungle Sign'
+      stack-size: 16
+      page: 2
+      slot: 23
+      id: wood_JUNGLE_SIGN
+    - material: ACACIA_LOG
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fAcacia Log'
+      stack-size: 64
+      page: 2
+      slot: 24
+      id: wood_ACACIA_LOG
+    - material: ACACIA_PLANKS
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fAcacia Planks'
+      stack-size: 64
+      page: 2
+      slot: 25
+      id: wood_ACACIA_PLANKS
+    - material: ACACIA_WOOD
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fAcacia Wood'
+      stack-size: 64
+      page: 2
+      slot: 28
+      id: wood_ACACIA_WOOD
+    - material: ACACIA_LEAVES
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fAcacia Leaves'
+      stack-size: 64
+      page: 2
+      slot: 29
+      id: wood_ACACIA_LEAVES
+    - material: ACACIA_SLAB
+      buy-price: 10.0
+      sell-price: 5.0
+      name: '&fAcacia Slab'
+      stack-size: 64
+      page: 2
+      slot: 30
+      id: wood_ACACIA_SLAB
+    - material: ACACIA_STAIRS
+      buy-price: 20.0
+      sell-price: 10.0
+      name: '&fAcacia Stairs'
+      stack-size: 64
+      page: 2
+      slot: 31
+      id: wood_ACACIA_STAIRS
+    - material: ACACIA_FENCE
+      buy-price: 32.0
+      sell-price: 16.0
+      name: '&fAcacia Fence'
+      stack-size: 64
+      page: 2
+      slot: 32
+      id: wood_ACACIA_FENCE
+    - material: ACACIA_DOOR
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fAcacia Door'
+      stack-size: 64
+      page: 2
+      slot: 33
+      id: wood_ACACIA_DOOR
+    - material: ACACIA_TRAPDOOR
+      buy-price: 64.0
+      sell-price: 32.0
+      name: '&fAcacia Trapdoor'
+      stack-size: 64
+      page: 2
+      slot: 34
+      id: wood_ACACIA_TRAPDOOR
+    - material: ACACIA_SIGN
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fAcacia Sign'
+      stack-size: 16
+      page: 2
+      slot: 37
+      id: wood_ACACIA_SIGN
+    - material: DARK_OAK_LOG
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fDark Oak Log'
+      stack-size: 64
+      page: 2
+      slot: 38
+      id: wood_DARK_OAK_LOG
+    - material: DARK_OAK_PLANKS
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fDark Oak Planks'
+      stack-size: 64
+      page: 2
+      slot: 39
+      id: wood_DARK_OAK_PLANKS
+    - material: DARK_OAK_WOOD
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fDark Oak Wood'
+      stack-size: 64
+      page: 2
+      slot: 40
+      id: wood_DARK_OAK_WOOD
+    - material: DARK_OAK_LEAVES
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fDark Oak Leaves'
+      stack-size: 64
+      page: 2
+      slot: 41
+      id: wood_DARK_OAK_LEAVES
+    - material: DARK_OAK_SLAB
+      buy-price: 10.0
+      sell-price: 5.0
+      name: '&fDark Oak Slab'
+      stack-size: 64
+      page: 2
+      slot: 42
+      id: wood_DARK_OAK_SLAB
+    - material: DARK_OAK_STAIRS
+      buy-price: 20.0
+      sell-price: 10.0
+      name: '&fDark Oak Stairs'
+      stack-size: 64
+      page: 2
+      slot: 43
+      id: wood_DARK_OAK_STAIRS
+    - material: DARK_OAK_FENCE
+      buy-price: 32.0
+      sell-price: 16.0
+      name: '&fDark Oak Fence'
+      stack-size: 64
+      page: 3
+      slot: 10
+      id: wood_DARK_OAK_FENCE
+    - material: DARK_OAK_DOOR
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fDark Oak Door'
+      stack-size: 64
+      page: 3
+      slot: 11
+      id: wood_DARK_OAK_DOOR
+    - material: DARK_OAK_TRAPDOOR
+      buy-price: 64.0
+      sell-price: 32.0
+      name: '&fDark Oak Trapdoor'
+      stack-size: 64
+      page: 3
+      slot: 12
+      id: wood_DARK_OAK_TRAPDOOR
+    - material: DARK_OAK_SIGN
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fDark Oak Sign'
+      stack-size: 16
+      page: 3
+      slot: 13
+      id: wood_DARK_OAK_SIGN
+    - material: MANGROVE_LOG
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fMangrove Log'
+      stack-size: 64
+      page: 3
+      slot: 14
+      id: wood_MANGROVE_LOG
+    - material: MANGROVE_PLANKS
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fMangrove Planks'
+      stack-size: 64
+      page: 3
+      slot: 15
+      id: wood_MANGROVE_PLANKS
+    - material: MANGROVE_WOOD
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fMangrove Wood'
+      stack-size: 64
+      page: 3
+      slot: 16
+      id: wood_MANGROVE_WOOD
+    - material: MANGROVE_LEAVES
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fMangrove Leaves'
+      stack-size: 64
+      page: 3
+      slot: 19
+      id: wood_MANGROVE_LEAVES
+    - material: MANGROVE_SLAB
+      buy-price: 10.0
+      sell-price: 5.0
+      name: '&fMangrove Slab'
+      stack-size: 64
+      page: 3
+      slot: 20
+      id: wood_MANGROVE_SLAB
+    - material: MANGROVE_STAIRS
+      buy-price: 20.0
+      sell-price: 10.0
+      name: '&fMangrove Stairs'
+      stack-size: 64
+      page: 3
+      slot: 21
+      id: wood_MANGROVE_STAIRS
+    - material: MANGROVE_FENCE
+      buy-price: 32.0
+      sell-price: 16.0
+      name: '&fMangrove Fence'
+      stack-size: 64
+      page: 3
+      slot: 22
+      id: wood_MANGROVE_FENCE
+    - material: MANGROVE_DOOR
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fMangrove Door'
+      stack-size: 64
+      page: 3
+      slot: 23
+      id: wood_MANGROVE_DOOR
+    - material: MANGROVE_TRAPDOOR
+      buy-price: 64.0
+      sell-price: 32.0
+      name: '&fMangrove Trapdoor'
+      stack-size: 64
+      page: 3
+      slot: 24
+      id: wood_MANGROVE_TRAPDOOR
+    - material: MANGROVE_SIGN
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fMangrove Sign'
+      stack-size: 16
+      page: 3
+      slot: 25
+      id: wood_MANGROVE_SIGN
+    - material: CHERRY_LOG
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fCherry Log'
+      stack-size: 64
+      page: 3
+      slot: 28
+      id: wood_CHERRY_LOG
+    - material: CHERRY_PLANKS
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fCherry Planks'
+      stack-size: 64
+      page: 3
+      slot: 29
+      id: wood_CHERRY_PLANKS
+    - material: CHERRY_WOOD
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fCherry Wood'
+      stack-size: 64
+      page: 3
+      slot: 30
+      id: wood_CHERRY_WOOD
+    - material: CHERRY_LEAVES
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fCherry Leaves'
+      stack-size: 64
+      page: 3
+      slot: 31
+      id: wood_CHERRY_LEAVES
+    - material: CHERRY_SLAB
+      buy-price: 10.0
+      sell-price: 5.0
+      name: '&fCherry Slab'
+      stack-size: 64
+      page: 3
+      slot: 32
+      id: wood_CHERRY_SLAB
+    - material: CHERRY_STAIRS
+      buy-price: 20.0
+      sell-price: 10.0
+      name: '&fCherry Stairs'
+      stack-size: 64
+      page: 3
+      slot: 33
+      id: wood_CHERRY_STAIRS
+    - material: CHERRY_FENCE
+      buy-price: 32.0
+      sell-price: 16.0
+      name: '&fCherry Fence'
+      stack-size: 64
+      page: 3
+      slot: 34
+      id: wood_CHERRY_FENCE
+    - material: CHERRY_DOOR
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fCherry Door'
+      stack-size: 64
+      page: 3
+      slot: 37
+      id: wood_CHERRY_DOOR
+    - material: CHERRY_TRAPDOOR
+      buy-price: 64.0
+      sell-price: 32.0
+      name: '&fCherry Trapdoor'
+      stack-size: 64
+      page: 3
+      slot: 38
+      id: wood_CHERRY_TRAPDOOR
+    - material: CHERRY_SIGN
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fCherry Sign'
+      stack-size: 16
+      page: 3
+      slot: 39
+      id: wood_CHERRY_SIGN
+    - material: BAMBOO_LOG
+      buy-price: 44.0
+      sell-price: 22.0
+      name: '&fBamboo Log'
+      stack-size: 64
+      page: 3
+      slot: 40
+      id: wood_BAMBOO_LOG
+    - material: BAMBOO_PLANKS
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fBamboo Planks'
+      stack-size: 64
+      page: 3
+      slot: 41
+      id: wood_BAMBOO_PLANKS
+    - material: BAMBOO_WOOD
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fBamboo Wood'
+      stack-size: 64
+      page: 3
+      slot: 42
+      id: wood_BAMBOO_WOOD
+    - material: BAMBOO_WART_BLOCK
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fBamboo Wart Block'
+      stack-size: 64
+      page: 3
+      slot: 43
+      id: wood_BAMBOO_WART_BLOCK
+    - material: BAMBOO_SLAB
+      buy-price: 10.0
+      sell-price: 5.0
+      name: '&fBamboo Slab'
+      stack-size: 64
+      page: 4
+      slot: 10
+      id: wood_BAMBOO_SLAB
+    - material: BAMBOO_STAIRS
+      buy-price: 20.0
+      sell-price: 10.0
+      name: '&fBamboo Stairs'
+      stack-size: 64
+      page: 4
+      slot: 11
+      id: wood_BAMBOO_STAIRS
+    - material: BAMBOO_FENCE
+      buy-price: 32.0
+      sell-price: 16.0
+      name: '&fBamboo Fence'
+      stack-size: 64
+      page: 4
+      slot: 12
+      id: wood_BAMBOO_FENCE
+    - material: BAMBOO_DOOR
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fBamboo Door'
+      stack-size: 64
+      page: 4
+      slot: 13
+      id: wood_BAMBOO_DOOR
+    - material: BAMBOO_TRAPDOOR
+      buy-price: 64.0
+      sell-price: 32.0
+      name: '&fBamboo Trapdoor'
+      stack-size: 64
+      page: 4
+      slot: 14
+      id: wood_BAMBOO_TRAPDOOR
+    - material: BAMBOO_SIGN
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fBamboo Sign'
+      stack-size: 16
+      page: 4
+      slot: 15
+      id: wood_BAMBOO_SIGN
+    - material: CRIMSON_STEM
+      buy-price: 44.0
+      sell-price: 22.0
+      name: '&fCrimson Stem'
+      stack-size: 64
+      page: 4
+      slot: 16
+      id: wood_CRIMSON_STEM
+    - material: CRIMSON_PLANKS
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fCrimson Planks'
+      stack-size: 64
+      page: 4
+      slot: 19
+      id: wood_CRIMSON_PLANKS
+    - material: CRIMSON_HYPHAE
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fCrimson Wood'
+      stack-size: 64
+      page: 4
+      slot: 20
+      id: wood_CRIMSON_HYPHAE
+    - material: CRIMSON_WART_BLOCK
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fCrimson Wart Block'
+      stack-size: 64
+      page: 4
+      slot: 21
+      id: wood_CRIMSON_WART_BLOCK
+    - material: CRIMSON_SLAB
+      buy-price: 10.0
+      sell-price: 5.0
+      name: '&fCrimson Slab'
+      stack-size: 64
+      page: 4
+      slot: 22
+      id: wood_CRIMSON_SLAB
+    - material: CRIMSON_STAIRS
+      buy-price: 20.0
+      sell-price: 10.0
+      name: '&fCrimson Stairs'
+      stack-size: 64
+      page: 4
+      slot: 23
+      id: wood_CRIMSON_STAIRS
+    - material: CRIMSON_FENCE
+      buy-price: 32.0
+      sell-price: 16.0
+      name: '&fCrimson Fence'
+      stack-size: 64
+      page: 4
+      slot: 24
+      id: wood_CRIMSON_FENCE
+    - material: CRIMSON_DOOR
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fCrimson Door'
+      stack-size: 64
+      page: 4
+      slot: 25
+      id: wood_CRIMSON_DOOR
+    - material: CRIMSON_TRAPDOOR
+      buy-price: 64.0
+      sell-price: 32.0
+      name: '&fCrimson Trapdoor'
+      stack-size: 64
+      page: 4
+      slot: 28
+      id: wood_CRIMSON_TRAPDOOR
+    - material: CRIMSON_SIGN
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fCrimson Sign'
+      stack-size: 16
+      page: 4
+      slot: 29
+      id: wood_CRIMSON_SIGN
+    - material: WARPED_STEM
+      buy-price: 44.0
+      sell-price: 22.0
+      name: '&fWarped Stem'
+      stack-size: 64
+      page: 4
+      slot: 30
+      id: wood_WARPED_STEM
+    - material: WARPED_PLANKS
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fWarped Planks'
+      stack-size: 64
+      page: 4
+      slot: 31
+      id: wood_WARPED_PLANKS
+    - material: WARPED_HYPHAE
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fWarped Wood'
+      stack-size: 64
+      page: 4
+      slot: 32
+      id: wood_WARPED_HYPHAE
+    - material: WARPED_WART_BLOCK
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fWarped Wart Block'
+      stack-size: 64
+      page: 4
+      slot: 33
+      id: wood_WARPED_WART_BLOCK
+    - material: WARPED_SLAB
+      buy-price: 10.0
+      sell-price: 5.0
+      name: '&fWarped Slab'
+      stack-size: 64
+      page: 4
+      slot: 34
+      id: wood_WARPED_SLAB
+    - material: WARPED_STAIRS
+      buy-price: 20.0
+      sell-price: 10.0
+      name: '&fWarped Stairs'
+      stack-size: 64
+      page: 4
+      slot: 37
+      id: wood_WARPED_STAIRS
+    - material: WARPED_FENCE
+      buy-price: 32.0
+      sell-price: 16.0
+      name: '&fWarped Fence'
+      stack-size: 64
+      page: 4
+      slot: 38
+      id: wood_WARPED_FENCE
+    - material: WARPED_DOOR
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fWarped Door'
+      stack-size: 64
+      page: 4
+      slot: 39
+      id: wood_WARPED_DOOR
+    - material: WARPED_TRAPDOOR
+      buy-price: 64.0
+      sell-price: 32.0
+      name: '&fWarped Trapdoor'
+      stack-size: 64
+      page: 4
+      slot: 40
+      id: wood_WARPED_TRAPDOOR
+    - material: WARPED_SIGN
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fWarped Sign'
+      stack-size: 16
+      page: 4
+      slot: 41
+      id: wood_WARPED_SIGN
+  ores:
+    name: '&b💎 Ores & Minerals'
+    material: DIAMOND
+    slot: 12
+    lore:
+    - '&7Ores, ingots, gems and minerals'
+    - '&815 items • 1 page'
+    items:
+    - material: COAL
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fCoal'
+      stack-size: 64
+      page: 1
+      slot: 10
+      id: ores_COAL
+    - material: RAW_IRON
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fRaw Iron'
+      stack-size: 64
+      page: 1
+      slot: 11
+      id: ores_RAW_IRON
+    - material: IRON_INGOT
+      buy-price: 500.0
+      sell-price: 250.0
+      name: '&fIron Ingot'
+      stack-size: 64
+      page: 1
+      slot: 12
+      id: ores_IRON_INGOT
+    - material: RAW_GOLD
+      buy-price: 260.0
+      sell-price: 130.0
+      name: '&fRaw Gold'
+      stack-size: 64
+      page: 1
+      slot: 13
+      id: ores_RAW_GOLD
+    - material: GOLD_INGOT
+      buy-price: 900.0
+      sell-price: 450.0
+      name: '&fGold Ingot'
+      stack-size: 64
+      page: 1
+      slot: 14
+      id: ores_GOLD_INGOT
+    - material: RAW_COPPER
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fRaw Copper'
+      stack-size: 64
+      page: 1
+      slot: 15
+      id: ores_RAW_COPPER
+    - material: COPPER_INGOT
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fCopper Ingot'
+      stack-size: 64
+      page: 1
+      slot: 16
+      id: ores_COPPER_INGOT
+    - material: DIAMOND
+      buy-price: 2000.0
+      sell-price: 1000.0
+      name: '&fDiamond'
+      stack-size: 64
+      page: 1
+      slot: 19
+      id: ores_DIAMOND
+    - material: EMERALD
+      buy-price: 1500.0
+      sell-price: 750.0
+      name: '&fEmerald'
+      stack-size: 64
+      page: 1
+      slot: 20
+      id: ores_EMERALD
+    - material: REDSTONE
+      buy-price: 55.0
+      sell-price: 27.5
+      name: '&fRedstone Dust'
+      stack-size: 64
+      page: 1
+      slot: 21
+      id: ores_REDSTONE
+    - material: QUARTZ
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fNether Quartz'
+      stack-size: 64
+      page: 1
+      slot: 22
+      id: ores_QUARTZ
+    - material: AMETHYST_SHARD
+      buy-price: 120.0
+      sell-price: 60.0
+      name: '&fAmethyst Shard'
+      stack-size: 64
+      page: 1
+      slot: 23
+      id: ores_AMETHYST_SHARD
+    - material: ANCIENT_DEBRIS
+      buy-price: 9000.0
+      sell-price: 4500.0
+      name: '&fAncient Debris'
+      stack-size: 64
+      page: 1
+      slot: 24
+      id: ores_ANCIENT_DEBRIS
+    - material: NETHERITE_SCRAP
+      buy-price: 10000.0
+      sell-price: 5000.0
+      name: '&fNetherite Scrap'
+      stack-size: 64
+      page: 1
+      slot: 25
+      id: ores_NETHERITE_SCRAP
+    - material: NETHERITE_INGOT
+      buy-price: 45000.0
+      sell-price: 22000.0
+      name: '&fNetherite Ingot'
+      stack-size: 64
+      page: 1
+      slot: 28
+      id: ores_NETHERITE_INGOT
+  farming:
+    name: '&e🌾 Farming'
+    material: WHEAT
+    slot: 13
+    lore:
+    - '&7Crops, plants and farming materials'
+    - '&832 items • 2 pages'
+    items:
+    - material: WHEAT
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fWheat'
+      stack-size: 64
+      page: 1
+      slot: 10
+      id: farming_WHEAT
+    - material: WHEAT_SEEDS
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fWheat Seeds'
+      stack-size: 64
+      page: 1
+      slot: 11
+      id: farming_WHEAT_SEEDS
+    - material: CARROT
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fCarrot'
+      stack-size: 64
+      page: 1
+      slot: 12
+      id: farming_CARROT
+    - material: POTATO
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fPotato'
+      stack-size: 64
+      page: 1
+      slot: 13
+      id: farming_POTATO
+    - material: BEETROOT
+      buy-price: 56.0
+      sell-price: 28.0
+      name: '&fBeetroot'
+      stack-size: 64
+      page: 1
+      slot: 14
+      id: farming_BEETROOT
+    - material: BEETROOT_SEEDS
+      buy-price: 16.0
+      sell-price: 8.0
+      name: '&fBeetroot Seeds'
+      stack-size: 64
+      page: 1
+      slot: 15
+      id: farming_BEETROOT_SEEDS
+    - material: MELON_SLICE
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fMelon Slice'
+      stack-size: 64
+      page: 1
+      slot: 16
+      id: farming_MELON_SLICE
+    - material: PUMPKIN
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fPumpkin'
+      stack-size: 64
+      page: 1
+      slot: 19
+      id: farming_PUMPKIN
+    - material: SUGAR_CANE
+      buy-price: 110.0
+      sell-price: 55.0
+      name: '&fSugar Cane'
+      stack-size: 64
+      page: 1
+      slot: 20
+      id: farming_SUGAR_CANE
+    - material: CACTUS
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fCactus'
+      stack-size: 64
+      page: 1
+      slot: 21
+      id: farming_CACTUS
+    - material: BAMBOO
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fBamboo'
+      stack-size: 64
+      page: 1
+      slot: 22
+      id: farming_BAMBOO
+    - material: COCOA_BEANS
+      buy-price: 110.0
+      sell-price: 55.0
+      name: '&fCocoa Beans'
+      stack-size: 64
+      page: 1
+      slot: 23
+      id: farming_COCOA_BEANS
+    - material: SWEET_BERRIES
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fSweet Berries'
+      stack-size: 64
+      page: 1
+      slot: 24
+      id: farming_SWEET_BERRIES
+    - material: GLOW_BERRIES
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fGlow Berries'
+      stack-size: 64
+      page: 1
+      slot: 25
+      id: farming_GLOW_BERRIES
+    - material: KELP
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fKelp'
+      stack-size: 64
+      page: 1
+      slot: 28
+      id: farming_KELP
+    - material: SEA_PICKLE
+      buy-price: 130.0
+      sell-price: 65.0
+      name: '&fSea Pickle'
+      stack-size: 64
+      page: 1
+      slot: 29
+      id: farming_SEA_PICKLE
+    - material: NETHER_WART
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fNether Wart'
+      stack-size: 64
+      page: 1
+      slot: 30
+      id: farming_NETHER_WART
+    - material: BROWN_MUSHROOM
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fBrown Mushroom'
+      stack-size: 64
+      page: 1
+      slot: 31
+      id: farming_BROWN_MUSHROOM
+    - material: RED_MUSHROOM
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fRed Mushroom'
+      stack-size: 64
+      page: 1
+      slot: 32
+      id: farming_RED_MUSHROOM
+    - material: VINE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fVine'
+      stack-size: 64
+      page: 1
+      slot: 33
+      id: farming_VINE
+    - material: LILY_PAD
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fLily Pad'
+      stack-size: 64
+      page: 1
+      slot: 34
+      id: farming_LILY_PAD
+    - material: WITHER_ROSE
+      buy-price: 1200.0
+      sell-price: 600.0
+      name: '&fWither Rose'
+      stack-size: 64
+      page: 1
+      slot: 37
+      id: farming_WITHER_ROSE
+    - material: TORCHFLOWER
+      buy-price: 500.0
+      sell-price: 250.0
+      name: '&fTorchflower'
+      stack-size: 64
+      page: 1
+      slot: 38
+      id: farming_TORCHFLOWER
+    - material: PITCHER_PLANT
+      buy-price: 600.0
+      sell-price: 300.0
+      name: '&fPitcher Plant'
+      stack-size: 64
+      page: 1
+      slot: 39
+      id: farming_PITCHER_PLANT
+    - material: PINK_PETALS
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fPink Petals'
+      stack-size: 64
+      page: 1
+      slot: 40
+      id: farming_PINK_PETALS
+    - material: SPORE_BLOSSOM
+      buy-price: 200.0
+      sell-price: 100.0
+      name: '&fSpore Blossom'
+      stack-size: 64
+      page: 1
+      slot: 41
+      id: farming_SPORE_BLOSSOM
+    - material: MOSS_CARPET
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fMoss Carpet'
+      stack-size: 64
+      page: 1
+      slot: 42
+      id: farming_MOSS_CARPET
+    - material: AZALEA
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fAzalea'
+      stack-size: 64
+      page: 1
+      slot: 43
+      id: farming_AZALEA
+    - material: FLOWERING_AZALEA
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fFlowering Azalea'
+      stack-size: 64
+      page: 2
+      slot: 10
+      id: farming_FLOWERING_AZALEA
+    - material: BIG_DRIPLEAF
+      buy-price: 110.0
+      sell-price: 55.0
+      name: '&fBig Dripleaf'
+      stack-size: 64
+      page: 2
+      slot: 11
+      id: farming_BIG_DRIPLEAF
+    - material: SMALL_DRIPLEAF
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fSmall Dripleaf'
+      stack-size: 64
+      page: 2
+      slot: 12
+      id: farming_SMALL_DRIPLEAF
+    - material: SEA_GRASS
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fSeagrass'
+      stack-size: 64
+      page: 2
+      slot: 13
+      id: farming_SEA_GRASS
+  mob_drops:
+    name: '&c☠ Mob Drops'
+    material: BONE
+    slot: 14
+    lore:
+    - '&7Creature drops and mob materials'
+    - '&830 items • 2 pages'
+    items:
+    - material: ROTTEN_FLESH
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fRotten Flesh'
+      stack-size: 64
+      page: 1
+      slot: 10
+      id: mob_drops_ROTTEN_FLESH
+    - material: BONE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fBone'
+      stack-size: 64
+      page: 1
+      slot: 11
+      id: mob_drops_BONE
+    - material: BONE_MEAL
+      buy-price: 36.0
+      sell-price: 18.0
+      name: '&fBone Meal'
+      stack-size: 64
+      page: 1
+      slot: 12
+      id: mob_drops_BONE_MEAL
+    - material: STRING
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fString'
+      stack-size: 64
+      page: 1
+      slot: 13
+      id: mob_drops_STRING
+    - material: SPIDER_EYE
+      buy-price: 120.0
+      sell-price: 60.0
+      name: '&fSpider Eye'
+      stack-size: 64
+      page: 1
+      slot: 14
+      id: mob_drops_SPIDER_EYE
+    - material: GUNPOWDER
+      buy-price: 440.0
+      sell-price: 220.0
+      name: '&fGunpowder'
+      stack-size: 64
+      page: 1
+      slot: 15
+      id: mob_drops_GUNPOWDER
+    - material: ENDER_PEARL
+      buy-price: 300.0
+      sell-price: 150.0
+      name: '&fEnder Pearl'
+      stack-size: 64
+      page: 1
+      slot: 16
+      id: mob_drops_ENDER_PEARL
+    - material: BLAZE_ROD
+      buy-price: 600.0
+      sell-price: 300.0
+      name: '&fBlaze Rod'
+      stack-size: 64
+      page: 1
+      slot: 19
+      id: mob_drops_BLAZE_ROD
+    - material: GHAST_TEAR
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fGhast Tear'
+      stack-size: 64
+      page: 1
+      slot: 20
+      id: mob_drops_GHAST_TEAR
+    - material: SLIME_BALL
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fSlimeball'
+      stack-size: 64
+      page: 1
+      slot: 21
+      id: mob_drops_SLIME_BALL
+    - material: LEATHER
+      buy-price: 160.0
+      sell-price: 80.0
+      name: '&fLeather'
+      stack-size: 64
+      page: 1
+      slot: 22
+      id: mob_drops_LEATHER
+    - material: FEATHER
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fFeather'
+      stack-size: 64
+      page: 1
+      slot: 23
+      id: mob_drops_FEATHER
+    - material: GLOW_INK_SAC
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fGlow Ink Sac'
+      stack-size: 64
+      page: 1
+      slot: 24
+      id: mob_drops_GLOW_INK_SAC
+    - material: PRISMARINE_SHARD
+      buy-price: 140.0
+      sell-price: 70.0
+      name: '&fPrismarine Shard'
+      stack-size: 64
+      page: 1
+      slot: 25
+      id: mob_drops_PRISMARINE_SHARD
+    - material: PRISMARINE_CRYSTALS
+      buy-price: 220.0
+      sell-price: 110.0
+      name: '&fPrismarine Crystals'
+      stack-size: 64
+      page: 1
+      slot: 28
+      id: mob_drops_PRISMARINE_CRYSTALS
+    - material: RABBIT_HIDE
+      buy-price: 120.0
+      sell-price: 60.0
+      name: '&fRabbit Hide'
+      stack-size: 64
+      page: 1
+      slot: 29
+      id: mob_drops_RABBIT_HIDE
+    - material: SHULKER_SHELL
+      buy-price: 5000.0
+      sell-price: 2500.0
+      name: '&fShulker Shell'
+      stack-size: 64
+      page: 1
+      slot: 30
+      id: mob_drops_SHULKER_SHELL
+    - material: NAUTILUS_SHELL
+      buy-price: 1400.0
+      sell-price: 700.0
+      name: '&fNautilus Shell'
+      stack-size: 64
+      page: 1
+      slot: 31
+      id: mob_drops_NAUTILUS_SHELL
+    - material: HEART_OF_THE_SEA
+      buy-price: 25000.0
+      sell-price: 12500.0
+      name: '&fHeart of the Sea'
+      stack-size: 1
+      page: 1
+      slot: 32
+      id: mob_drops_HEART_OF_THE_SEA
+    - material: TURTLE_SCUTE
+      buy-price: 1400.0
+      sell-price: 700.0
+      name: '&fTurtle Scute'
+      stack-size: 64
+      page: 1
+      slot: 33
+      id: mob_drops_TURTLE_SCUTE
+    - material: ARMADILLO_SCUTE
+      buy-price: 1000.0
+      sell-price: 500.0
+      name: '&fArmadillo Scute'
+      stack-size: 64
+      page: 1
+      slot: 34
+      id: mob_drops_ARMADILLO_SCUTE
+    - material: BREEZE_ROD
+      buy-price: 1200.0
+      sell-price: 600.0
+      name: '&fBreeze Rod'
+      stack-size: 64
+      page: 1
+      slot: 37
+      id: mob_drops_BREEZE_ROD
+    - material: WIND_CHARGE
+      buy-price: 500.0
+      sell-price: 250.0
+      name: '&fWind Charge'
+      stack-size: 64
+      page: 1
+      slot: 38
+      id: mob_drops_WIND_CHARGE
+    - material: OMINOUS_TRIAL_KEY
+      buy-price: 12000.0
+      sell-price: 6000.0
+      name: '&fOminous Trial Key'
+      stack-size: 64
+      page: 1
+      slot: 39
+      id: mob_drops_OMINOUS_TRIAL_KEY
+    - material: TRIAL_KEY
+      buy-price: 3000.0
+      sell-price: 1500.0
+      name: '&fTrial Key'
+      stack-size: 64
+      page: 1
+      slot: 40
+      id: mob_drops_TRIAL_KEY
+    - material: ECHO_SHARD
+      buy-price: 12000.0
+      sell-price: 6000.0
+      name: '&fEcho Shard'
+      stack-size: 64
+      page: 1
+      slot: 41
+      id: mob_drops_ECHO_SHARD
+    - material: DISC_FRAGMENT_5
+      buy-price: 2400.0
+      sell-price: 1200.0
+      name: '&fDisc Fragment 5'
+      stack-size: 64
+      page: 1
+      slot: 42
+      id: mob_drops_DISC_FRAGMENT_5
+    - material: DRAGON_BREATH
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fDragon''s Breath'
+      stack-size: 64
+      page: 1
+      slot: 43
+      id: mob_drops_DRAGON_BREATH
+    - material: NETHER_STAR
+      buy-price: 75000.0
+      sell-price: 37500.0
+      name: '&fNether Star'
+      stack-size: 1
+      page: 2
+      slot: 10
+      id: mob_drops_NETHER_STAR
+    - material: TOTEM_OF_UNDYING
+      buy-price: 50000.0
+      sell-price: 25000.0
+      name: '&fTotem of Undying'
+      stack-size: 1
+      page: 2
+      slot: 11
+      id: mob_drops_TOTEM_OF_UNDYING
+  food:
+    name: '&6🍖 Food'
+    material: COOKED_BEEF
+    slot: 15
+    lore:
+    - '&7Food and consumable items'
+    - '&823 items • 1 page'
+    items:
+    - material: APPLE
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fApple'
+      stack-size: 64
+      page: 1
+      slot: 10
+      id: food_APPLE
+    - material: GOLDEN_APPLE
+      buy-price: 8000.0
+      sell-price: 4000.0
+      name: '&fGolden Apple'
+      stack-size: 64
+      page: 1
+      slot: 11
+      id: food_GOLDEN_APPLE
+    - material: ENCHANTED_GOLDEN_APPLE
+      buy-price: 150000.0
+      sell-price: 75000.0
+      name: '&fEnchanted Golden Apple'
+      stack-size: 1
+      page: 1
+      slot: 12
+      id: food_ENCHANTED_GOLDEN_APPLE
+    - material: BREAD
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fBread'
+      stack-size: 64
+      page: 1
+      slot: 13
+      id: food_BREAD
+    - material: COOKED_BEEF
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fCooked Beef'
+      stack-size: 64
+      page: 1
+      slot: 14
+      id: food_COOKED_BEEF
+    - material: BEEF
+      buy-price: 110.0
+      sell-price: 55.0
+      name: '&fBeef'
+      stack-size: 64
+      page: 1
+      slot: 15
+      id: food_BEEF
+    - material: COOKED_PORKCHOP
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fCooked Porkchop'
+      stack-size: 64
+      page: 1
+      slot: 16
+      id: food_COOKED_PORKCHOP
+    - material: PORKCHOP
+      buy-price: 110.0
+      sell-price: 55.0
+      name: '&fPorkchop'
+      stack-size: 64
+      page: 1
+      slot: 19
+      id: food_PORKCHOP
+    - material: COOKED_CHICKEN
+      buy-price: 130.0
+      sell-price: 65.0
+      name: '&fCooked Chicken'
+      stack-size: 64
+      page: 1
+      slot: 20
+      id: food_COOKED_CHICKEN
+    - material: CHICKEN
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fChicken'
+      stack-size: 64
+      page: 1
+      slot: 21
+      id: food_CHICKEN
+    - material: COOKED_MUTTON
+      buy-price: 150.0
+      sell-price: 75.0
+      name: '&fCooked Mutton'
+      stack-size: 64
+      page: 1
+      slot: 22
+      id: food_COOKED_MUTTON
+    - material: MUTTON
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fMutton'
+      stack-size: 64
+      page: 1
+      slot: 23
+      id: food_MUTTON
+    - material: COOKED_RABBIT
+      buy-price: 150.0
+      sell-price: 75.0
+      name: '&fCooked Rabbit'
+      stack-size: 64
+      page: 1
+      slot: 24
+      id: food_COOKED_RABBIT
+    - material: RABBIT
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fRabbit'
+      stack-size: 64
+      page: 1
+      slot: 25
+      id: food_RABBIT
+    - material: BAKED_POTATO
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fBaked Potato'
+      stack-size: 64
+      page: 1
+      slot: 28
+      id: food_BAKED_POTATO
+    - material: COOKIE
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fCookie'
+      stack-size: 64
+      page: 1
+      slot: 29
+      id: food_COOKIE
+    - material: CAKE
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fCake'
+      stack-size: 1
+      page: 1
+      slot: 30
+      id: food_CAKE
+    - material: PUMPKIN_PIE
+      buy-price: 160.0
+      sell-price: 80.0
+      name: '&fPumpkin Pie'
+      stack-size: 64
+      page: 1
+      slot: 31
+      id: food_PUMPKIN_PIE
+    - material: MUSHROOM_STEW
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fMushroom Stew'
+      stack-size: 1
+      page: 1
+      slot: 32
+      id: food_MUSHROOM_STEW
+    - material: SUSPICIOUS_STEW
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fSuspicious Stew'
+      stack-size: 1
+      page: 1
+      slot: 33
+      id: food_SUSPICIOUS_STEW
+    - material: DRIED_KELP
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fDried Kelp'
+      stack-size: 64
+      page: 1
+      slot: 34
+      id: food_DRIED_KELP
+    - material: GOLDEN_CARROT
+      buy-price: 700.0
+      sell-price: 350.0
+      name: '&fGolden Carrot'
+      stack-size: 64
+      page: 1
+      slot: 37
+      id: food_GOLDEN_CARROT
+    - material: BEETROOT_SOUP
+      buy-price: 140.0
+      sell-price: 70.0
+      name: '&fBeetroot Soup'
+      stack-size: 1
+      page: 1
+      slot: 38
+      id: food_BEETROOT_SOUP
+  dyes:
+    name: '&d🎨 Dyes'
+    material: RED_DYE
+    slot: 16
+    lore:
+    - '&7All dye colors'
+    - '&816 items • 1 page'
+    items:
+    - material: WHITE_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fWhite Dye'
+      stack-size: 64
+      page: 1
+      slot: 10
+      id: dyes_WHITE_DYE
+    - material: ORANGE_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fOrange Dye'
+      stack-size: 64
+      page: 1
+      slot: 11
+      id: dyes_ORANGE_DYE
+    - material: MAGENTA_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fMagenta Dye'
+      stack-size: 64
+      page: 1
+      slot: 12
+      id: dyes_MAGENTA_DYE
+    - material: LIGHT_BLUE_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fLight Blue Dye'
+      stack-size: 64
+      page: 1
+      slot: 13
+      id: dyes_LIGHT_BLUE_DYE
+    - material: YELLOW_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fYellow Dye'
+      stack-size: 64
+      page: 1
+      slot: 14
+      id: dyes_YELLOW_DYE
+    - material: LIME_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fLime Dye'
+      stack-size: 64
+      page: 1
+      slot: 15
+      id: dyes_LIME_DYE
+    - material: PINK_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fPink Dye'
+      stack-size: 64
+      page: 1
+      slot: 16
+      id: dyes_PINK_DYE
+    - material: GRAY_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fGray Dye'
+      stack-size: 64
+      page: 1
+      slot: 19
+      id: dyes_GRAY_DYE
+    - material: LIGHT_GRAY_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fLight Gray Dye'
+      stack-size: 64
+      page: 1
+      slot: 20
+      id: dyes_LIGHT_GRAY_DYE
+    - material: CYAN_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fCyan Dye'
+      stack-size: 64
+      page: 1
+      slot: 21
+      id: dyes_CYAN_DYE
+    - material: PURPLE_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fPurple Dye'
+      stack-size: 64
+      page: 1
+      slot: 22
+      id: dyes_PURPLE_DYE
+    - material: BLUE_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fBlue Dye'
+      stack-size: 64
+      page: 1
+      slot: 23
+      id: dyes_BLUE_DYE
+    - material: BROWN_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fBrown Dye'
+      stack-size: 64
+      page: 1
+      slot: 24
+      id: dyes_BROWN_DYE
+    - material: GREEN_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fGreen Dye'
+      stack-size: 64
+      page: 1
+      slot: 25
+      id: dyes_GREEN_DYE
+    - material: RED_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fRed Dye'
+      stack-size: 64
+      page: 1
+      slot: 28
+      id: dyes_RED_DYE
+    - material: BLACK_DYE
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fBlack Dye'
+      stack-size: 64
+      page: 1
+      slot: 29
+      id: dyes_BLACK_DYE
+  utility_redstone:
+    name: '&c🔴 Utility & Redstone'
+    material: REDSTONE
+    slot: 19
+    lore:
+    - '&7Machines, storage and redstone components'
+    - '&845 items • 2 pages'
+    items:
+    - material: TORCH
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fTorch'
+      stack-size: 64
+      page: 1
+      slot: 10
+      id: utility_redstone_TORCH
+    - material: SOUL_TORCH
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fSoul Torch'
+      stack-size: 64
+      page: 1
+      slot: 11
+      id: utility_redstone_SOUL_TORCH
+    - material: LANTERN
+      buy-price: 140.0
+      sell-price: 70.0
+      name: '&fLantern'
+      stack-size: 64
+      page: 1
+      slot: 12
+      id: utility_redstone_LANTERN
+    - material: SOUL_LANTERN
+      buy-price: 170.0
+      sell-price: 85.0
+      name: '&fSoul Lantern'
+      stack-size: 64
+      page: 1
+      slot: 13
+      id: utility_redstone_SOUL_LANTERN
+    - material: CAMPFIRE
+      buy-price: 200.0
+      sell-price: 100.0
+      name: '&fCampfire'
+      stack-size: 64
+      page: 1
+      slot: 14
+      id: utility_redstone_CAMPFIRE
+    - material: SOUL_CAMPFIRE
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fSoul Campfire'
+      stack-size: 64
+      page: 1
+      slot: 15
+      id: utility_redstone_SOUL_CAMPFIRE
+    - material: LADDER
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fLadder'
+      stack-size: 64
+      page: 1
+      slot: 16
+      id: utility_redstone_LADDER
+    - material: CHEST
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fChest'
+      stack-size: 64
+      page: 1
+      slot: 19
+      id: utility_redstone_CHEST
+    - material: BARREL
+      buy-price: 260.0
+      sell-price: 130.0
+      name: '&fBarrel'
+      stack-size: 64
+      page: 1
+      slot: 20
+      id: utility_redstone_BARREL
+    - material: HOPPER
+      buy-price: 1300.0
+      sell-price: 650.0
+      name: '&fHopper'
+      stack-size: 64
+      page: 1
+      slot: 21
+      id: utility_redstone_HOPPER
+    - material: FURNACE
+      buy-price: 160.0
+      sell-price: 80.0
+      name: '&fFurnace'
+      stack-size: 64
+      page: 1
+      slot: 22
+      id: utility_redstone_FURNACE
+    - material: BLAST_FURNACE
+      buy-price: 800.0
+      sell-price: 400.0
+      name: '&fBlast Furnace'
+      stack-size: 64
+      page: 1
+      slot: 23
+      id: utility_redstone_BLAST_FURNACE
+    - material: SMOKER
+      buy-price: 700.0
+      sell-price: 350.0
+      name: '&fSmoker'
+      stack-size: 64
+      page: 1
+      slot: 24
+      id: utility_redstone_SMOKER
+    - material: CRAFTING_TABLE
+      buy-price: 100.0
+      sell-price: 50.0
+      name: '&fCrafting Table'
+      stack-size: 64
+      page: 1
+      slot: 25
+      id: utility_redstone_CRAFTING_TABLE
+    - material: ANVIL
+      buy-price: 4400.0
+      sell-price: 2200.0
+      name: '&fAnvil'
+      stack-size: 1
+      page: 1
+      slot: 28
+      id: utility_redstone_ANVIL
+    - material: GRINDSTONE
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fGrindstone'
+      stack-size: 64
+      page: 1
+      slot: 29
+      id: utility_redstone_GRINDSTONE
+    - material: SMITHING_TABLE
+      buy-price: 320.0
+      sell-price: 160.0
+      name: '&fSmithing Table'
+      stack-size: 64
+      page: 1
+      slot: 30
+      id: utility_redstone_SMITHING_TABLE
+    - material: STONECUTTER
+      buy-price: 280.0
+      sell-price: 140.0
+      name: '&fStonecutter'
+      stack-size: 64
+      page: 1
+      slot: 31
+      id: utility_redstone_STONECUTTER
+    - material: ENCHANTING_TABLE
+      buy-price: 12000.0
+      sell-price: 6000.0
+      name: '&fEnchanting Table'
+      stack-size: 1
+      page: 1
+      slot: 32
+      id: utility_redstone_ENCHANTING_TABLE
+    - material: BREWING_STAND
+      buy-price: 1600.0
+      sell-price: 800.0
+      name: '&fBrewing Stand'
+      stack-size: 64
+      page: 1
+      slot: 33
+      id: utility_redstone_BREWING_STAND
+    - material: CAULDRON
+      buy-price: 1400.0
+      sell-price: 700.0
+      name: '&fCauldron'
+      stack-size: 64
+      page: 1
+      slot: 34
+      id: utility_redstone_CAULDRON
+    - material: JUKEBOX
+      buy-price: 4000.0
+      sell-price: 2000.0
+      name: '&fJukebox'
+      stack-size: 1
+      page: 1
+      slot: 37
+      id: utility_redstone_JUKEBOX
+    - material: NOTE_BLOCK
+      buy-price: 300.0
+      sell-price: 150.0
+      name: '&fNote Block'
+      stack-size: 64
+      page: 1
+      slot: 38
+      id: utility_redstone_NOTE_BLOCK
+    - material: LEVER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fLever'
+      stack-size: 64
+      page: 1
+      slot: 39
+      id: utility_redstone_LEVER
+    - material: BUTTON
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fStone Button'
+      stack-size: 64
+      page: 1
+      slot: 40
+      id: utility_redstone_BUTTON
+    - material: TRIPWIRE_HOOK
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fTripwire Hook'
+      stack-size: 64
+      page: 1
+      slot: 41
+      id: utility_redstone_TRIPWIRE_HOOK
+    - material: REDSTONE_TORCH
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fRedstone Torch'
+      stack-size: 64
+      page: 1
+      slot: 42
+      id: utility_redstone_REDSTONE_TORCH
+    - material: REPEATER
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fRepeater'
+      stack-size: 64
+      page: 1
+      slot: 43
+      id: utility_redstone_REPEATER
+    - material: COMPARATOR
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fComparator'
+      stack-size: 64
+      page: 2
+      slot: 10
+      id: utility_redstone_COMPARATOR
+    - material: PISTON
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fPiston'
+      stack-size: 64
+      page: 2
+      slot: 11
+      id: utility_redstone_PISTON
+    - material: STICKY_PISTON
+      buy-price: 700.0
+      sell-price: 350.0
+      name: '&fSticky Piston'
+      stack-size: 64
+      page: 2
+      slot: 12
+      id: utility_redstone_STICKY_PISTON
+    - material: OBSERVER
+      buy-price: 500.0
+      sell-price: 250.0
+      name: '&fObserver'
+      stack-size: 64
+      page: 2
+      slot: 13
+      id: utility_redstone_OBSERVER
+    - material: DISPENSER
+      buy-price: 440.0
+      sell-price: 220.0
+      name: '&fDispenser'
+      stack-size: 64
+      page: 2
+      slot: 14
+      id: utility_redstone_DISPENSER
+    - material: DROPPER
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fDropper'
+      stack-size: 64
+      page: 2
+      slot: 15
+      id: utility_redstone_DROPPER
+    - material: DAYLIGHT_DETECTOR
+      buy-price: 500.0
+      sell-price: 250.0
+      name: '&fDaylight Detector'
+      stack-size: 64
+      page: 2
+      slot: 16
+      id: utility_redstone_DAYLIGHT_DETECTOR
+    - material: TARGET
+      buy-price: 440.0
+      sell-price: 220.0
+      name: '&fTarget'
+      stack-size: 64
+      page: 2
+      slot: 19
+      id: utility_redstone_TARGET
+    - material: TNT
+      buy-price: 1000.0
+      sell-price: 500.0
+      name: '&fTNT'
+      stack-size: 64
+      page: 2
+      slot: 20
+      id: utility_redstone_TNT
+    - material: RAIL
+      buy-price: 100.0
+      sell-price: 50.0
+      name: '&fRail'
+      stack-size: 64
+      page: 2
+      slot: 21
+      id: utility_redstone_RAIL
+    - material: POWERED_RAIL
+      buy-price: 440.0
+      sell-price: 220.0
+      name: '&fPowered Rail'
+      stack-size: 64
+      page: 2
+      slot: 22
+      id: utility_redstone_POWERED_RAIL
+    - material: DETECTOR_RAIL
+      buy-price: 260.0
+      sell-price: 130.0
+      name: '&fDetector Rail'
+      stack-size: 64
+      page: 2
+      slot: 23
+      id: utility_redstone_DETECTOR_RAIL
+    - material: ACTIVATOR_RAIL
+      buy-price: 260.0
+      sell-price: 130.0
+      name: '&fActivator Rail'
+      stack-size: 64
+      page: 2
+      slot: 24
+      id: utility_redstone_ACTIVATOR_RAIL
+    - material: MINECART
+      buy-price: 600.0
+      sell-price: 300.0
+      name: '&fMinecart'
+      stack-size: 64
+      page: 2
+      slot: 25
+      id: utility_redstone_MINECART
+    - material: HOPPER_MINECART
+      buy-price: 2000.0
+      sell-price: 1000.0
+      name: '&fHopper Minecart'
+      stack-size: 1
+      page: 2
+      slot: 28
+      id: utility_redstone_HOPPER_MINECART
+    - material: CHEST_MINECART
+      buy-price: 1000.0
+      sell-price: 500.0
+      name: '&fChest Minecart'
+      stack-size: 1
+      page: 2
+      slot: 29
+      id: utility_redstone_CHEST_MINECART
+    - material: TNT_MINECART
+      buy-price: 1600.0
+      sell-price: 800.0
+      name: '&fTNT Minecart'
+      stack-size: 1
+      page: 2
+      slot: 30
+      id: utility_redstone_TNT_MINECART
+  tools_weapons:
+    name: '&f⚔ Tools & Weapons'
+    material: DIAMOND_SWORD
+    slot: 20
+    lore:
+    - '&7Tools, weapons and equipment'
+    - '&838 items • 2 pages'
+    items:
+    - material: WOODEN_SWORD
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fWooden Sword'
+      stack-size: 1
+      page: 1
+      slot: 10
+      id: tools_weapons_WOODEN_SWORD
+    - material: STONE_SWORD
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fStone Sword'
+      stack-size: 1
+      page: 1
+      slot: 11
+      id: tools_weapons_STONE_SWORD
+    - material: IRON_SWORD
+      buy-price: 800.0
+      sell-price: 400.0
+      name: '&fIron Sword'
+      stack-size: 1
+      page: 1
+      slot: 12
+      id: tools_weapons_IRON_SWORD
+    - material: DIAMOND_SWORD
+      buy-price: 6000.0
+      sell-price: 3000.0
+      name: '&fDiamond Sword'
+      stack-size: 1
+      page: 1
+      slot: 13
+      id: tools_weapons_DIAMOND_SWORD
+    - material: NETHERITE_SWORD
+      buy-price: 56000.0
+      sell-price: 28000.0
+      name: '&fNetherite Sword'
+      stack-size: 1
+      page: 1
+      slot: 14
+      id: tools_weapons_NETHERITE_SWORD
+    - material: WOODEN_PICKAXE
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fWooden Pickaxe'
+      stack-size: 1
+      page: 1
+      slot: 15
+      id: tools_weapons_WOODEN_PICKAXE
+    - material: STONE_PICKAXE
+      buy-price: 100.0
+      sell-price: 50.0
+      name: '&fStone Pickaxe'
+      stack-size: 1
+      page: 1
+      slot: 16
+      id: tools_weapons_STONE_PICKAXE
+    - material: IRON_PICKAXE
+      buy-price: 900.0
+      sell-price: 450.0
+      name: '&fIron Pickaxe'
+      stack-size: 1
+      page: 1
+      slot: 19
+      id: tools_weapons_IRON_PICKAXE
+    - material: DIAMOND_PICKAXE
+      buy-price: 7000.0
+      sell-price: 3500.0
+      name: '&fDiamond Pickaxe'
+      stack-size: 1
+      page: 1
+      slot: 20
+      id: tools_weapons_DIAMOND_PICKAXE
+    - material: NETHERITE_PICKAXE
+      buy-price: 57000.0
+      sell-price: 28500.0
+      name: '&fNetherite Pickaxe'
+      stack-size: 1
+      page: 1
+      slot: 21
+      id: tools_weapons_NETHERITE_PICKAXE
+    - material: WOODEN_AXE
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fWooden Axe'
+      stack-size: 1
+      page: 1
+      slot: 22
+      id: tools_weapons_WOODEN_AXE
+    - material: STONE_AXE
+      buy-price: 100.0
+      sell-price: 50.0
+      name: '&fStone Axe'
+      stack-size: 1
+      page: 1
+      slot: 23
+      id: tools_weapons_STONE_AXE
+    - material: IRON_AXE
+      buy-price: 900.0
+      sell-price: 450.0
+      name: '&fIron Axe'
+      stack-size: 1
+      page: 1
+      slot: 24
+      id: tools_weapons_IRON_AXE
+    - material: DIAMOND_AXE
+      buy-price: 7000.0
+      sell-price: 3500.0
+      name: '&fDiamond Axe'
+      stack-size: 1
+      page: 1
+      slot: 25
+      id: tools_weapons_DIAMOND_AXE
+    - material: NETHERITE_AXE
+      buy-price: 57000.0
+      sell-price: 28500.0
+      name: '&fNetherite Axe'
+      stack-size: 1
+      page: 1
+      slot: 28
+      id: tools_weapons_NETHERITE_AXE
+    - material: WOODEN_SHOVEL
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fWooden Shovel'
+      stack-size: 1
+      page: 1
+      slot: 29
+      id: tools_weapons_WOODEN_SHOVEL
+    - material: STONE_SHOVEL
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fStone Shovel'
+      stack-size: 1
+      page: 1
+      slot: 30
+      id: tools_weapons_STONE_SHOVEL
+    - material: IRON_SHOVEL
+      buy-price: 600.0
+      sell-price: 300.0
+      name: '&fIron Shovel'
+      stack-size: 1
+      page: 1
+      slot: 31
+      id: tools_weapons_IRON_SHOVEL
+    - material: DIAMOND_SHOVEL
+      buy-price: 5000.0
+      sell-price: 2500.0
+      name: '&fDiamond Shovel'
+      stack-size: 1
+      page: 1
+      slot: 32
+      id: tools_weapons_DIAMOND_SHOVEL
+    - material: NETHERITE_SHOVEL
+      buy-price: 55000.0
+      sell-price: 27500.0
+      name: '&fNetherite Shovel'
+      stack-size: 1
+      page: 1
+      slot: 33
+      id: tools_weapons_NETHERITE_SHOVEL
+    - material: WOODEN_HOE
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fWooden Hoe'
+      stack-size: 1
+      page: 1
+      slot: 34
+      id: tools_weapons_WOODEN_HOE
+    - material: STONE_HOE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fStone Hoe'
+      stack-size: 1
+      page: 1
+      slot: 37
+      id: tools_weapons_STONE_HOE
+    - material: IRON_HOE
+      buy-price: 600.0
+      sell-price: 300.0
+      name: '&fIron Hoe'
+      stack-size: 1
+      page: 1
+      slot: 38
+      id: tools_weapons_IRON_HOE
+    - material: DIAMOND_HOE
+      buy-price: 5000.0
+      sell-price: 2500.0
+      name: '&fDiamond Hoe'
+      stack-size: 1
+      page: 1
+      slot: 39
+      id: tools_weapons_DIAMOND_HOE
+    - material: NETHERITE_HOE
+      buy-price: 55000.0
+      sell-price: 27500.0
+      name: '&fNetherite Hoe'
+      stack-size: 1
+      page: 1
+      slot: 40
+      id: tools_weapons_NETHERITE_HOE
+    - material: BOW
+      buy-price: 400.0
+      sell-price: 200.0
+      name: '&fBow'
+      stack-size: 1
+      page: 1
+      slot: 41
+      id: tools_weapons_BOW
+    - material: CROSSBOW
+      buy-price: 700.0
+      sell-price: 350.0
+      name: '&fCrossbow'
+      stack-size: 1
+      page: 1
+      slot: 42
+      id: tools_weapons_CROSSBOW
+    - material: SHIELD
+      buy-price: 600.0
+      sell-price: 300.0
+      name: '&fShield'
+      stack-size: 1
+      page: 1
+      slot: 43
+      id: tools_weapons_SHIELD
+    - material: TRIDENT
+      buy-price: 30000.0
+      sell-price: 15000.0
+      name: '&fTrident'
+      stack-size: 1
+      page: 2
+      slot: 10
+      id: tools_weapons_TRIDENT
+    - material: FISHING_ROD
+      buy-price: 250.0
+      sell-price: 125.0
+      name: '&fFishing Rod'
+      stack-size: 1
+      page: 2
+      slot: 11
+      id: tools_weapons_FISHING_ROD
+    - material: FLINT_AND_STEEL
+      buy-price: 350.0
+      sell-price: 175.0
+      name: '&fFlint and Steel'
+      stack-size: 1
+      page: 2
+      slot: 12
+      id: tools_weapons_FLINT_AND_STEEL
+    - material: SHEARS
+      buy-price: 300.0
+      sell-price: 150.0
+      name: '&fShears'
+      stack-size: 1
+      page: 2
+      slot: 13
+      id: tools_weapons_SHEARS
+    - material: BRUSH
+      buy-price: 250.0
+      sell-price: 125.0
+      name: '&fBrush'
+      stack-size: 1
+      page: 2
+      slot: 14
+      id: tools_weapons_BRUSH
+    - material: LEAD
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fLead'
+      stack-size: 64
+      page: 2
+      slot: 15
+      id: tools_weapons_LEAD
+    - material: NAME_TAG
+      buy-price: 1500.0
+      sell-price: 750.0
+      name: '&fName Tag'
+      stack-size: 1
+      page: 2
+      slot: 16
+      id: tools_weapons_NAME_TAG
+    - material: COMPASS
+      buy-price: 500.0
+      sell-price: 250.0
+      name: '&fCompass'
+      stack-size: 64
+      page: 2
+      slot: 19
+      id: tools_weapons_COMPASS
+    - material: CLOCK
+      buy-price: 900.0
+      sell-price: 450.0
+      name: '&fClock'
+      stack-size: 64
+      page: 2
+      slot: 20
+      id: tools_weapons_CLOCK
+    - material: SPYGLASS
+      buy-price: 800.0
+      sell-price: 400.0
+      name: '&fSpyglass'
+      stack-size: 1
+      page: 2
+      slot: 21
+      id: tools_weapons_SPYGLASS
+  armor:
+    name: '&9🛡 Armor'
+    material: DIAMOND_CHESTPLATE
+    slot: 21
+    lore:
+    - '&7Protective equipment and armor'
+    - '&820 items • 1 page'
+    items:
+    - material: LEATHER_HELMET
+      buy-price: 250.0
+      sell-price: 125.0
+      name: '&fLeather Helmet'
+      stack-size: 1
+      page: 1
+      slot: 10
+      id: armor_LEATHER_HELMET
+    - material: LEATHER_CHESTPLATE
+      buy-price: 400.0
+      sell-price: 200.0
+      name: '&fLeather Chestplate'
+      stack-size: 1
+      page: 1
+      slot: 11
+      id: armor_LEATHER_CHESTPLATE
+    - material: LEATHER_LEGGINGS
+      buy-price: 350.0
+      sell-price: 175.0
+      name: '&fLeather Leggings'
+      stack-size: 1
+      page: 1
+      slot: 12
+      id: armor_LEATHER_LEGGINGS
+    - material: LEATHER_BOOTS
+      buy-price: 250.0
+      sell-price: 125.0
+      name: '&fLeather Boots'
+      stack-size: 1
+      page: 1
+      slot: 13
+      id: armor_LEATHER_BOOTS
+    - material: CHAINMAIL_HELMET
+      buy-price: 1200.0
+      sell-price: 600.0
+      name: '&fChainmail Helmet'
+      stack-size: 1
+      page: 1
+      slot: 14
+      id: armor_CHAINMAIL_HELMET
+    - material: CHAINMAIL_CHESTPLATE
+      buy-price: 2000.0
+      sell-price: 1000.0
+      name: '&fChainmail Chestplate'
+      stack-size: 1
+      page: 1
+      slot: 15
+      id: armor_CHAINMAIL_CHESTPLATE
+    - material: CHAINMAIL_LEGGINGS
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fChainmail Leggings'
+      stack-size: 1
+      page: 1
+      slot: 16
+      id: armor_CHAINMAIL_LEGGINGS
+    - material: CHAINMAIL_BOOTS
+      buy-price: 1200.0
+      sell-price: 600.0
+      name: '&fChainmail Boots'
+      stack-size: 1
+      page: 1
+      slot: 19
+      id: armor_CHAINMAIL_BOOTS
+    - material: IRON_HELMET
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fIron Helmet'
+      stack-size: 1
+      page: 1
+      slot: 20
+      id: armor_IRON_HELMET
+    - material: IRON_CHESTPLATE
+      buy-price: 3000.0
+      sell-price: 1500.0
+      name: '&fIron Chestplate'
+      stack-size: 1
+      page: 1
+      slot: 21
+      id: armor_IRON_CHESTPLATE
+    - material: IRON_LEGGINGS
+      buy-price: 2700.0
+      sell-price: 1350.0
+      name: '&fIron Leggings'
+      stack-size: 1
+      page: 1
+      slot: 22
+      id: armor_IRON_LEGGINGS
+    - material: IRON_BOOTS
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fIron Boots'
+      stack-size: 1
+      page: 1
+      slot: 23
+      id: armor_IRON_BOOTS
+    - material: DIAMOND_HELMET
+      buy-price: 9000.0
+      sell-price: 4500.0
+      name: '&fDiamond Helmet'
+      stack-size: 1
+      page: 1
+      slot: 24
+      id: armor_DIAMOND_HELMET
+    - material: DIAMOND_CHESTPLATE
+      buy-price: 15000.0
+      sell-price: 7500.0
+      name: '&fDiamond Chestplate'
+      stack-size: 1
+      page: 1
+      slot: 25
+      id: armor_DIAMOND_CHESTPLATE
+    - material: DIAMOND_LEGGINGS
+      buy-price: 13500.0
+      sell-price: 6750.0
+      name: '&fDiamond Leggings'
+      stack-size: 1
+      page: 1
+      slot: 28
+      id: armor_DIAMOND_LEGGINGS
+    - material: DIAMOND_BOOTS
+      buy-price: 9000.0
+      sell-price: 4500.0
+      name: '&fDiamond Boots'
+      stack-size: 1
+      page: 1
+      slot: 29
+      id: armor_DIAMOND_BOOTS
+    - material: NETHERITE_HELMET
+      buy-price: 60000.0
+      sell-price: 30000.0
+      name: '&fNetherite Helmet'
+      stack-size: 1
+      page: 1
+      slot: 30
+      id: armor_NETHERITE_HELMET
+    - material: NETHERITE_CHESTPLATE
+      buy-price: 68000.0
+      sell-price: 34000.0
+      name: '&fNetherite Chestplate'
+      stack-size: 1
+      page: 1
+      slot: 31
+      id: armor_NETHERITE_CHESTPLATE
+    - material: NETHERITE_LEGGINGS
+      buy-price: 66000.0
+      sell-price: 33000.0
+      name: '&fNetherite Leggings'
+      stack-size: 1
+      page: 1
+      slot: 32
+      id: armor_NETHERITE_LEGGINGS
+    - material: NETHERITE_BOOTS
+      buy-price: 60000.0
+      sell-price: 30000.0
+      name: '&fNetherite Boots'
+      stack-size: 1
+      page: 1
+      slot: 33
+      id: armor_NETHERITE_BOOTS
+  enchanting_potions:
+    name: '&5✨ Enchanting & Potions'
+    material: ENCHANTING_TABLE
+    slot: 22
+    lore:
+    - '&7Enchanting and potion materials'
+    - '&815 items • 1 page'
+    items:
+    - material: EXPERIENCE_BOTTLE
+      buy-price: 1000.0
+      sell-price: 500.0
+      name: '&fBottle o'' Enchanting'
+      stack-size: 64
+      page: 1
+      slot: 10
+      id: enchanting_potions_EXPERIENCE_BOTTLE
+    - material: ENCHANTED_BOOK
+      buy-price: 10000.0
+      sell-price: 5000.0
+      name: '&fEnchanted Book'
+      stack-size: 1
+      page: 1
+      slot: 11
+      id: enchanting_potions_ENCHANTED_BOOK
+    - material: LAPIS_LAZULI
+      buy-price: 160.0
+      sell-price: 80.0
+      name: '&fLapis Lazuli'
+      stack-size: 64
+      page: 1
+      slot: 12
+      id: enchanting_potions_LAPIS_LAZULI
+    - material: BOOKSHELF
+      buy-price: 1000.0
+      sell-price: 500.0
+      name: '&fBookshelf'
+      stack-size: 64
+      page: 1
+      slot: 13
+      id: enchanting_potions_BOOKSHELF
+    - material: BOOK
+      buy-price: 200.0
+      sell-price: 100.0
+      name: '&fBook'
+      stack-size: 64
+      page: 1
+      slot: 14
+      id: enchanting_potions_BOOK
+    - material: PAPER
+      buy-price: 40.0
+      sell-price: 20.0
+      name: '&fPaper'
+      stack-size: 64
+      page: 1
+      slot: 15
+      id: enchanting_potions_PAPER
+    - material: INK_SAC
+      buy-price: 90.0
+      sell-price: 45.0
+      name: '&fInk Sac'
+      stack-size: 64
+      page: 1
+      slot: 16
+      id: enchanting_potions_INK_SAC
+    - material: GLASS_BOTTLE
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fGlass Bottle'
+      stack-size: 64
+      page: 1
+      slot: 19
+      id: enchanting_potions_GLASS_BOTTLE
+    - material: FERMENTED_SPIDER_EYE
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fFermented Spider Eye'
+      stack-size: 64
+      page: 1
+      slot: 20
+      id: enchanting_potions_FERMENTED_SPIDER_EYE
+    - material: BLAZE_POWDER
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fBlaze Powder'
+      stack-size: 64
+      page: 1
+      slot: 21
+      id: enchanting_potions_BLAZE_POWDER
+    - material: MAGMA_CREAM
+      buy-price: 500.0
+      sell-price: 250.0
+      name: '&fMagma Cream'
+      stack-size: 64
+      page: 1
+      slot: 22
+      id: enchanting_potions_MAGMA_CREAM
+    - material: RABBIT_FOOT
+      buy-price: 700.0
+      sell-price: 350.0
+      name: '&fRabbit Foot'
+      stack-size: 64
+      page: 1
+      slot: 23
+      id: enchanting_potions_RABBIT_FOOT
+    - material: PUFFERFISH
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fPufferfish'
+      stack-size: 64
+      page: 1
+      slot: 24
+      id: enchanting_potions_PUFFERFISH
+    - material: TURTLE_HELMET
+      buy-price: 10000.0
+      sell-price: 5000.0
+      name: '&fTurtle Shell'
+      stack-size: 1
+      page: 1
+      slot: 25
+      id: enchanting_potions_TURTLE_HELMET
+    - material: PHANTOM_MEMBRANE
+      buy-price: 1400.0
+      sell-price: 700.0
+      name: '&fPhantom Membrane'
+      stack-size: 64
+      page: 1
+      slot: 28
+      id: enchanting_potions_PHANTOM_MEMBRANE
+  transportation:
+    name: '&3🚂 Transportation'
+    material: MINECART
+    slot: 23
+    lore:
+    - '&7Boats, minecarts and travel items'
+    - '&817 items • 1 page'
+    items:
+    - material: SADDLE
+      buy-price: 5000.0
+      sell-price: 2500.0
+      name: '&fSaddle'
+      stack-size: 1
+      page: 1
+      slot: 10
+      id: transportation_SADDLE
+    - material: OAK_BOAT
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fOak Boat'
+      stack-size: 1
+      page: 1
+      slot: 11
+      id: transportation_OAK_BOAT
+    - material: SPRUCE_BOAT
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fSpruce Boat'
+      stack-size: 1
+      page: 1
+      slot: 12
+      id: transportation_SPRUCE_BOAT
+    - material: BIRCH_BOAT
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fBirch Boat'
+      stack-size: 1
+      page: 1
+      slot: 13
+      id: transportation_BIRCH_BOAT
+    - material: JUNGLE_BOAT
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fJungle Boat'
+      stack-size: 1
+      page: 1
+      slot: 14
+      id: transportation_JUNGLE_BOAT
+    - material: ACACIA_BOAT
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fAcacia Boat'
+      stack-size: 1
+      page: 1
+      slot: 15
+      id: transportation_ACACIA_BOAT
+    - material: DARK_OAK_BOAT
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fDark Oak Boat'
+      stack-size: 1
+      page: 1
+      slot: 16
+      id: transportation_DARK_OAK_BOAT
+    - material: MANGROVE_BOAT
+      buy-price: 280.0
+      sell-price: 140.0
+      name: '&fMangrove Boat'
+      stack-size: 1
+      page: 1
+      slot: 19
+      id: transportation_MANGROVE_BOAT
+    - material: CHERRY_BOAT
+      buy-price: 280.0
+      sell-price: 140.0
+      name: '&fCherry Boat'
+      stack-size: 1
+      page: 1
+      slot: 20
+      id: transportation_CHERRY_BOAT
+    - material: BAMBOO_RAFT
+      buy-price: 280.0
+      sell-price: 140.0
+      name: '&fBamboo Raft'
+      stack-size: 1
+      page: 1
+      slot: 21
+      id: transportation_BAMBOO_RAFT
+    - material: OAK_CHEST_BOAT
+      buy-price: 500.0
+      sell-price: 250.0
+      name: '&fOak Chest Boat'
+      stack-size: 1
+      page: 1
+      slot: 22
+      id: transportation_OAK_CHEST_BOAT
+    - material: SPRUCE_CHEST_BOAT
+      buy-price: 500.0
+      sell-price: 250.0
+      name: '&fSpruce Chest Boat'
+      stack-size: 1
+      page: 1
+      slot: 23
+      id: transportation_SPRUCE_CHEST_BOAT
+    - material: ELYTRA
+      buy-price: 150000.0
+      sell-price: 75000.0
+      name: '&fElytra'
+      stack-size: 1
+      page: 1
+      slot: 24
+      id: transportation_ELYTRA
+    - material: FIREWORK_ROCKET
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fFirework Rocket'
+      stack-size: 64
+      page: 1
+      slot: 25
+      id: transportation_FIREWORK_ROCKET
+    - material: MAP
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fMap'
+      stack-size: 64
+      page: 1
+      slot: 28
+      id: transportation_MAP
+    - material: FILLED_MAP
+      buy-price: 800.0
+      sell-price: 400.0
+      name: '&fFilled Map'
+      stack-size: 64
+      page: 1
+      slot: 29
+      id: transportation_FILLED_MAP
+    - material: RECOVERY_COMPASS
+      buy-price: 105000.0
+      sell-price: 52500.0
+      name: '&fRecovery Compass'
+      stack-size: 64
+      page: 1
+      slot: 30
+      id: transportation_RECOVERY_COMPASS
+  rare:
+    name: '&d★ Rare Items'
+    material: NETHER_STAR
+    slot: 24
+    lore:
+    - '&7Rare and high-value items'
+    - '&821 items • 1 page'
+    items:
+    - material: MUSIC_DISC_13
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fMusic Disc 13'
+      stack-size: 1
+      page: 1
+      slot: 10
+      id: rare_MUSIC_DISC_13
+    - material: MUSIC_DISC_CAT
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fMusic Disc Cat'
+      stack-size: 1
+      page: 1
+      slot: 11
+      id: rare_MUSIC_DISC_CAT
+    - material: MUSIC_DISC_BLOCKS
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fMusic Disc Blocks'
+      stack-size: 1
+      page: 1
+      slot: 12
+      id: rare_MUSIC_DISC_BLOCKS
+    - material: MUSIC_DISC_CHIRP
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fMusic Disc Chirp'
+      stack-size: 1
+      page: 1
+      slot: 13
+      id: rare_MUSIC_DISC_CHIRP
+    - material: MUSIC_DISC_FAR
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fMusic Disc Far'
+      stack-size: 1
+      page: 1
+      slot: 14
+      id: rare_MUSIC_DISC_FAR
+    - material: MUSIC_DISC_MALL
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fMusic Disc Mall'
+      stack-size: 1
+      page: 1
+      slot: 15
+      id: rare_MUSIC_DISC_MALL
+    - material: MUSIC_DISC_MELLOHI
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fMusic Disc Mellohi'
+      stack-size: 1
+      page: 1
+      slot: 16
+      id: rare_MUSIC_DISC_MELLOHI
+    - material: MUSIC_DISC_STAL
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fMusic Disc Stal'
+      stack-size: 1
+      page: 1
+      slot: 19
+      id: rare_MUSIC_DISC_STAL
+    - material: MUSIC_DISC_STRAD
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fMusic Disc Strad'
+      stack-size: 1
+      page: 1
+      slot: 20
+      id: rare_MUSIC_DISC_STRAD
+    - material: MUSIC_DISC_WARD
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fMusic Disc Ward'
+      stack-size: 1
+      page: 1
+      slot: 21
+      id: rare_MUSIC_DISC_WARD
+    - material: MUSIC_DISC_11
+      buy-price: 2200.0
+      sell-price: 1100.0
+      name: '&fMusic Disc 11'
+      stack-size: 1
+      page: 1
+      slot: 22
+      id: rare_MUSIC_DISC_11
+    - material: MUSIC_DISC_WAIT
+      buy-price: 1800.0
+      sell-price: 900.0
+      name: '&fMusic Disc Wait'
+      stack-size: 1
+      page: 1
+      slot: 23
+      id: rare_MUSIC_DISC_WAIT
+    - material: MUSIC_DISC_OTHERSIDE
+      buy-price: 5000.0
+      sell-price: 2500.0
+      name: '&fMusic Disc Otherside'
+      stack-size: 1
+      page: 1
+      slot: 24
+      id: rare_MUSIC_DISC_OTHERSIDE
+    - material: MUSIC_DISC_5
+      buy-price: 5000.0
+      sell-price: 2500.0
+      name: '&fMusic Disc 5'
+      stack-size: 1
+      page: 1
+      slot: 25
+      id: rare_MUSIC_DISC_5
+    - material: MUSIC_DISC_RELIC
+      buy-price: 5000.0
+      sell-price: 2500.0
+      name: '&fMusic Disc Relic'
+      stack-size: 1
+      page: 1
+      slot: 28
+      id: rare_MUSIC_DISC_RELIC
+    - material: MUSIC_DISC_CREATOR
+      buy-price: 5000.0
+      sell-price: 2500.0
+      name: '&fMusic Disc Creator'
+      stack-size: 1
+      page: 1
+      slot: 29
+      id: rare_MUSIC_DISC_CREATOR
+    - material: MUSIC_DISC_PRECIPICE
+      buy-price: 5000.0
+      sell-price: 2500.0
+      name: '&fMusic Disc Precipice'
+      stack-size: 1
+      page: 1
+      slot: 30
+      id: rare_MUSIC_DISC_PRECIPICE
+    - material: MUSIC_DISC_TEARS
+      buy-price: 5000.0
+      sell-price: 2500.0
+      name: '&fMusic Disc Tears'
+      stack-size: 1
+      page: 1
+      slot: 31
+      id: rare_MUSIC_DISC_TEARS
+    - material: MUSIC_DISC_LAVA_CHICKEN
+      buy-price: 7000.0
+      sell-price: 3500.0
+      name: '&fMusic Disc Lava Chicken'
+      stack-size: 1
+      page: 1
+      slot: 32
+      id: rare_MUSIC_DISC_LAVA_CHICKEN
+    - material: DRAGON_EGG
+      buy-price: 500000.0
+      sell-price: 250000.0
+      name: '&fDragon Egg'
+      stack-size: 1
+      page: 1
+      slot: 33
+      id: rare_DRAGON_EGG
+    - material: BEACON
+      buy-price: 85000.0
+      sell-price: 42500.0
+      name: '&fBeacon'
+      stack-size: 1
+      page: 1
+      slot: 34
+      id: rare_BEACON
+  colored_blocks:
+    name: '&b▣ Colored Blocks'
+    material: WHITE_WOOL
+    slot: 25
+    lore:
+    - '&7Wool, concrete, glass and colored blocks'
+    - '&8112 items • 4 pages'
+    items:
+    - material: WHITE_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fWhite Wool'
+      stack-size: 64
+      page: 1
+      slot: 10
+      id: colored_blocks_WHITE_WOOL
+    - material: WHITE_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fWhite Concrete'
+      stack-size: 64
+      page: 1
+      slot: 11
+      id: colored_blocks_WHITE_CONCRETE
+    - material: WHITE_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fWhite Concrete Powder'
+      stack-size: 64
+      page: 1
+      slot: 12
+      id: colored_blocks_WHITE_CONCRETE_POWDER
+    - material: WHITE_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fWhite Terracotta'
+      stack-size: 64
+      page: 1
+      slot: 13
+      id: colored_blocks_WHITE_TERRACOTTA
+    - material: WHITE_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fWhite Stained Glass'
+      stack-size: 64
+      page: 1
+      slot: 14
+      id: colored_blocks_WHITE_GLASS
+    - material: WHITE_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fWhite Stained Glass Pane'
+      stack-size: 64
+      page: 1
+      slot: 15
+      id: colored_blocks_WHITE_GLASS_PANE
+    - material: WHITE_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fWhite Carpet'
+      stack-size: 64
+      page: 1
+      slot: 16
+      id: colored_blocks_WHITE_CARPET
+    - material: ORANGE_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fOrange Wool'
+      stack-size: 64
+      page: 1
+      slot: 19
+      id: colored_blocks_ORANGE_WOOL
+    - material: ORANGE_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fOrange Concrete'
+      stack-size: 64
+      page: 1
+      slot: 20
+      id: colored_blocks_ORANGE_CONCRETE
+    - material: ORANGE_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fOrange Concrete Powder'
+      stack-size: 64
+      page: 1
+      slot: 21
+      id: colored_blocks_ORANGE_CONCRETE_POWDER
+    - material: ORANGE_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fOrange Terracotta'
+      stack-size: 64
+      page: 1
+      slot: 22
+      id: colored_blocks_ORANGE_TERRACOTTA
+    - material: ORANGE_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fOrange Stained Glass'
+      stack-size: 64
+      page: 1
+      slot: 23
+      id: colored_blocks_ORANGE_GLASS
+    - material: ORANGE_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fOrange Stained Glass Pane'
+      stack-size: 64
+      page: 1
+      slot: 24
+      id: colored_blocks_ORANGE_GLASS_PANE
+    - material: ORANGE_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fOrange Carpet'
+      stack-size: 64
+      page: 1
+      slot: 25
+      id: colored_blocks_ORANGE_CARPET
+    - material: MAGENTA_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fMagenta Wool'
+      stack-size: 64
+      page: 1
+      slot: 28
+      id: colored_blocks_MAGENTA_WOOL
+    - material: MAGENTA_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fMagenta Concrete'
+      stack-size: 64
+      page: 1
+      slot: 29
+      id: colored_blocks_MAGENTA_CONCRETE
+    - material: MAGENTA_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fMagenta Concrete Powder'
+      stack-size: 64
+      page: 1
+      slot: 30
+      id: colored_blocks_MAGENTA_CONCRETE_POWDER
+    - material: MAGENTA_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fMagenta Terracotta'
+      stack-size: 64
+      page: 1
+      slot: 31
+      id: colored_blocks_MAGENTA_TERRACOTTA
+    - material: MAGENTA_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fMagenta Stained Glass'
+      stack-size: 64
+      page: 1
+      slot: 32
+      id: colored_blocks_MAGENTA_GLASS
+    - material: MAGENTA_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fMagenta Stained Glass Pane'
+      stack-size: 64
+      page: 1
+      slot: 33
+      id: colored_blocks_MAGENTA_GLASS_PANE
+    - material: MAGENTA_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fMagenta Carpet'
+      stack-size: 64
+      page: 1
+      slot: 34
+      id: colored_blocks_MAGENTA_CARPET
+    - material: LIGHT_BLUE_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fLight Blue Wool'
+      stack-size: 64
+      page: 1
+      slot: 37
+      id: colored_blocks_LIGHT_BLUE_WOOL
+    - material: LIGHT_BLUE_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fLight Blue Concrete'
+      stack-size: 64
+      page: 1
+      slot: 38
+      id: colored_blocks_LIGHT_BLUE_CONCRETE
+    - material: LIGHT_BLUE_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fLight Blue Concrete Powder'
+      stack-size: 64
+      page: 1
+      slot: 39
+      id: colored_blocks_LIGHT_BLUE_CONCRETE_POWDER
+    - material: LIGHT_BLUE_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fLight Blue Terracotta'
+      stack-size: 64
+      page: 1
+      slot: 40
+      id: colored_blocks_LIGHT_BLUE_TERRACOTTA
+    - material: LIGHT_BLUE_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fLight Blue Stained Glass'
+      stack-size: 64
+      page: 1
+      slot: 41
+      id: colored_blocks_LIGHT_BLUE_GLASS
+    - material: LIGHT_BLUE_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fLight Blue Stained Glass Pane'
+      stack-size: 64
+      page: 1
+      slot: 42
+      id: colored_blocks_LIGHT_BLUE_GLASS_PANE
+    - material: LIGHT_BLUE_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fLight Blue Carpet'
+      stack-size: 64
+      page: 1
+      slot: 43
+      id: colored_blocks_LIGHT_BLUE_CARPET
+    - material: YELLOW_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fYellow Wool'
+      stack-size: 64
+      page: 2
+      slot: 10
+      id: colored_blocks_YELLOW_WOOL
+    - material: YELLOW_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fYellow Concrete'
+      stack-size: 64
+      page: 2
+      slot: 11
+      id: colored_blocks_YELLOW_CONCRETE
+    - material: YELLOW_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fYellow Concrete Powder'
+      stack-size: 64
+      page: 2
+      slot: 12
+      id: colored_blocks_YELLOW_CONCRETE_POWDER
+    - material: YELLOW_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fYellow Terracotta'
+      stack-size: 64
+      page: 2
+      slot: 13
+      id: colored_blocks_YELLOW_TERRACOTTA
+    - material: YELLOW_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fYellow Stained Glass'
+      stack-size: 64
+      page: 2
+      slot: 14
+      id: colored_blocks_YELLOW_GLASS
+    - material: YELLOW_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fYellow Stained Glass Pane'
+      stack-size: 64
+      page: 2
+      slot: 15
+      id: colored_blocks_YELLOW_GLASS_PANE
+    - material: YELLOW_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fYellow Carpet'
+      stack-size: 64
+      page: 2
+      slot: 16
+      id: colored_blocks_YELLOW_CARPET
+    - material: LIME_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fLime Wool'
+      stack-size: 64
+      page: 2
+      slot: 19
+      id: colored_blocks_LIME_WOOL
+    - material: LIME_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fLime Concrete'
+      stack-size: 64
+      page: 2
+      slot: 20
+      id: colored_blocks_LIME_CONCRETE
+    - material: LIME_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fLime Concrete Powder'
+      stack-size: 64
+      page: 2
+      slot: 21
+      id: colored_blocks_LIME_CONCRETE_POWDER
+    - material: LIME_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fLime Terracotta'
+      stack-size: 64
+      page: 2
+      slot: 22
+      id: colored_blocks_LIME_TERRACOTTA
+    - material: LIME_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fLime Stained Glass'
+      stack-size: 64
+      page: 2
+      slot: 23
+      id: colored_blocks_LIME_GLASS
+    - material: LIME_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fLime Stained Glass Pane'
+      stack-size: 64
+      page: 2
+      slot: 24
+      id: colored_blocks_LIME_GLASS_PANE
+    - material: LIME_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fLime Carpet'
+      stack-size: 64
+      page: 2
+      slot: 25
+      id: colored_blocks_LIME_CARPET
+    - material: PINK_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fPink Wool'
+      stack-size: 64
+      page: 2
+      slot: 28
+      id: colored_blocks_PINK_WOOL
+    - material: PINK_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fPink Concrete'
+      stack-size: 64
+      page: 2
+      slot: 29
+      id: colored_blocks_PINK_CONCRETE
+    - material: PINK_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fPink Concrete Powder'
+      stack-size: 64
+      page: 2
+      slot: 30
+      id: colored_blocks_PINK_CONCRETE_POWDER
+    - material: PINK_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fPink Terracotta'
+      stack-size: 64
+      page: 2
+      slot: 31
+      id: colored_blocks_PINK_TERRACOTTA
+    - material: PINK_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fPink Stained Glass'
+      stack-size: 64
+      page: 2
+      slot: 32
+      id: colored_blocks_PINK_GLASS
+    - material: PINK_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fPink Stained Glass Pane'
+      stack-size: 64
+      page: 2
+      slot: 33
+      id: colored_blocks_PINK_GLASS_PANE
+    - material: PINK_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fPink Carpet'
+      stack-size: 64
+      page: 2
+      slot: 34
+      id: colored_blocks_PINK_CARPET
+    - material: GRAY_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fGray Wool'
+      stack-size: 64
+      page: 2
+      slot: 37
+      id: colored_blocks_GRAY_WOOL
+    - material: GRAY_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fGray Concrete'
+      stack-size: 64
+      page: 2
+      slot: 38
+      id: colored_blocks_GRAY_CONCRETE
+    - material: GRAY_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fGray Concrete Powder'
+      stack-size: 64
+      page: 2
+      slot: 39
+      id: colored_blocks_GRAY_CONCRETE_POWDER
+    - material: GRAY_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fGray Terracotta'
+      stack-size: 64
+      page: 2
+      slot: 40
+      id: colored_blocks_GRAY_TERRACOTTA
+    - material: GRAY_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fGray Stained Glass'
+      stack-size: 64
+      page: 2
+      slot: 41
+      id: colored_blocks_GRAY_GLASS
+    - material: GRAY_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fGray Stained Glass Pane'
+      stack-size: 64
+      page: 2
+      slot: 42
+      id: colored_blocks_GRAY_GLASS_PANE
+    - material: GRAY_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fGray Carpet'
+      stack-size: 64
+      page: 2
+      slot: 43
+      id: colored_blocks_GRAY_CARPET
+    - material: LIGHT_GRAY_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fLight Gray Wool'
+      stack-size: 64
+      page: 3
+      slot: 10
+      id: colored_blocks_LIGHT_GRAY_WOOL
+    - material: LIGHT_GRAY_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fLight Gray Concrete'
+      stack-size: 64
+      page: 3
+      slot: 11
+      id: colored_blocks_LIGHT_GRAY_CONCRETE
+    - material: LIGHT_GRAY_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fLight Gray Concrete Powder'
+      stack-size: 64
+      page: 3
+      slot: 12
+      id: colored_blocks_LIGHT_GRAY_CONCRETE_POWDER
+    - material: LIGHT_GRAY_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fLight Gray Terracotta'
+      stack-size: 64
+      page: 3
+      slot: 13
+      id: colored_blocks_LIGHT_GRAY_TERRACOTTA
+    - material: LIGHT_GRAY_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fLight Gray Stained Glass'
+      stack-size: 64
+      page: 3
+      slot: 14
+      id: colored_blocks_LIGHT_GRAY_GLASS
+    - material: LIGHT_GRAY_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fLight Gray Stained Glass Pane'
+      stack-size: 64
+      page: 3
+      slot: 15
+      id: colored_blocks_LIGHT_GRAY_GLASS_PANE
+    - material: LIGHT_GRAY_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fLight Gray Carpet'
+      stack-size: 64
+      page: 3
+      slot: 16
+      id: colored_blocks_LIGHT_GRAY_CARPET
+    - material: CYAN_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fCyan Wool'
+      stack-size: 64
+      page: 3
+      slot: 19
+      id: colored_blocks_CYAN_WOOL
+    - material: CYAN_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fCyan Concrete'
+      stack-size: 64
+      page: 3
+      slot: 20
+      id: colored_blocks_CYAN_CONCRETE
+    - material: CYAN_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fCyan Concrete Powder'
+      stack-size: 64
+      page: 3
+      slot: 21
+      id: colored_blocks_CYAN_CONCRETE_POWDER
+    - material: CYAN_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fCyan Terracotta'
+      stack-size: 64
+      page: 3
+      slot: 22
+      id: colored_blocks_CYAN_TERRACOTTA
+    - material: CYAN_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fCyan Stained Glass'
+      stack-size: 64
+      page: 3
+      slot: 23
+      id: colored_blocks_CYAN_GLASS
+    - material: CYAN_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fCyan Stained Glass Pane'
+      stack-size: 64
+      page: 3
+      slot: 24
+      id: colored_blocks_CYAN_GLASS_PANE
+    - material: CYAN_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fCyan Carpet'
+      stack-size: 64
+      page: 3
+      slot: 25
+      id: colored_blocks_CYAN_CARPET
+    - material: PURPLE_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fPurple Wool'
+      stack-size: 64
+      page: 3
+      slot: 28
+      id: colored_blocks_PURPLE_WOOL
+    - material: PURPLE_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fPurple Concrete'
+      stack-size: 64
+      page: 3
+      slot: 29
+      id: colored_blocks_PURPLE_CONCRETE
+    - material: PURPLE_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fPurple Concrete Powder'
+      stack-size: 64
+      page: 3
+      slot: 30
+      id: colored_blocks_PURPLE_CONCRETE_POWDER
+    - material: PURPLE_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fPurple Terracotta'
+      stack-size: 64
+      page: 3
+      slot: 31
+      id: colored_blocks_PURPLE_TERRACOTTA
+    - material: PURPLE_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fPurple Stained Glass'
+      stack-size: 64
+      page: 3
+      slot: 32
+      id: colored_blocks_PURPLE_GLASS
+    - material: PURPLE_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fPurple Stained Glass Pane'
+      stack-size: 64
+      page: 3
+      slot: 33
+      id: colored_blocks_PURPLE_GLASS_PANE
+    - material: PURPLE_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fPurple Carpet'
+      stack-size: 64
+      page: 3
+      slot: 34
+      id: colored_blocks_PURPLE_CARPET
+    - material: BLUE_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fBlue Wool'
+      stack-size: 64
+      page: 3
+      slot: 37
+      id: colored_blocks_BLUE_WOOL
+    - material: BLUE_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fBlue Concrete'
+      stack-size: 64
+      page: 3
+      slot: 38
+      id: colored_blocks_BLUE_CONCRETE
+    - material: BLUE_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fBlue Concrete Powder'
+      stack-size: 64
+      page: 3
+      slot: 39
+      id: colored_blocks_BLUE_CONCRETE_POWDER
+    - material: BLUE_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fBlue Terracotta'
+      stack-size: 64
+      page: 3
+      slot: 40
+      id: colored_blocks_BLUE_TERRACOTTA
+    - material: BLUE_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fBlue Stained Glass'
+      stack-size: 64
+      page: 3
+      slot: 41
+      id: colored_blocks_BLUE_GLASS
+    - material: BLUE_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fBlue Stained Glass Pane'
+      stack-size: 64
+      page: 3
+      slot: 42
+      id: colored_blocks_BLUE_GLASS_PANE
+    - material: BLUE_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fBlue Carpet'
+      stack-size: 64
+      page: 3
+      slot: 43
+      id: colored_blocks_BLUE_CARPET
+    - material: BROWN_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fBrown Wool'
+      stack-size: 64
+      page: 4
+      slot: 10
+      id: colored_blocks_BROWN_WOOL
+    - material: BROWN_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fBrown Concrete'
+      stack-size: 64
+      page: 4
+      slot: 11
+      id: colored_blocks_BROWN_CONCRETE
+    - material: BROWN_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fBrown Concrete Powder'
+      stack-size: 64
+      page: 4
+      slot: 12
+      id: colored_blocks_BROWN_CONCRETE_POWDER
+    - material: BROWN_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fBrown Terracotta'
+      stack-size: 64
+      page: 4
+      slot: 13
+      id: colored_blocks_BROWN_TERRACOTTA
+    - material: BROWN_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fBrown Stained Glass'
+      stack-size: 64
+      page: 4
+      slot: 14
+      id: colored_blocks_BROWN_GLASS
+    - material: BROWN_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fBrown Stained Glass Pane'
+      stack-size: 64
+      page: 4
+      slot: 15
+      id: colored_blocks_BROWN_GLASS_PANE
+    - material: BROWN_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fBrown Carpet'
+      stack-size: 64
+      page: 4
+      slot: 16
+      id: colored_blocks_BROWN_CARPET
+    - material: GREEN_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fGreen Wool'
+      stack-size: 64
+      page: 4
+      slot: 19
+      id: colored_blocks_GREEN_WOOL
+    - material: GREEN_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fGreen Concrete'
+      stack-size: 64
+      page: 4
+      slot: 20
+      id: colored_blocks_GREEN_CONCRETE
+    - material: GREEN_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fGreen Concrete Powder'
+      stack-size: 64
+      page: 4
+      slot: 21
+      id: colored_blocks_GREEN_CONCRETE_POWDER
+    - material: GREEN_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fGreen Terracotta'
+      stack-size: 64
+      page: 4
+      slot: 22
+      id: colored_blocks_GREEN_TERRACOTTA
+    - material: GREEN_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fGreen Stained Glass'
+      stack-size: 64
+      page: 4
+      slot: 23
+      id: colored_blocks_GREEN_GLASS
+    - material: GREEN_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fGreen Stained Glass Pane'
+      stack-size: 64
+      page: 4
+      slot: 24
+      id: colored_blocks_GREEN_GLASS_PANE
+    - material: GREEN_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fGreen Carpet'
+      stack-size: 64
+      page: 4
+      slot: 25
+      id: colored_blocks_GREEN_CARPET
+    - material: RED_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fRed Wool'
+      stack-size: 64
+      page: 4
+      slot: 28
+      id: colored_blocks_RED_WOOL
+    - material: RED_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fRed Concrete'
+      stack-size: 64
+      page: 4
+      slot: 29
+      id: colored_blocks_RED_CONCRETE
+    - material: RED_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fRed Concrete Powder'
+      stack-size: 64
+      page: 4
+      slot: 30
+      id: colored_blocks_RED_CONCRETE_POWDER
+    - material: RED_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fRed Terracotta'
+      stack-size: 64
+      page: 4
+      slot: 31
+      id: colored_blocks_RED_TERRACOTTA
+    - material: RED_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fRed Stained Glass'
+      stack-size: 64
+      page: 4
+      slot: 32
+      id: colored_blocks_RED_GLASS
+    - material: RED_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fRed Stained Glass Pane'
+      stack-size: 64
+      page: 4
+      slot: 33
+      id: colored_blocks_RED_GLASS_PANE
+    - material: RED_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fRed Carpet'
+      stack-size: 64
+      page: 4
+      slot: 34
+      id: colored_blocks_RED_CARPET
+    - material: BLACK_WOOL
+      buy-price: 50.0
+      sell-price: 25.0
+      name: '&fBlack Wool'
+      stack-size: 64
+      page: 4
+      slot: 37
+      id: colored_blocks_BLACK_WOOL
+    - material: BLACK_CONCRETE
+      buy-price: 70.0
+      sell-price: 35.0
+      name: '&fBlack Concrete'
+      stack-size: 64
+      page: 4
+      slot: 38
+      id: colored_blocks_BLACK_CONCRETE
+    - material: BLACK_CONCRETE_POWDER
+      buy-price: 60.0
+      sell-price: 30.0
+      name: '&fBlack Concrete Powder'
+      stack-size: 64
+      page: 4
+      slot: 39
+      id: colored_blocks_BLACK_CONCRETE_POWDER
+    - material: BLACK_TERRACOTTA
+      buy-price: 65.0
+      sell-price: 32.0
+      name: '&fBlack Terracotta'
+      stack-size: 64
+      page: 4
+      slot: 40
+      id: colored_blocks_BLACK_TERRACOTTA
+    - material: BLACK_GLASS
+      buy-price: 80.0
+      sell-price: 40.0
+      name: '&fBlack Stained Glass'
+      stack-size: 64
+      page: 4
+      slot: 41
+      id: colored_blocks_BLACK_GLASS
+    - material: BLACK_GLASS_PANE
+      buy-price: 45.0
+      sell-price: 22.0
+      name: '&fBlack Stained Glass Pane'
+      stack-size: 64
+      page: 4
+      slot: 42
+      id: colored_blocks_BLACK_GLASS_PANE
+    - material: BLACK_CARPET
+      buy-price: 30.0
+      sell-price: 15.0
+      name: '&fBlack Carpet'
+      stack-size: 64
+      page: 4
+      slot: 43
+      id: colored_blocks_BLACK_CARPET
+  decoration:
+    name: '&a🏠 Decoration'
+    material: PAINTING
+    slot: 28
+    lore:
+    - '&7Decorative blocks and items'
+    - '&842 items • 2 pages'
+    items:
+    - material: WHITE_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fWhite Bed'
+      stack-size: 1
+      page: 1
+      slot: 10
+      id: decoration_WHITE_BED
+    - material: ORANGE_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fOrange Bed'
+      stack-size: 1
+      page: 1
+      slot: 11
+      id: decoration_ORANGE_BED
+    - material: MAGENTA_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fMagenta Bed'
+      stack-size: 1
+      page: 1
+      slot: 12
+      id: decoration_MAGENTA_BED
+    - material: LIGHT_BLUE_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fLight Blue Bed'
+      stack-size: 1
+      page: 1
+      slot: 13
+      id: decoration_LIGHT_BLUE_BED
+    - material: YELLOW_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fYellow Bed'
+      stack-size: 1
+      page: 1
+      slot: 14
+      id: decoration_YELLOW_BED
+    - material: LIME_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fLime Bed'
+      stack-size: 1
+      page: 1
+      slot: 15
+      id: decoration_LIME_BED
+    - material: PINK_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fPink Bed'
+      stack-size: 1
+      page: 1
+      slot: 16
+      id: decoration_PINK_BED
+    - material: GRAY_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fGray Bed'
+      stack-size: 1
+      page: 1
+      slot: 19
+      id: decoration_GRAY_BED
+    - material: LIGHT_GRAY_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fLight Gray Bed'
+      stack-size: 1
+      page: 1
+      slot: 20
+      id: decoration_LIGHT_GRAY_BED
+    - material: CYAN_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fCyan Bed'
+      stack-size: 1
+      page: 1
+      slot: 21
+      id: decoration_CYAN_BED
+    - material: PURPLE_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fPurple Bed'
+      stack-size: 1
+      page: 1
+      slot: 22
+      id: decoration_PURPLE_BED
+    - material: BLUE_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fBlue Bed'
+      stack-size: 1
+      page: 1
+      slot: 23
+      id: decoration_BLUE_BED
+    - material: BROWN_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fBrown Bed'
+      stack-size: 1
+      page: 1
+      slot: 24
+      id: decoration_BROWN_BED
+    - material: GREEN_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fGreen Bed'
+      stack-size: 1
+      page: 1
+      slot: 25
+      id: decoration_GREEN_BED
+    - material: RED_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fRed Bed'
+      stack-size: 1
+      page: 1
+      slot: 28
+      id: decoration_RED_BED
+    - material: BLACK_BED
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fBlack Bed'
+      stack-size: 1
+      page: 1
+      slot: 29
+      id: decoration_BLACK_BED
+    - material: FLOWER_POT
+      buy-price: 140.0
+      sell-price: 70.0
+      name: '&fFlower Pot'
+      stack-size: 64
+      page: 1
+      slot: 30
+      id: decoration_FLOWER_POT
+    - material: DECORATED_POT
+      buy-price: 600.0
+      sell-price: 300.0
+      name: '&fDecorated Pot'
+      stack-size: 64
+      page: 1
+      slot: 31
+      id: decoration_DECORATED_POT
+    - material: PAINTING
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fPainting'
+      stack-size: 64
+      page: 1
+      slot: 32
+      id: decoration_PAINTING
+    - material: ITEM_FRAME
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fItem Frame'
+      stack-size: 64
+      page: 1
+      slot: 33
+      id: decoration_ITEM_FRAME
+    - material: GLOW_ITEM_FRAME
+      buy-price: 700.0
+      sell-price: 350.0
+      name: '&fGlow Item Frame'
+      stack-size: 64
+      page: 1
+      slot: 34
+      id: decoration_GLOW_ITEM_FRAME
+    - material: ARMOR_STAND
+      buy-price: 600.0
+      sell-price: 300.0
+      name: '&fArmor Stand'
+      stack-size: 64
+      page: 1
+      slot: 37
+      id: decoration_ARMOR_STAND
+    - material: IRON_BARS
+      buy-price: 200.0
+      sell-price: 100.0
+      name: '&fIron Bars'
+      stack-size: 64
+      page: 1
+      slot: 38
+      id: decoration_IRON_BARS
+    - material: CHAIN
+      buy-price: 180.0
+      sell-price: 90.0
+      name: '&fChain'
+      stack-size: 64
+      page: 1
+      slot: 39
+      id: decoration_CHAIN
+    - material: BELL
+      buy-price: 2400.0
+      sell-price: 1200.0
+      name: '&fBell'
+      stack-size: 1
+      page: 1
+      slot: 40
+      id: decoration_BELL
+    - material: LECTERN
+      buy-price: 700.0
+      sell-price: 350.0
+      name: '&fLectern'
+      stack-size: 64
+      page: 1
+      slot: 41
+      id: decoration_LECTERN
+    - material: LOOM
+      buy-price: 200.0
+      sell-price: 100.0
+      name: '&fLoom'
+      stack-size: 64
+      page: 1
+      slot: 42
+      id: decoration_LOOM
+    - material: CARTOGRAPHY_TABLE
+      buy-price: 300.0
+      sell-price: 150.0
+      name: '&fCartography Table'
+      stack-size: 64
+      page: 1
+      slot: 43
+      id: decoration_CARTOGRAPHY_TABLE
+    - material: FLETCHING_TABLE
+      buy-price: 200.0
+      sell-price: 100.0
+      name: '&fFletching Table'
+      stack-size: 64
+      page: 2
+      slot: 10
+      id: decoration_FLETCHING_TABLE
+    - material: COMPOSTER
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fComposter'
+      stack-size: 64
+      page: 2
+      slot: 11
+      id: decoration_COMPOSTER
+    - material: BEEHIVE
+      buy-price: 500.0
+      sell-price: 250.0
+      name: '&fBeehive'
+      stack-size: 64
+      page: 2
+      slot: 12
+      id: decoration_BEEHIVE
+    - material: BEE_NEST
+      buy-price: 1400.0
+      sell-price: 700.0
+      name: '&fBee Nest'
+      stack-size: 64
+      page: 2
+      slot: 13
+      id: decoration_BEE_NEST
+    - material: HONEYCOMB
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fHoneycomb'
+      stack-size: 64
+      page: 2
+      slot: 14
+      id: decoration_HONEYCOMB
+    - material: HONEY_BOTTLE
+      buy-price: 500.0
+      sell-price: 250.0
+      name: '&fHoney Bottle'
+      stack-size: 16
+      page: 2
+      slot: 15
+      id: decoration_HONEY_BOTTLE
+    - material: HONEY_BLOCK
+      buy-price: 1000.0
+      sell-price: 500.0
+      name: '&fHoney Block'
+      stack-size: 64
+      page: 2
+      slot: 16
+      id: decoration_HONEY_BLOCK
+    - material: SLIME_BLOCK
+      buy-price: 1400.0
+      sell-price: 700.0
+      name: '&fSlime Block'
+      stack-size: 64
+      page: 2
+      slot: 19
+      id: decoration_SLIME_BLOCK
+    - material: SCAFFOLDING
+      buy-price: 120.0
+      sell-price: 60.0
+      name: '&fScaffolding'
+      stack-size: 64
+      page: 2
+      slot: 20
+      id: decoration_SCAFFOLDING
+    - material: TINTED_GLASS
+      buy-price: 320.0
+      sell-price: 160.0
+      name: '&fTinted Glass'
+      stack-size: 64
+      page: 2
+      slot: 21
+      id: decoration_TINTED_GLASS
+    - material: END_ROD
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fEnd Rod'
+      stack-size: 64
+      page: 2
+      slot: 22
+      id: decoration_END_ROD
+    - material: CHORUS_FRUIT
+      buy-price: 200.0
+      sell-price: 100.0
+      name: '&fChorus Fruit'
+      stack-size: 64
+      page: 2
+      slot: 23
+      id: decoration_CHORUS_FRUIT
+    - material: POPPED_CHORUS_FRUIT
+      buy-price: 300.0
+      sell-price: 150.0
+      name: '&fPopped Chorus Fruit'
+      stack-size: 64
+      page: 2
+      slot: 24
+      id: decoration_POPPED_CHORUS_FRUIT
+    - material: CHORUS_FLOWER
+      buy-price: 360.0
+      sell-price: 180.0
+      name: '&fChorus Flower'
+      stack-size: 64
+      page: 2
+      slot: 25
+      id: decoration_CHORUS_FLOWER
+  chaos_cubed_26_2:
+    name: '&6🔥 26.2 - Chaos Cubed'
+    material: SULFUR
+    slot: 29
+    lore:
+    - '&7Sulfur, Cinnabar and 26.2 content'
+    - '&88 items • 1 page'
+    items:
+    - material: SULFUR
+      buy-price: 160.0
+      sell-price: 80.0
+      name: '&fSulfur'
+      stack-size: 64
+      page: 1
+      slot: 10
+      id: chaos_cubed_26_2_SULFUR
+    - material: SULFUR_BLOCK
+      buy-price: 1000.0
+      sell-price: 500.0
+      name: '&fBlock of Sulfur'
+      stack-size: 64
+      page: 1
+      slot: 11
+      id: chaos_cubed_26_2_SULFUR_BLOCK
+    - material: CINNABAR
+      buy-price: 240.0
+      sell-price: 120.0
+      name: '&fCinnabar'
+      stack-size: 64
+      page: 1
+      slot: 12
+      id: chaos_cubed_26_2_CINNABAR
+    - material: CINNABAR_BLOCK
+      buy-price: 1400.0
+      sell-price: 700.0
+      name: '&fBlock of Cinnabar'
+      stack-size: 64
+      page: 1
+      slot: 13
+      id: chaos_cubed_26_2_CINNABAR_BLOCK
+    - material: POTENT_SULFUR
+      buy-price: 500.0
+      sell-price: 250.0
+      name: '&fPotent Sulfur'
+      stack-size: 64
+      page: 1
+      slot: 14
+      id: chaos_cubed_26_2_POTENT_SULFUR
+    - material: SULFUR_SPIKE
+      buy-price: 600.0
+      sell-price: 300.0
+      name: '&fSulfur Spike'
+      stack-size: 64
+      page: 1
+      slot: 15
+      id: chaos_cubed_26_2_SULFUR_SPIKE
+    - material: SULFUR_CUBE_BUCKET
+      buy-price: 10000.0
+      sell-price: 5000.0
+      name: '&fSulfur Cube Bucket'
+      stack-size: 1
+      page: 1
+      slot: 16
+      id: chaos_cubed_26_2_SULFUR_CUBE_BUCKET
+    - material: MUSIC_DISC_BOUNCE
+      buy-price: 20000.0
+      sell-price: 10000.0
+      name: '&fMusic Disc Bounce'
+      stack-size: 1
+      page: 1
+      slot: 19
+      id: chaos_cubed_26_2_MUSIC_DISC_BOUNCE
+  spawnerek:
+    name: '&d&l☠ Spawners (geridos pelo SurvivalProgression)'
+    material: SPAWNER
+    slot: 30
+    lore:
+    - '&7Compra os spawners pelo menu principal /shop.'
+    - '&7Esta categoria antiga foi desativada para evitar exploits.'
+    items: []

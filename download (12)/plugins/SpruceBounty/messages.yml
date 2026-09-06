@@ -1,0 +1,45 @@
+# ============================================================
+#  SpruceBounty - messages.yml
+#
+#  Every player-facing string lives here. Format: MiniMessage
+#  (https://docs.advntr.dev/minimessage/format.html).
+#  <prefix> is available in every message below.
+#  Reload at runtime with /bountyadmin reload.
+# ============================================================
+
+prefix: "<gradient:#7cb518:#38b000><bold>Bounty</bold></gradient> <dark_gray>»</dark_gray>"
+
+reload-success: "<prefix> <green>Configuration and messages reloaded.</green>"
+reload-failed: "<prefix> <red>Reload failed — check the console for details.</red>"
+
+usage-bounty: "<prefix> <gray>Usage: <white>/bounty <set|list|check|top|cancel> [player] [amount]</white></gray>"
+usage-bountyadmin: "<prefix> <gray>Usage: <white>/bountyadmin <remove|clear|reload></white></gray>"
+players-only: "<prefix> <red>Only a player can do that.</red>"
+player-not-found: "<prefix> <red>Player '<white><target></white>' was not found.</red>"
+economy-error: "<prefix> <red>The economy plugin refused that transaction. Please try again.</red>"
+
+set-success: "<prefix> <green>Placed a <white><amount></white> bounty on <white><target></white>.</green>"
+set-self: "<prefix> <red>You cannot place a bounty on yourself.</red>"
+set-immune: "<prefix> <red><target> is immune to bounties.</red>"
+set-below-min: "<prefix> <red>That's below the minimum bounty of <white><amount></white>.</red>"
+set-above-max: "<prefix> <red>That's above the maximum bounty of <white><amount></white>.</red>"
+set-insufficient-funds: "<prefix> <red>You don't have <white><amount></white> to place that bounty.</red>"
+
+check-none: "<prefix> <gray><target> has no active bounty.</gray>"
+check-result: "<prefix> <white><target></white> has a <gold><amount></gold> bounty on their head."
+
+top-header: "<prefix> <gold><bold>Top 10 Bounties</bold></gold>"
+top-entry: "  <gray>#<rank></gray> <white><target></white> <dark_gray>-</dark_gray> <gold><amount></gold>"
+top-empty: "<prefix> <gray>There are no active bounties right now.</gray>"
+
+cancel-success: "<prefix> <green>Bounty on <white><target></white> cancelled — refunded <white><refund></white>.</green>"
+cancel-not-found: "<prefix> <red>You have no bounty placed on <white><target></white>.</red>"
+
+admin-remove-success: "<prefix> <green>Removed the bounty on <white><target></white> — refunded <white><refund></white> to its contributor(s).</green>"
+admin-remove-not-found: "<prefix> <red><target> has no active bounty to remove.</red>"
+admin-clear-success: "<prefix> <green>Cleared <white><count></white> bounty(ies) — refunded <white><refund></white> total.</green>"
+admin-refund-partial-failure: "<prefix> <yellow><count> refund(s) failed (the economy plugin rejected the deposit) — check the console.</yellow>"
+
+claim-broadcast: "<prefix> <gold><killer></gold> <gray>claimed the</gray> <gold><amount></gold> <gray>bounty on</gray> <gold><victim></gold><gray>!</gray>"
+claim-broadcast-title: "<gold><bold><killer></bold></gold>"
+claim-broadcast-subtitle: "<gray>claimed the <gold><amount></gold> bounty on <white><victim></white></gray>"

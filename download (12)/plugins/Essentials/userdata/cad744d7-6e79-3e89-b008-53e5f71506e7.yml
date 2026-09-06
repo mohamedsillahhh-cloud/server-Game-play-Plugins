@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 102.211.9.132
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788482108155
+  login: 1788481407280
+money: '0'
+last-account-name: DoJob
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -29.5
+  y: 64.0
+  z: 57.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 79.69999998807907
+  y: 69.0
+  z: -46.544136937194864
+  yaw: 177.3524169921875
+  pitch: 28.97281837463379

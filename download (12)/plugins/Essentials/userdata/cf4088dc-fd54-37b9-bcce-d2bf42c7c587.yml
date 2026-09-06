@@ -1,0 +1,39 @@
+npc: false
+last-account-name: rafa_hits38
+money: '0'
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 102.211.8.134
+afk: false
+socialspy: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1787946944110
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788559172249
+  login: 1788559098887
+lastlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: 103.08393059341626
+  y: 87.0
+  z: 262.9995537853444
+  yaw: -26.320037841796875
+  pitch: 19.035106658935547
+logoutlocation:
+  world: 0a46451f-63ba-4571-9027-9ab7eef5d2a2
+  world-name: world
+  x: -7912.303771214461
+  y: 74.94942163076944
+  z: -5760.593539917393
+  yaw: 102.77430725097656
+  pitch: 73.80619812011719
