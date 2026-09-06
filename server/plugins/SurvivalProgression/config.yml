@@ -71,3 +71,93 @@ equipment:
       NETHERITE_AXE: {display: '&6Supremo &fNETHERITE AXE', enchants: {efficiency: 5, sharpness: 5, unbreaking: 3, mending: 1}}
       NETHERITE_SHOVEL: {display: '&6Supremo &fNETHERITE SHOVEL', enchants: {efficiency: 5, unbreaking: 3, mending: 1}}
       NETHERITE_HOE: {display: '&6Supremo &fNETHERITE HOE', enchants: {efficiency: 5, fortune: 3, unbreaking: 3, mending: 1}}
+
+# Titulos dos menus (%max%, %size%, %type% sao substituidos em runtime)
+menus:
+  progress: '&8Progressão Survival'
+  ranks: '&8Ranks'
+  licenses: '&8Licenças'
+  shop: '&8Loja'
+  spawners: '&8Loja de Spawners'
+  equipment: '&8Equipamentos Supremos'
+  preview: '&8Arsenal &7(%type% — pré-visualização)'
+  homes: '&8Homes &7(%max%)'
+  ec: '&5Ender Chest &7(%size%)'
+  items:
+    ranks: {icon: EXPERIENCE_BOTTLE, display: '&eRanks', button: 'RANKS', lore: ['%next%', '&eClique para ver/subir']}
+    licenses: {icon: PAPER, display: '&bLicenças', button: 'LICENSES', lore: ['&7Homes, EC, Craft, Spawners e Kits']}
+    spawners: {icon: SPAWNER, display: '&dSpawners', button: 'SPAWNERS', lore: ['&7Comprar spawners desbloqueados']}
+    ec: {icon: ENDER_CHEST, display: '&5Ender Chest', button: 'EC', lore: ['&7Tamanho atual: &f%size% slots']}
+    equipment: {icon: CHEST, display: '&cEquipamentos', button: 'EQUIPMENT', lore: ['&7Pacotes Diamond/Netherite OP']}
+    general-shop: {icon: CHEST, display: '&aLoja Geral', button: 'GENERAL_SHOP', lore: ['&7Abre a loja normal do servidor']}
+    shop-spawners: {icon: SPAWNER, display: '&dSpawners', button: 'SPAWNERS', lore: ['&7Spawners com licenças e preços fixos']}
+
+# Textos de interface dos itens (ui.*)
+ui:
+  price-line: '&7Preço: &a$%price%'
+  license-line: '&7Rank: &f%rank%'
+  requires: '&c🔒 Requer %license%'
+  requires-package: '&c🔒 Requer licença %license%'
+  owned: '&a✔ Comprada'
+  click-buy: '&eClique para comprar'
+  buy-once: '&eClique para comprar uma única vez'
+  bought: '&cJá comprado'
+  license-active: '&a✔ Licença ativa'
+  unlocked: '&a✔ Desbloqueado'
+  click-buy-1: '&eClique para comprar 1'
+  see-pieces: '&7Vê as peças e encantamentos do arsenal'
+  click-see: '&eClique para ver'
+  click-teleport: '&eClique para teleportar'
+  rank-max: '&aRank máximo'
+  next-rank: '&7Próximo: &f%rank%'
+  click-up: '&eClique para subir'
+  log-balance: '&7Saldo: &a$%balance%'
+  log-hours: '&7Tempo: &f%hours%h'
+  log-kills: '&7Kills válidas: &f%kills%'
+  log-mobs: '&7Mobs: &f%mobs%'
+  log-blocks: '&7Blocos: &f%blocks%'
+  label-hours: 'Horas'
+  label-kills: 'Kills'
+  label-mobs: 'Mobs'
+  label-blocks: 'Blocos'
+  spawner-item: '&e%type% Spawner'
+  package-name: '&bArsenal %type% Supremo'
+  preview-name: '&fPré-visualizar Arsenal %type%'
+
+# Mensagens de chat (placeholders %variaveis% substituidos em runtime)
+messages:
+  players-only: 'Apenas jogadores.'
+  sethome-usage: '&cUsa /sethome <nome>'
+  delhome-usage: '&cUsa /delhome <nome>'
+  craft-license: '&cPrecisas da licença Craft Portátil.'
+  ec-license: '&cPrecisas da licença /ec para abrir o Ender Chest remotamente.'
+  home-invalid: '&cNome inválido.'
+  home-limit: '&cAtingiste o limite de %max% homes.'
+  home-created: '&aHome &e%name% &acriada. &7(%count%/%max%)'
+  home-missing: '&cEssa home não existe.'
+  home-deleted: '&aHome &e%name% &aapagada.'
+  home-world-missing: '&cMundo da home não existe.'
+  teleport-wait: '&eTeleportando para &6%name% &eem &c%secs%s&e...'
+  teleport-cancel: '&cTeleporte cancelado porque te mexeste.'
+  teleport-done: '&aTeleportado para &e%name%&a.'
+  teleport-actionbar: '&eTeleportando para &6%name% &eem &c%secs%s &7• &fNão te mexas!'
+  license-owned: '&eJá tens esta licença.'
+  license-rank: '&cRequer rank %rank%.'
+  license-prereq: '&cCompra primeiro %license%.'
+  license-unlocked: '&aLicença desbloqueada: &e%license%'
+  insufficient: '&cDinheiro insuficiente.'
+  tx-fail: '&cFalha na transação.'
+  spawner-license: '&cNão tens a licença necessária.'
+  spawner-invalid: '&cTipo de spawner inválido.'
+  spawner-bought: '&aCompraste &e%type% Spawner &apor $%price%.'
+  pack-disabled: '&cEste pacote está indisponível.'
+  pack-license: '&cA licença necessária não está ativa no teu rank atual.'
+  pack-owned: '&cEste pacote já foi comprado nesta conta.'
+  pack-bought: '&6&lPACOTE COMPRADO! &eArsenal %type% entregue. Esta recompensa é única.'
+  rank-order: '&cTens de subir os ranks pela ordem.'
+  requirements: '&cAinda não cumpriste os requisitos.'
+  rank-up: '&6&lPROMOÇÃO! &eAgora és %rank%'
+  kill-valid: '&a✔ Kill válida para progressão.'
+  kill-repeat: '&cEsta kill repetida não conta para a progressão.'
+  killfarm-warning: '&6⚠ AVISO DE FARM DE KILLS &7- Mataste &e%player% &7%count% vezes em 10 minutos. &cMais %left% kill%s% e perderás um Rank.'
+  rank-demote: '&4&lRANK REBAIXADO! &cFarm de kills detetado: &e%old% &7→ &e%new%'
