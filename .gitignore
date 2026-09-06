@@ -11,9 +11,8 @@ desktop.ini
 *.log
 *.tmp
 
-# Bases de dados geradas em runtime (Regeneraveis)
-*.mv.db
-*.trace.db
+# Bases de dados SAO versionadas de proposito (o admin descarrega do repo para o server).
+# Nao ignorar *.db / *.mv.db / *.sqlite.
 
 # Area de trabalho descompilada (nunca deve existir aqui)
 auditoria-pdc/
