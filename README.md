@@ -36,5 +36,6 @@ Pack de plugins pronto a implementar para um servidor **Paper 1.26.2**.
 ## Notas operacionais
 
 - **Homes:** dono único é o `SurvivalProgression` (comandos homes desativados no `Essentials`).
+- **Nunca fazer reset/limpeza aos dados**: bases de dados e ficheiros de progresso (`data.yml`, `*.db`, `luckperms-h2-v2.mv.db`, `profiles.sqlite`, …) contêm conquistas dos jogadores e NÃO devem ser apagados nem limpos — nem em "wipe" nem por substituição da pasta `plugins/`.
 - **Economia de kills:** `KillMoney` (recompensa/penalidade) — independente do sistema de bounties (SpruceBounty).
 - Repositório **privado**: contém dados de jogadores (UUIDs, coordenadas) e o **webhook do Discord**. Não tornar público sem sanitizar.
