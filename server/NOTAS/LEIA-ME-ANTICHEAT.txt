@@ -74,9 +74,16 @@ Os templates estao em server/config-overrides/antixray/:
 - 02-nether-antixray.yml         -> config/world/dimensions/minecraft/the_nether/paper-world.yml
 - 03-end-antixray.yml            -> config/world/dimensions/minecraft/the_end/paper-world.yml
 
-Passos: desliga o servidor, substitui o bloco "anticheat.anti-xray" nos
-ficheiros, liga. Engine-mode 2, overworld ate y=64, nether ate y=128, End
-desligado, sem "air" em hidden-blocks (evita quedas de FPS nos clientes).
+FORMA MAIS FACIL (automatica, com backup) - instalador incluido:
+- Windows: antixray-install.ps1  (corre na raiz do servidor)
+- Linux:   antixray-install.sh   (usa python3)
+Faz o merge sozinho, guarda backup + relatorio em config/ e respeita a
+indentacao de cada ficheiro.
+
+MANUAL (alternativa): desliga o servidor, substitui o bloco
+"anticheat.anti-xray" nos ficheiros acima, liga. Engine-mode 2, overworld ate
+y=64, nether ate y=128, End desligado, sem "air" em hidden-blocks (evita
+quedas de FPS nos clientes).
 Limitacoes: minérios acima de max-block-height nao escondem; minérios
 expostos ao ar em cavernas podem ver-se. Isto BLOQUEIA xray, nao apanha
 nomes — deteccao de padroes de mineracao seria outra camada.

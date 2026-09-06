@@ -2,7 +2,21 @@
 
 Proteção contra Xray nativa do Paper (obfuscation-based, sem plugin extra). O
 pack é entregue a pensar em `server/plugins/`, mas o Anti-Xray vive na config do
-servidor — por isso aqui estão os blocos prontos a colar.
+servidor — por isso aqui estão os blocos prontos a colar E um **instalador
+automático** (faz o merge sozinho, com backup).
+
+## Opção A — Instalador automático (mais fácil)
+
+- **Windows:** `antixray-install.ps1` — copia a pasta `antixray` para o servidor
+  e corre a partir da raiz (onde está o `server.jar`):
+  `powershell -ExecutionPolicy Bypass -File antixray/antixray-install.ps1`
+- **Linux:** `antixray-install.sh` (usa `python3`) — `./antixray/antixray-install.sh`
+- O instalador localiza os ficheiros, faz **backup** para
+  `config/_antixray-backup-<data>/`, substitui/adiciona cada bloco
+  (respeitando a indentação de cada ficheiro) e guarda um relatório em
+  `config/_antixray-relatorio-<data>.txt`.
+
+## Opção B — Manual (templates para colar)
 
 ## Ficheiros do servidor a editar (localização em `config/`)
 
