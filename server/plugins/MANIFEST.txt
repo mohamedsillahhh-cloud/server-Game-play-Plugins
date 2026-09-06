@@ -4,7 +4,6 @@ CombatLogX.jar                                | "CombatLogX"                   |
 DeluxeMenus-1.14.1-Release.jar                | DeluxeMenus                    | versao 1.14.1-Release     | api 1.13     | All in one inventory menu system
 EssentialsX-2.22.0.jar                        | Essentials                     | versao 2.22.0             | api "1.13"   | Provides an essential, core set of commands for Bukkit.
 EssentialsXSpawn-2.22.0.jar                   | EssentialsSpawn                | versao 2.22.0             | api 1.13     | Provides spawn control commands, utilizing Essentials.
-GrimAC-2.3.74.jar                             | GrimAC                         | versao 2.3.74             | api '1.13'   | Libre simulation anticheat designed for 1.8-26.2, with console/sqlite/Discord logging
 InfinityStones-1.47-26.2.2.jar                | InfinityStones                 | versao 1.47-26.2.2        | api '26.2'   | 
 KillMoney-1.0.0.jar                           | KillMoney                      | versao 1.0.0              | api '26.2'   | 
 loerx-communityshop-1.2-FIXED.jar             | loerx-communityshop            | versao 1.2                | api 1.20     | Supply-driven community shop with multi-language and mode support
