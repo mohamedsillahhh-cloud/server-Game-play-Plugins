@@ -180,8 +180,12 @@ overridden-commands:
 # You should not need to disable commands used by other plugins, as they will automatically get priority.
 # See https://breezewiki.com/bukkit/wiki/Commands.yml#aliases to map commands to other plugins.
 disabled-commands:
-  #- nick
-  #- clear
+  - home
+  - homes
+  - sethome
+  - delhome
+  - homeothers
+  - delhomes
 
 # Whether Essentials should show detailed command usages.
 # If set to false, Essentials will collapse all usages in to one single usage message.
