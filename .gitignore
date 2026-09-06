@@ -21,3 +21,6 @@ src-*/
 
 # Backups locais da migracao
 _backups/
+
+# Documentacao/notas locais (nao versionar)
+MEMORIA/

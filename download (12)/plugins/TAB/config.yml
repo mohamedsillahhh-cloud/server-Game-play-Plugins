@@ -211,7 +211,7 @@ mysql:
 
 # Suporte Proxy
 proxy-support:
-  enabled: true
+  enabled: false
   channel-name-suffix: "custom"
 
   type: PLUGIN
