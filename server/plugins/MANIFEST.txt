@@ -1,0 +1,26 @@
+BaltopPlugin-1.0.0-DUPEFIX.jar                | BaltopPlugin                   | versao '1.0.0'            | api '1.20'   | A high-performance Vault-based /baltop GUI leaderboard plugin
+BlueSlimeCore-2.9.9.529.jar                   | BlueSlimeCore                  | versao 2.9.9.529          | api "1.19"   | A core plugin with useful libraries.
+CombatLogX.jar                                | "CombatLogX"                   | versao "11.6.0.0.1286"    | api "1.13"   | "A modular combat tagging plugin."
+DeluxeMenus-1.14.1-Release.jar                | DeluxeMenus                    | versao 1.14.1-Release     | api 1.13     | All in one inventory menu system
+EssentialsX-2.22.0.jar                        | Essentials                     | versao 2.22.0             | api "1.13"   | Provides an essential, core set of commands for Bukkit.
+EssentialsXSpawn-2.22.0.jar                   | EssentialsSpawn                | versao 2.22.0             | api 1.13     | Provides spawn control commands, utilizing Essentials.
+InfinityStones-1.47-26.2.2.jar                | InfinityStones                 | versao 1.47-26.2.2        | api '26.2'   | 
+KillMoney-1.0.0.jar                           | KillMoney                      | versao 1.0.0              | api '26.2'   | 
+loerx-communityshop-1.2-FIXED.jar             | loerx-communityshop            | versao 1.2                | api 1.20     | Supply-driven community shop with multi-language and mode support
+LoginSecurity-Spigot-3.3.1.jar                | LoginSecurity                  | versao 3.3.1              | api '1.13'   | 'The #1 Auth plugin'
+LuckPerms-Bukkit-5.5.0.jar                    | LuckPerms                      | versao 5.5.0              | api 1.13     | A permissions plugin
+PlaceholderAPI-2.12.3.jar                     | PlaceholderAPI                 | versao 2.12.3             | api "1.13"   | "An awesome placeholder provider!"
+PlayerHeadDrops-2.0.0.jar                     | PlayerHeadDrops                | versao '2.0.0'            | api '1.13'   | Drops player and mob heads on death, with rich configuration.
+ProtocolLib.jar                               | ProtocolLib                    | versao 5.4.0              | api "1.13"   | Provides read/write access to the Minecraft protocol.
+RichReveal-1.0.0.jar                          | RichReveal                     | versao 1.0.0              | api '1.20'   | Revela periodicamente a localizacao do jogador online mais rico.
+Shopkeepers-2.27.0.jar                        | Shopkeepers                    | versao '2.27.0'           | api '1.21.5' | Custom villager shopkeepers
+SkinsRestorer.jar                             | SkinsRestorer                  | versao 15.12.5            | api 1.13     | Ability to restore/change skins on servers!
+SpawnerSpawnPoint-1.0.0.jar                   | SpawnerSpawnPoint              | versao 1.0.1              | api '26.2'   | 
+spruce-bounty-1.0.1.jar                       | SpruceBounty                   | versao '1.0.1'            | api '26.2'   | Free bounty plugin for Donut-like / Lifesteal SMPs — built for 26.2.
+SurvivalProgression-1.0.1-FIXED.jar           | SurvivalProgression            | versao 1.0.1              | api '26.2'   | Progressao, licencas, homes, EC, crafting, kits, anti-farm e spawner shop.
+TAB v6.1.0.jar                                | TAB                            | versao 6.1.0              | api 1.13 # Defining to avoid legacy plugin warn | An all-in-one solution that works
+Vault.jar                                     | Vault                          | versao 1.7.3-b131         | api 1.13     | Vault is a Permissions & Economy API to allow plugins to more easily hook into these systems without needing to hook each individual system themselves.
+voicechat-bukkit-2.6.21.jar                   | voicechat                      | versao 2.6.21             | api 1.13     | A working voice chat in Minecraft
+WildStacker-2026.2.jar                        | WildStacker                    | versao 2026.2             | api 1.13     | Stacking drops, entities, blocks and spawners into one object!
+worldedit-bukkit-7.4.4.jar                    | WorldEdit                      | versao "7.4.4+7546-f9e033f" | api 1.21.4   | 
+worldguard-bukkit-7.0.17.jar                  | WorldGuard                     | versao "7.0.17+2370-e42d8bc" | api "1.21.11" | 
