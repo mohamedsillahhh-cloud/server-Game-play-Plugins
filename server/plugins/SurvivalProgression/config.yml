@@ -91,6 +91,7 @@ menus:
     equipment: {icon: CHEST, display: '&cEquipamentos', button: 'EQUIPMENT', lore: ['&7Pacotes Diamond/Netherite OP']}
     general-shop: {icon: CHEST, display: '&aLoja Geral', button: 'GENERAL_SHOP', lore: ['&7Abre a loja normal do servidor']}
     shop-spawners: {icon: SPAWNER, display: '&dSpawners', button: 'SPAWNERS', lore: ['&7Spawners com licenças e preços fixos']}
+    back: {icon: ARROW, display: '&7&l← &fVoltar', button: 'BACK', lore: ['&7Volta ao menu anterior']}
 
 # Textos de interface dos itens (ui.*)
 ui:
