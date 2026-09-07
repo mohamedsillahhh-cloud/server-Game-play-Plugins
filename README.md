@@ -7,7 +7,6 @@ Pack de plugins pronto a implementar para um servidor **Paper 1.26.2**.
 | Pasta | Conteúdo |
 |---|---|
 | `server/plugins/` | O pack - jars + pastas de configuração por plugin + `MANIFEST.txt` |
-| `server/config-overrides/` | Configs PRONTAS a colar que vivem fora de `plugins/` (anti-xray do Paper, opcional) |
 | `_backups/` | Backups pré-alteração (não versionado) |
 | `MEMORIA/` | Documentação técnica do servidor (não versionado) |
 
@@ -21,9 +20,10 @@ Pack de plugins pronto a implementar para um servidor **Paper 1.26.2**.
 
 1. Descarrega/repo clone → copia `server/plugins/` para a pasta `plugins/` do servidor.
 2. Mantém as **bases de dados** (`*.db`, `luckperms-h2-v2.mv.db`, `profiles.sqlite`, …) — **são versionadas de propósito**; sem elas perdem-se jogadores, homes e permissões.
-3. (Opcional) Aplica os templates de **anti-xray** de `server/config-overrides/antixray/` nos ficheiros `paper-world.yml`/`paper-world-defaults.yml` do servidor (ver o `README.md` dessa pasta).
-4. Arranca o servidor e valida no console (sem erros de plugins) + testes-chave:
+3. Arranca o servidor e valida no console (sem erros de plugins) + testes-chave:
    `/getstone`, joias/manopla, crates, `/homes` + licenças, `/baltop`, `/shop`, login.
+
+> **Anti-cheat/anti-xray:** o pack não inclui nenhum anti-cheat (o GrimAC foi removido por conflitar com o tráfego de pacotes). O anti-xray do Paper deixou de ser versionado no pack — se o admin quiser, aplica diretamente no `paper-world.yml` do servidor (`anti-xray` nativo).
 
 ## Notas operacionais
 

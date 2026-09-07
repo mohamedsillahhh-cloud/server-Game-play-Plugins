@@ -380,8 +380,8 @@ stone-crate:
   messages:
     no-economy: '&cA economia da crate está indisponível. Contacta um administrador.'
     disabled: '&cA crate das Joias do Infinito está desativada.'
-    insufficient-funds: '&cPrecisas de &6100.000$ &cpara abrir uma crate das Joias do Infinito.'
-    paid: '&7Pagaste &6100.000$ &7para abrir uma crate das Joias do Infinito...'
+    insufficient-funds: '&cPrecisas de &6500.000$ &cpara abrir uma crate das Joias do Infinito.'
+    paid: '&7Pagaste &6500.000$ &7para abrir uma crate das Joias do Infinito...'
     already-rolling: '&cJá tens um sorteio de crate em andamento.'
     won: '&aGanhaste: %stone%&a!'
     broadcast: '&6%player% &7abriu uma Crate das Joias do Infinito e ganhou %stone%&7!'

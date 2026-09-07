@@ -16,8 +16,9 @@ anti-farm:
 worlds:
   mode: blacklist
   list:
-    - world_the_lobby
-    - creative_world
+    - world
+    - world_nether
+    - world_the_end
 
 head:
   name-format: "&eCabeça de %player%"
